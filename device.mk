@@ -51,7 +51,7 @@ TARGET_SCREEN_WIDTH := 1080
 
 # Bluetooth
 PRODUCT_PACKAGES += \
-    android.hardware.bluetooth.audio@2.0-impl \
+    android.hardware.bluetooth.audio@2.0-impl:32 \
     audio.bluetooth.default \
     libbthost_if \
     vendor.qti.hardware.bluetooth_audio@2.0.vendor \
@@ -149,10 +149,10 @@ PRODUCT_PACKAGES += DefaultDark-Contacts-M \
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio.service \
-    android.hardware.audio@6.0-impl \
+    android.hardware.audio@6.0-impl:32 \
     audio.a2dp.default \
-    android.hardware.audio.effect@6.0-impl \
-    android.hardware.soundtrigger@2.3-impl \
+    android.hardware.audio.effect@6.0-impl:32 \
+    android.hardware.soundtrigger@2.3-impl:32 \
     audio.hearing_aid.default \
     audio.primary.sdm710 \
     audio.r_submix.default \
@@ -177,7 +177,7 @@ PRODUCT_PACKAGES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    android.hardware.camera.provider@2.4-impl \
+    android.hardware.camera.provider@2.4-impl:32 \
     android.hardware.camera.provider@2.4-service \
     GCam \
     libxml2 \
@@ -474,7 +474,7 @@ PRODUCT_COPY_FILES += \
 # Health
 PRODUCT_PACKAGES += \
 	android.hardware.health@2.1 \
-    android.hardware.health@2.1-impl \
+    android.hardware.health@2.1-impl:64 \
     android.hardware.health@2.1-service
 
 # Context Hub
@@ -493,7 +493,7 @@ PRODUCT_PACKAGES += \
 
 # Vibrator
 PRODUCT_PACKAGES += \
-    android.hardware.vibrator@1.0-impl \
+    android.hardware.vibrator@1.0-impl:64 \
     android.hardware.vibrator@1.0-service
 
 # WiFi
