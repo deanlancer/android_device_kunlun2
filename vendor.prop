@@ -141,3 +141,5 @@ ro.telephony.iwlan_operation_mode=legacy
 vendor.usb.diag.func.name=diag
 vendor.usb.use_ffs_mtp=0
 ro.boot.adb=true
+# VSync for CPU rendered app
+debug.cpurend.vsync=false
