@@ -88,6 +88,10 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_PRODUCT_PROPERTIES += \
    ro.charger.enable_suspend=true
 
+# IORap
+PRODUCT_PRODUCT_PROPERTIES += \
+   iorapd.readahead.enable=true
+
 #Apex
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.apex.updatable=true
