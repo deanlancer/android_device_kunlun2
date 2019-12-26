@@ -32,6 +32,7 @@ ro.camera.hfr.enable=1
 ro.camera.relight.enable=0
 ro.camera.attr.detect.enable=1
 camera.disable_zsl_mode=true
+persist.camera.managebuffer.enable=1
 ###################################
 persist.vendor.camera.isp.turbo=1
 persist.vendor.camera.set.afd=4
@@ -48,7 +49,7 @@ persist.vendor.camera.privapp.list=org.codeaurora.snapcam
 persist.camera.privapp.list=org.codeaurora.snapcam
 vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,org.lineageos.snap
 vendor.camera.aux.packagelist2=com.motorola.motocit
-vendor.camera.aux.packageexcludelist=org.telegram.messenger,com.microsoft.teams,com.discord 
+vendor.camera.aux.packageexcludelist=org.telegram.messenger,com.microsoft.teams,com.discord
 
 # CNE and DPM
 persist.cne.feature=1
