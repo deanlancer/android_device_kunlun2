@@ -271,6 +271,7 @@ PRODUCT_PACKAGES += \
     vendor.display.config@1.11.vendor \
     vendor.qti.hardware.display.allocator@1.0-service \
     vendor.qti.hardware.display.mapper@3.0.vendor \
+    vendor.qti.hardware.display.mapper@4.0.vendor \
     libsdm-disp-vndapis \
     libgui
 
