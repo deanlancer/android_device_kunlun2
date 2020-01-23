@@ -136,3 +136,5 @@ ro.telephony.iwlan_operation_mode=legacy
 rild.libpath=/vendor/lib64/libril-qc-hal-qmi.so
 debug.stagefright.omx_default_rank.sw-audio=1
 debug.stagefright.omx_default_rank=0
+# USB
+vendor.usb.diag.func.name=diag
