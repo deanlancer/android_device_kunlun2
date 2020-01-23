@@ -138,6 +138,8 @@
     <bool name="config_dozeAfterScreenOffByDefault">false</bool>
     <bool name="config_dozeAlwaysOnDisplayAvailable">false</bool>
     <bool name="config_enableBurnInProtection">false</bool>
+    <!-- Whether device supports double tap to wake -->
+    <bool name="config_supportDoubleTapWake">true</bool>
     <integer name="config_shutdownBatteryTemperature">590</integer>
     <integer name="config_autoBrightnessAmbientLightHorizon">5000</integer>
     <integer name="config_autoBrightnessBrighteningLightDebounce">2000</integer>

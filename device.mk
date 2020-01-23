@@ -26,8 +26,16 @@ DEVICE_PACKAGE_OVERLAYS += \
 
 # Vendor properties
 -include $(LOCAL_PATH)/vendor_props.mk
--include $(LOCAL_PATH)/system_props.mk
--include $(LOCAL_PATH)/device_props.mk
+
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+    persist.sys.usb.config=mtp,adb \
+    ro.secure=0 \
+    ro.allow.mock.location=0 \
+    ro.debuggable=1 \
+    persist.service.acm.enable=1  \
+    persist.service.adb.enable=1 \
+    persist.service.debuggable=1 \
+    ro.adb.secure=0
 
 # Additional native libraries
 PRODUCT_COPY_FILES += \
@@ -79,6 +87,11 @@ PRODUCT_COPY_FILES += \
 # AID/fs configs
 PRODUCT_PACKAGES += \
     fs_config_files
+
+# FM
+PRODUCT_PACKAGES += \
+    FMRadio \
+    libfmjni 
 
 # ANT+
 PRODUCT_PACKAGES += \
