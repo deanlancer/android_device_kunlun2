@@ -16,7 +16,7 @@ enum wcd_cal_type {
 #define BG_CAL_SUPPORT BG_CODEC_SPEAKER_CAL
 struct wcdcal_ioctl_buffer {
 	__u32 size;
-	__u8 __user *buffer;
+	__u8 * buffer;
 	enum wcd_cal_type cal_type;
 };
 
