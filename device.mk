@@ -665,10 +665,6 @@ PRODUCT_PACKAGES += \
     wpa_supplicant \
     wpa_supplicant.conf
 
-# VNDK-SP
-PRODUCT_PACKAGES += \
-    vndk-sp
-
 # Radio
 PRODUCT_PACKAGES += \
     android.hardware.radio@1.2 \
