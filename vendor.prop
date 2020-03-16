@@ -138,3 +138,4 @@ debug.stagefright.omx_default_rank.sw-audio=1
 debug.stagefright.omx_default_rank=0
 # USB
 vendor.usb.diag.func.name=diag
+vendor.usb.use_ffs_mtp=0
