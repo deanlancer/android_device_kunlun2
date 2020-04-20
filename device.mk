@@ -80,6 +80,10 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.lmk.use_minfree_levels=true \
     ro.lmk.log_stats=true
 
+# Charger
+PRODUCT_PRODUCT_PROPERTIES += \
+   ro.charger.enable_suspend=true
+
 #Apex
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.apex.updatable=true
