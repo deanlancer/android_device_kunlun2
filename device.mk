@@ -652,6 +652,7 @@ PRODUCT_PACKAGES += \
     hostapd \
     hostapd_cli \
     libcld80211 \
+    WifiOverlay \
     libkeystore-engine-wifi-hidl \
     libkeystore-wifi-hidl \
     libwifi-hal-ctrl \
