@@ -663,6 +663,11 @@ PRODUCT_PACKAGES += \
     wpa_supplicant \
     wpa_supplicant.conf
 
+# Protobuf
+PRODUCT_PACKAGES += \
+    libprotobuf-cpp-full-vendorcompat \
+    libprotobuf-cpp-lite-vendorcompat
+
 # Radio
 PRODUCT_PACKAGES += \
     android.hardware.radio@1.2 \
@@ -676,8 +681,7 @@ PRODUCT_PACKAGES += \
     libcnefeatureconfig \
     libjson \
     librmnetctl \
-    libxml2 \
-    libprotobuf-cpp-full
+    libxml2
 
 # Broadcast
 PRODUCT_PACKAGES += \
