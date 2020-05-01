@@ -40,6 +40,16 @@
 	<!-- <bool name="def_mobile_data_on">false</bool> -->
     <bool name="def_mobile_data_always_on">false</bool>
 
+    <!-- Disable dial pad tones by default -->
+    <bool name="def_dtmf_tones_enabled">false</bool>
+
+    <!-- Disable screen locking sounds by default -->
+    <integer name="def_lockscreen_sounds_enabled">0</integer>
+
+    <!-- Enable vibrate for calls by default -->
+    <bool name="def_vibrate_when_ringing">true</bool>
+
+
     <!-- Default for Settings.Global.DEVICE_NAME $1=MODEL-->
     <string name="def_device_name_simple">Lenovo Z6SE</string>
 </resources>
