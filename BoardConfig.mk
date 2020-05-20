@@ -288,7 +288,6 @@ BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flags 2
 
 # AICP
 TARGET_USE_MUSICFX := false
-BUILD_WITHOUT_VENDOR := true
 
 # Inherit from the proprietary version
 -include vendor/lenovo/kunlun2/BoardConfigVendor.mk
