@@ -367,6 +367,9 @@ on boot
     mkdir /data/vendor/sensors
     chown system system /data/vendor/sensors
 
+    # Default enable uicc_se
+    setprop persist.vendor.radio.uicc_se_enabled true
+
 on late-fs
     # Runtime fs tuning
     write /sys/block/sda/queue/iostats 0
@@ -380,7 +383,7 @@ on late-fs
     chmod 0664 sys/power/system_sleep/stats
     chmod 0664 /sys/power/rpmh_stats/master_stats
 
-# msm specific files that need to be created on /data
+# MSM specific files that need to be created on /data
 on post-fs-data
     mkdir /data/vendor/misc 01771 system system
 
