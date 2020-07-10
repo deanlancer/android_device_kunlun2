@@ -31,7 +31,6 @@
 #define BLE_VND_INCLUDED   TRUE
 #define GATT_MAX_PHY_CHANNEL  10
 // skips conn update at conn completion
-#define BT_CLEAN_TURN_ON_DISABLED 1
 #define BTM_SCO_ENHANCED_SYNC_ENABLED FALSE
 
 /* Increasing SEPs to 12 from 6 to support SHO/MCast i.e. two streams per codec */
