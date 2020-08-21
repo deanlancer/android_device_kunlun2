@@ -524,6 +524,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     netutils-wrapper-1.0
 
+# Tethering
+PRODUCT_PACKAGES += \
+    TetheringConfigOverlay
+
 # OMX
 PRODUCT_PACKAGES += \
     libc2dcolorconvert \
