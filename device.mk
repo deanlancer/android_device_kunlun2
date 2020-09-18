@@ -74,6 +74,10 @@ PRODUCT_PRODUCT_PROPERTIES += \
 	ro.surface_flinger.wcg_composition_dataspace=143261696 \
     ro.surface_flinger.vsync_sf_event_phase_offset_ns=6000000
 
+# Enable blurs
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.surface_flinger.supports_background_blur=1
+
 # LMKD
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.config.low_ram=false \
