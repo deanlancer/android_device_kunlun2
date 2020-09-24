@@ -216,5 +216,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Zygote
 PRODUCT_PROPERTY_OVERRIDES += \
     zygote.critical_window.minute=10
+
+# Radio
+PRODUCT_PROPERTY_OVERRIDES += \
+persist.vendor.radio.enableadvancedscan=false
 	
 
