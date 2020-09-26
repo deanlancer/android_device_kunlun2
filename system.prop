@@ -100,7 +100,6 @@ persist.vendor.audio_hal.dsp_bit_width_enforce_mode=24
 ro.af.client_heap_size_kbyte=7168
 media.settings.xml=/vendor/etc/media_profiles_vendor.xml
 media.stagefright.thumbnail.prefer_hw_codecs=true
-
 media.aac_51_output_enabled=true
 media.stagefright.enable-aac=true
 media.stagefright.enable-fma2dp=true
@@ -153,6 +152,7 @@ ro.vendor.qti.core_ctl_max_cpu=6
 
 # RCS and IMS
 persist.data.iwlan.enable=true
+persist.vendor.radio.mt_sms_ack=30
 persist.rcs.supported=1
 persist.vendor.ims.disableUserAgent=0
 persist.dbg.ims_volte_enable=1
