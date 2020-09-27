@@ -1,0 +1,15 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+package="com.aicp.overlay.defaultdark.com.android.messaging"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <overlay
+        android:targetPackage="com.android.messaging"
+        android:category="aicp.defaultdark"
+        android:priority="1" />
+
+    <application
+        android:label="@string/theming_better_dark_messaging"
+        android:hasCode="false" />
+
+</manifest>
