@@ -31,7 +31,7 @@
 #include <utils/Trace.h>
 
 #ifndef TARGET_TAP_TO_WAKE_NODE
-#define TARGET_TAP_TO_WAKE_NODE "/proc/touchpanel/double_tap_enable"
+#define TARGET_TAP_TO_WAKE_NODE "/sys/class/touch/tp_dev/gesture_on"
 #endif
 
 #include "disp-power/DisplayLowPower.h"
@@ -173,8 +173,6 @@ ndk::ScopedAStatus Power::setMode(Mode type, bool enabled) {
             if (mVRModeOn || mSustainedPerfModeOn) {
                 break;
             }
-            [[fallthrough]];
-        case Mode::DOUBLE_TAP_TO_WAKE:
             [[fallthrough]];
         case Mode::FIXED_PERFORMANCE:
             [[fallthrough]];
