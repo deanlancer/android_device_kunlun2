@@ -2,13 +2,13 @@
   {
     "remote":"gitlab",
     "branch":"master",
-    "repository": "vendor_lenovo_ZiuAudio",
+    "repository": "deanlancer/vendor_lenovo_ZiuAudio",
     "target_path": "vendor/lenovo/ZuiAudio"
   },
   {
     "remote":"gitlab",
     "branch":"master",
-    "repository": "vendor_lenovo_ZiuCamera",
+    "repository": "deanlancer/vendor_lenovo_ZiuCamera",
     "target_path": "vendor/lenovo/ZiuCamera"
   },
 ]
