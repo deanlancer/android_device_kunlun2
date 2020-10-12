@@ -347,7 +347,7 @@ PRODUCT_PACKAGES += \
 # Common init scripts
 PRODUCT_PACKAGES += \
     fstab.qcom \
-    ueventd.rc \
+    ueventd.qcom.rc \
     init.qcom.usb.sh \
     init.qti.fm.sh \
     init.qcom.early_boot.sh \
