@@ -212,5 +212,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Apex
 PRODUCT_PROPERTY_OVERRIDES += \
 	ro.apex.updatable=false
+
+# Zygote
+PRODUCT_PROPERTY_OVERRIDES += \
+    zygote.critical_window.minute=10
 	
 
