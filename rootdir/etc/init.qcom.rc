@@ -237,6 +237,8 @@ on boot
 
     setprop net.tcp.2g_init_rwnd 10
 
+    setprop init.svc.console stopped
+
     # To prevent out of order acknowledgements from making
     # connection tracking to treat them as not belonging to
     # the connection they belong to.
@@ -359,7 +361,6 @@ on boot
 
     # Create vpp directory
     mkdir /mnt/vendor/persist/vpp 0770 media media
-
 
     # Create hvdcp_opti directory
     mkdir /mnt/vendor/persist/hvdcp_opti 0770 root system
