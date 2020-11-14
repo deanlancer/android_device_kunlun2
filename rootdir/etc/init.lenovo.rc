@@ -62,11 +62,6 @@ service hwdiag /vendor/bin/hwdiag
 
 on boot
 	setprop vendor.diag.inp 1
-	 chmod 664 /persist/.sn.bin
-	 chown system system /persist/.sn.bin
-	 chmod 776 /persist/flag
-	 chmod 664 /persist/flag/MMI2.FLG
-	 chmod 664 /persist/flag/RUNIN.FLG
 	 start hwdiag
 # Huaqin hwdiag test end
 
