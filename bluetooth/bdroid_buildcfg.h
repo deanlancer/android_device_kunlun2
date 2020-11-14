@@ -21,6 +21,7 @@
 
 #ifndef _BDROID_BUILDCFG_H
 #define _BDROID_BUILDCFG_H
+#define BTM_DEF_LOCAL_NAME "Lenovo Z6SE"
 // Disables read remote device feature
 #define BLUETOOTH_QTI_SW TRUE
 #define BTM_WBS_INCLUDED   TRUE

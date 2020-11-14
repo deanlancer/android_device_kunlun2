@@ -25,5 +25,5 @@
     <!-- the padding on the end of the statusbar -->
     <!-- <dimen name="status_bar_padding_end">8dp</dimen> -->
     
-    <dimen name="volume_dialog_slider_height">170.0dp</dimen>
+    <dimen name="volume_dialog_slider_height">180.0dp</dimen>
 </resources>

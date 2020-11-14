@@ -101,8 +101,8 @@
     </array>
     <item name="modem.controller.voltage">3700</item>
     <array name="gps.signalqualitybased">
-        <value>49</value>
-        <value>8</value>
+        <value>35</value>
+        <value>17</value>
     </array>
     <item name="gps.voltage">3700</item>
     <item name="bluetooth.controller.idle">0.01</item>

@@ -32,14 +32,30 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := aicp_kunlun2
-PRODUCT_BRAND := lenovo
+PRODUCT_BRAND := Lenovo
 PRODUCT_DEVICE := kunlun2
-PRODUCT_MANUFACTURER := lenovo
 PRODUCT_MODEL := Lenovo Z6SE
-
-PRODUCT_GMS_CLIENTID_BASE := android-lenovo
-
-PRODUCT_PRODUCT_PROPERTIES += \
-    ro.build.fingerprint=google/coral/coral:11/RP1A.200720.009/6720564:user/release-keys
+PRODUCT_MANUFACTURER := Lenovo
 
 TARGET_VENDOR := lenovo
+
+# Stock. I'll leave it here
+# BUILD_FINGERPRINT := Lenovo/kunlun2/kunlun2:10/QKQ1.191014.001/11.5.117_200331:user/release-keys 
+# PRODUCT_BUILD_PROP_OVERRIDES += \
+#     PRODUCT_DEVICE=kunlun2 \
+#     PRODUCT_NAME=kunlun2 \
+#     PRIVATE_BUILD_DESC="kunlun2-user 10 QKQ1.191014.001 11.5.117_200331 release-keys"
+
+# Google Walleye
+BUILD_FINGERPRINT := "google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys" \
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRIVATE_BUILD_DESC="walleye-user 8.1.0 OPM1.171019.011 4448085 release-keys" \
+    PRODUCT_NAME="kunlun2" \
+    TARGET_DEVICE="kunlun2"
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.build.fingerprint=google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys \
+    ro.build.description=walleye-user 8.1.0 OPM1.171019.011 4448085 release-keys
+
+PRODUCT_GMS_CLIENTID_BASE := android-lenovo

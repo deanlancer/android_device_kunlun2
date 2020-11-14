@@ -30,17 +30,12 @@ BOARD_KERNEL_BASE := 0x00000000
 BOARD_KERNEL_PAGESIZE := 4096
 BOARD_KERNEL_TAGS_OFFSET := 0x00000100
 BOARD_RAMDISK_OFFSET := 0x01000000
-TARGET_PREBUILT_KERNEL := device/lenovo/kunlun2/prebuilt/Image.gz-dtb
 TARGET_KERNEL_ARCH := arm64
 BOARD_KERNEL_SEPARATED_DTBO := true
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 TARGET_KERNEL_VERSION := 4.9
-#TARGET_KERNEL_CLANG_COMPILE := true
-#TARGET_KERNEL_CLANG_VERSION := 11
-#KERNEL_TOOLCHAIN := $(ANDROID_TOP)/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/bin
-#TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
-#TARGET_KERNEL_SOURCE := kernel/lenovo/msm-4.9-kunlun2
-#TARGET_KERNEL_CONFIG := kunlun2_defconfig
+TARGET_KERNEL_SOURCE := kernel/lenovo/msm-4.9
+TARGET_KERNEL_CONFIG := kunlun2_defconfig
 
 # Use Snapdragon LLVM, if available################################################
 TARGET_USE_SDCLANG := true
@@ -107,6 +102,7 @@ TARGET_USES_MEDIA_EXTENSIONS := false
 
 # Charger Mode
 BOARD_CHARGER_ENABLE_SUSPEND := true
+BOARD_GLOBAL_CFLAGS += -DBATTERY_REAL_INFO
 
 # DRM
 TARGET_ENABLE_MEDIADRM_64 := true
@@ -141,6 +137,7 @@ DEXPREOPT_GENERATE_APEX_IMAGE := true
 # Broken rules#######################################################################
 BUILD_BROKEN_DUP_RULES := true
 BUILD_BROKEN_PHONY_TARGETS := true
+BUILD_BROKEN_USES_NETWORK := true
 
 # CNE and DPM########################################################################
 BOARD_USES_QCNE := true
@@ -194,8 +191,10 @@ BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
 OVERRIDE_RS_DRIVER := libRSDriver_adreno.so
 
 ##################################################################################
+# Properties
+TARGET_ODM_PROP += $(DEVICE_PATH)/odm.prop
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
-#TARGET_ODM_PROP += $(DEVICE_PATH)/odm.prop
+TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
 # Root
 BOARD_ROOT_EXTRA_SYMLINKS := \

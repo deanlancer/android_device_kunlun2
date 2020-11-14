@@ -17,6 +17,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
 PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
 
+# Disabled debugging
+PRODUCT_ART_TARGET_INCLUDE_DEBUG_BUILD := false
+PRODUCT_MINIMIZE_JAVA_DEBUG_INFO := true
+PRODUCT_PACKAGES_DEBUG := false
+PRODUCT_PACKAGES_DEBUG_ASAN := false
+
 # Always preopt extracted APKs to prevent extracting out of the APK
 # for gms modules.
 #PRODUCT_ALWAYS_PREOPT_EXTRACTED_APK := true
@@ -136,6 +142,9 @@ PRODUCT_PRODUCT_PROPERTIES += \
     persist.audio.fluence.voicecall=true \
     persist.audio.fluence.voicerec=true
 
+PRODUCT_PRODUCT_PROPERTIES += \
+	ro.treble.enabled=false
+
 #Eng
 ifeq ($(TARGET_BUILD_VARIANT),eng)
 PRODUCT_PRODUCT_PROPERTIES += \
@@ -194,12 +203,15 @@ PRODUCT_COPY_FILES += \
     frameworks/av/media/libstagefright/data/media_codecs_google_c2_video.xml:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/$(PRODUCT_TARGET_VNDK_VERSION)/etc/media_codecs_google_c2_video.xml
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/audio/media_profiles_vendor.xml:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/$(PRODUCT_TARGET_VNDK_VERSION)/etc/media_profiles_vendor.xml \
-    $(LOCAL_PATH)/configs/audio/media_codecs_vendor.xml:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/$(PRODUCT_TARGET_VNDK_VERSION)/etc/media_codecs_vendor.xml \
-    $(LOCAL_PATH)/configs/audio/media_codecs.xml:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/$(PRODUCT_TARGET_VNDK_VERSION)/etc/media_codecs.xml \
-    $(LOCAL_PATH)/configs/audio/media_codecs_performance.xml:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/$(PRODUCT_TARGET_VNDK_VERSION)/etc/media_codecs_performance.xml \
-    $(LOCAL_PATH)/configs/audio/media_profiles.xml:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/$(PRODUCT_TARGET_VNDK_VERSION)/etc/media_profiles.xml \
-    $(LOCAL_PATH)/configs/audio/audio_configs.xml:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/$(PRODUCT_TARGET_VNDK_VERSION)/etc/audio_configs.xml
+    $(LOCAL_PATH)/configs/media/media_profiles_vendor.xml:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/$(PRODUCT_TARGET_VNDK_VERSION)/etc/media_profiles_vendor.xml \
+    $(LOCAL_PATH)/configs/media/media_codecs_vendor_audio.xml:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/$(PRODUCT_TARGET_VNDK_VERSION)/etc/media_codecs_vendor_audio.xml \
+    $(LOCAL_PATH)/configs/media/media_codecs_vendor.xml:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/$(PRODUCT_TARGET_VNDK_VERSION)/etc/media_codecs_vendor.xml \
+    $(LOCAL_PATH)/configs/media/media_codecs.xml:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/$(PRODUCT_TARGET_VNDK_VERSION)/etc/media_codecs.xml \
+    $(LOCAL_PATH)/configs/media/media_codecs_performance.xml:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/$(PRODUCT_TARGET_VNDK_VERSION)/etc/media_codecs_performance.xml \
+    $(LOCAL_PATH)/configs/media/media_codecs_performance_sdm710_v0.xml:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/$(PRODUCT_TARGET_VNDK_VERSION)/etc/media_codecs_performance_sdm710_v0.xml \
+    $(LOCAL_PATH)/configs/media/media_codecs_sdm710_v0.xml:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/$(PRODUCT_TARGET_VNDK_VERSION)/etc/media_codecs_sdm710_v0.xml \
+    $(LOCAL_PATH)/configs/media/media_profiles_V1_0.xml:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/$(PRODUCT_TARGET_VNDK_VERSION)/etc/media_profiles_V1_0.xml \
+    $(LOCAL_PATH)/configs/media/media_profiles.xml:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/$(PRODUCT_TARGET_VNDK_VERSION)/etc/media_profiles.xml
 	
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/audio/mixer_paths_mtp.xml:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/$(PRODUCT_TARGET_VNDK_VERSION)/etc/mixer_paths_mtp.xml \
@@ -268,6 +280,8 @@ PRODUCT_PACKAGES += \
     init.qcom.rc \
     init.safailnet.rc \
     init.power.rc \
+    init.ontim_fac.rc \
+    init.lenovo.rc \
     init.qcom.post_boot.sh \
     ueventd.rc
 
@@ -275,12 +289,16 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
 	LenovoParts \
 	LenovoPocketMode
-    #MotoActions
 
 # Dex preopt
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     SystemUI \
-    NexusLauncherRelease
+    Settings \
+    LenovoParts \
+    LenovoPocketMode \
+    Launcher3 \
+    Etar \
+    AicpExtras
 
 # Display
 PRODUCT_PACKAGES += \
@@ -431,8 +449,8 @@ PRODUCT_PACKAGES += \
     android.hardware.power.stats@1.0-service.lenovo
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/powerhint.json:system/etc/powerhint.json 
-#     $(LOCAL_PATH)/configs/thermal_info_config.json:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/$(PRODUCT_TARGET_VNDK_VERSION)/etc/thermal_info_config.json
+    $(LOCAL_PATH)/configs/powerhint.json:system/etc/powerhint.json \
+    $(LOCAL_PATH)/thermal-engine.conf:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/$(PRODUCT_TARGET_VNDK_VERSION)/etc/thermal-engine.conf
 
     
 # QMI
@@ -514,20 +532,3 @@ PRODUCT_PACKAGES += \
 # RenderScript
 PRODUCT_PACKAGES += \
     android.hardware.renderscript@1.0-impl
-
-# Sensors
-# PRODUCT_PACKAGES += \
-#     android.hardware.sensors@1.0-impl \
-#     android.hardware.sensors@2.0-service.mock \
-#     libsensorndkbridge \
-#     libgui_vendor
-
-# GPS
-# PRODUCT_PACKAGES += \
-#     android.hardware.gnss@2.0-impl-qti \
-#     android.hardware.gnss@2.0-service-qti \
-#     libbatching \
-#     libgeofencing \
-#     libgnss \
-#     gps.conf \
-#     flp.conf
