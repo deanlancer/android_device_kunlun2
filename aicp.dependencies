@@ -11,4 +11,10 @@
     "repository": "deanlancer/vendor_lenovo_ZiuCamera",
     "target_path": "vendor/lenovo/ZiuCamera"
   },
+  {
+  	"remote": "github",
+  	"branch": "test-site",
+    "repository": "deanlancer/msm-4.9-kunlun2",
+    "target_path": "kernel/lenovo/msm-4.9"
+  },
 ]
