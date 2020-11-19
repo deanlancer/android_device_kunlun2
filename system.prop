@@ -86,8 +86,6 @@ audio.offload.min.duration.secs=5
 audio.offload.video=true
 persist.vendor.audio_hal.dsp_bit_width_enforce_mode=24
 ro.af.client_heap_size_kbyte=7168
-ro.config.media_vol_steps=25
-ro.config.vc_call_vol_steps=11
 media.settings.xml=/vendor/etc/media_profiles_vendor.xml
 media.stagefright.thumbnail.prefer_hw_codecs=true
 
