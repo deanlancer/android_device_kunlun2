@@ -29,4 +29,10 @@
     <string name="config_batDesCap">/sys/class/power_supply/bms/charge_full_design</string>
     <string name="config_batCurCap">/sys/class/power_supply/bms/charge_full</string>
     <bool name="config_supportBatteryHealth">true</bool>
+
+        <!-- Manufacturer backup settings to launch -->
+    <string name="config_backup_settings_intent" translatable="false">settings://com.android.settings.backup.transport</string>
+
+    <!-- Manufacturer backup settings label -->
+    <string name="config_backup_settings_label" translatable="true">Backup Transport</string>
 </resources>
