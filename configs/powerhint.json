@@ -157,8 +157,7 @@
             "Name": "CPUBWIOPercent",
             "Path": "/sys/class/devfreq/soc:qcom,cpubw/bw_hwmon/io_percent",
             "Values": [
-                "80",
-                "40"
+                "68"
             ],
             "ResetOnInit": true
         },
