@@ -17,4 +17,10 @@
     "repository": "deanlancer/msm-4.9-kunlun2",
     "target_path": "kernel/lenovo/msm-4.9"
   },
+  {
+    "remote": "github",
+    "branch": "master"
+    "repository": "kdrag0n/proton-clang",
+    "target_path": "prebuilts/clang/host/linux-x86/clang-proton"
+  }
 ]
