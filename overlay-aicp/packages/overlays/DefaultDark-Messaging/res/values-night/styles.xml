@@ -24,12 +24,12 @@
 
     <style name="BugleTheme" parent="@*com.android.messaging:style/Theme.AppCompat">
         <item name="android:dropDownListViewStyle">@*com.android.messaging:style/DropDownListViewStyle</item>
-        <item name="*com.android.messaging:colorPrimary">#689F38</item>
-        <item name="*com.android.messaging:colorPrimaryDark">#537F2D</item>
-        <item name="*com.android.messaging:colorAccent">#689F38</item>
-        <item name="android:colorPrimary">#689F38</item>
-        <item name="android:colorPrimaryDark">#537F2D</item>
-        <item name="android:colorAccent">#689F38</item>
+        <item name="*com.android.messaging:colorPrimary">#5A5B6C</item>
+        <item name="*com.android.messaging:colorPrimaryDark">#5A5B6C</item>
+        <item name="*com.android.messaging:colorAccent">#5A5B6C</item>
+        <item name="android:colorPrimary">#5A5B6C</item>
+        <item name="android:colorPrimaryDark">#5A5B6C</item>
+        <item name="android:colorAccent">#5A5B6C</item>
         <!--
         <item name="android:textColorHighlight">@color/text_highlight_color</item>
         -->
@@ -55,12 +55,12 @@
 
     <style name="BugleTheme.ConversationListActivity" parent="@*com.android.messaging:style/Theme.AppCompat">
         <item name="android:dropDownListViewStyle">@*com.android.messaging:style/DropDownListViewStyle</item>
-        <item name="*com.android.messaging:colorPrimary">#689F38</item>
-        <item name="*com.android.messaging:colorPrimaryDark">#537F2D</item>
-        <item name="*com.android.messaging:colorAccent">#689F38</item>
-        <item name="android:colorPrimary">#689F38</item>
-        <item name="android:colorPrimaryDark">#537F2D</item>
-        <item name="android:colorAccent">#689F38</item>
+        <item name="*com.android.messaging:colorPrimary">#5A5B6C</item>
+        <item name="*com.android.messaging:colorPrimaryDark">#5A5B6C</item>
+        <item name="*com.android.messaging:colorAccent">#5A5B6C</item>
+        <item name="android:colorPrimary">#5A5B6C</item>
+        <item name="android:colorPrimaryDark">#5A5B6C</item>
+        <item name="android:colorAccent">#5A5B6C</item>
         <item name="*com.android.messaging:actionBarStyle">@*com.android.messaging:style/BugleActionBar</item>
         <item name="*com.android.messaging:apnPreferenceStyle">@*com.android.messaging:style/ApnPreference</item>
         <!--
@@ -72,10 +72,10 @@
         <item name="android:dropDownListViewStyle">@*com.android.messaging:style/DropDownListViewStyle</item>
         <item name="*com.android.messaging:colorPrimary">#303030</item>
         <item name="*com.android.messaging:colorPrimaryDark">#212121</item>
-        <item name="*com.android.messaging:colorAccent">#689F38</item>
+        <item name="*com.android.messaging:colorAccent">#5A5B6C</item>
         <item name="android:colorPrimary">#303030</item>
         <item name="android:colorPrimaryDark">#212121</item>
-        <item name="android:colorAccent">#689F38</item>
+        <item name="android:colorAccent">#5A5B6C</item>
         <item name="*com.android.messaging:actionBarStyle">@*com.android.messaging:style/BugleActionBar</item>
         <item name="*com.android.messaging:apnPreferenceStyle">@*com.android.messaging:style/ApnPreference</item>
     </style>
