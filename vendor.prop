@@ -143,3 +143,8 @@ vendor.usb.use_ffs_mtp=0
 ro.boot.adb=true
 # VSync for CPU rendered app
 debug.cpurend.vsync=false
+# Additional props
+ro.vendor.qti.cgroup_follow.enable=true
+persist.vendor.qti.inputopts.enable=true
+persist.vendor.qti.inputopts.movetouchslop=0.6
+ro.qcom.adreno.qgl.ShaderStorageImageExtendedFormats=0
