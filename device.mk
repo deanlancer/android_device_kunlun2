@@ -187,6 +187,12 @@ PRODUCT_PACKAGES += \
     audio.bluetooth.default \
     libbthost_if \
     libldacBT_dec \
+    libldacBT_enc \
+    libldacBT_abr \
+    hwaddrs \
+    libbt-vendor \
+    libbtconfigstore \
+    vendor.qti.hardware.bluetooth_audio@2.0 \
     vendor.qti.hardware.bluetooth_audio@2.0.vendor \
     vendor.qti.hardware.btconfigstore@1.0.vendor
 
@@ -237,9 +243,14 @@ PRODUCT_PACKAGES += DefaultDark-Contacts-M \
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio@2.0-service \
+    android.hardware.audio@2.0-impl \
+    android.hardware.audio@5.0 \
     android.hardware.audio@5.0-impl \
     android.hardware.audio.common@2.0-util \
+    android.hardware.audio.common@5.0 \
     android.hardware.audio.common@5.0-util \
+    android.hardware.audio.effect@2.0-impl \
+    android.hardware.audio.effect@5.0 \
     android.hardware.audio.effect@5.0-impl \
     android.hardware.soundtrigger@2.2-impl \
     audio.a2dp.default \
@@ -310,18 +321,23 @@ PRODUCT_PACKAGES += \
     android.hardware.graphics.composer@2.3-service \
     android.hardware.memtrack@1.0-impl \
     android.hardware.memtrack@1.0-service \
+    android.hardware.graphics.mapper@3.0 \
     android.hardware.graphics.mapper@2.0-impl-qti-display \
     gralloc.sdm710 \
     hwcomposer.sdm710 \
     libdisplayconfig \
+    libdisplayconfig.vendor \
     libhwc2on1adapter \
     libhwc2onfbadapter \
     libqdMetaData.system \
-    libtinyxml \
+    libtinyxml2 \
     libvulkan \
     memtrack.sdm710 \
-    vendor.qti.hardware.display.allocator@1.0-service \
     vendor.display.config@1.11 \
+    vendor.display.config@1.11.vendor \
+    vendor.qti.hardware.display.allocator@1.0-service \
+    vendor.qti.hardware.display.mapper@3.0.vendor \
+    libsdm-disp-vndapis \
     libgui
 
 # DRM
