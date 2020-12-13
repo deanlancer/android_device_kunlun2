@@ -504,7 +504,7 @@ PRODUCT_PACKAGES += \
 
 # USB
 PRODUCT_PACKAGES += \
-    android.hardware.usb@1.0-service.lenovo_kunlun2
+    android.hardware.usb@1.0-service
 
 # WiFi Display
 PRODUCT_PACKAGES += \
