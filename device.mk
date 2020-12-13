@@ -292,6 +292,7 @@ PRODUCT_PACKAGES += \
 
 # Common init scripts
 PRODUCT_PACKAGES += \
+	fstab.qcom \
     init.qcom.rc \
     init.safailnet.rc \
     init.power.rc \
