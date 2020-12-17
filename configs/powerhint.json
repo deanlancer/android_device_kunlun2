@@ -210,15 +210,6 @@
             "ResetOnInit": true
         },
         {
-            "Name": "PMQoSCpuDmaLatency",
-            "Path": "/dev/cpu_dma_latency",
-            "Values": [
-                "44",
-                "100"
-            ],
-            "HoldFd": true
-        },
-        {
             "Name": "SchedBoost",
             "Path": "/proc/sys/kernel/sched_boost",
             "Values": [
@@ -349,12 +340,6 @@
         },
         {
             "PowerHint": "LAUNCH",
-            "Node": "PMQoSCpuDmaLatency",
-            "Duration": 3000,
-            "Value": "44"
-        },
-        {
-            "PowerHint": "LAUNCH",
             "Node": "CPUBWHystTriggerCount",
             "Duration": 3000,
             "Value": "0"
@@ -444,12 +429,6 @@
             "Value": "9999999"
         },
         {
-            "PowerHint": "CAMERA_LAUNCH",
-            "Node": "PMQoSCpuDmaLatency",
-            "Duration": 1000,
-            "Value": "44"
-        },
-        {
             "PowerHint": "CAMERA_STREAMING",
             "Node": "PowerHALMainState",
             "Duration": 0,
@@ -504,22 +483,10 @@
             "Value": "9999999"
         },
         {
-            "PowerHint": "CAMERA_SHOT",
-            "Node": "PMQoSCpuDmaLatency",
-            "Duration": 1000,
-            "Value": "44"
-        },
-        {
             "PowerHint": "AUDIO_LOW_LATENCY",
             "Node": "PowerHALAudioState",
             "Duration": 0,
             "Value": "AUDIO_LOW_LATENCY"
-        },
-        {
-            "PowerHint": "AUDIO_LOW_LATENCY",
-            "Node": "PMQoSCpuDmaLatency",
-            "Duration": 0,
-            "Value": "44"
         },
         {
             "PowerHint": "EXPENSIVE_RENDERING",
