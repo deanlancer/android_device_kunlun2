@@ -1,0 +1,37 @@
+#common config for all projects.
+
+on post-fs
+    # Set dm-verity property for system partition
+    verity_update_state
+
+#modify for enable diag
+on property:sys.diag.enable=1
+    setprop sys.usb.config ${ro.usb.firstboot.config}
+
+on property:ro.boot.adbon=true
+    setprop persist.sys.usb.config mtp,adb
+
+on property:sys.charging_bl=enable
+	write /sys/class/backlight/panel0-backlight/brightness 255
+
+on property:sys.charging_bl=disable
+	write /sys/class/backlight/panel0-backlight/brightness 0
+
+on property:persist.vendor.overlay.zui.hdr=enable
+	write /sys/class/leds/wled/hdr_en 1
+
+on property:persist.vendor.overlay.zui.hdr=disable
+	write /sys/class/leds/wled/hdr_en 0
+
+on init
+    chown system system /sys/class/leds/led:rgb_red/brightness
+    chmod 0660 /sys/class/leds/led:rgb_red/brightness
+    chown system system /sys/class/leds/led:rgb_green/brightness
+    chmod 0660 /sys/class/leds/led:rgb_green/brightness
+    chown system system /sys/class/leds/led:rgb_blue/brightness
+    chmod 0660 /sys/class/leds/led:rgb_blue/brightness
+    chown system system /sys/class/leds/led:rgb_blue/blink
+    chmod 0660 /sys/class/leds/led:rgb_blue/blink
+    chown system system /sys/class/leds/red/blink
+    chown system system /sys/class/leds/green/blink
+    chown system system /sys/class/leds/blue/blink
