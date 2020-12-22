@@ -1576,6 +1576,7 @@ vendor/bin/xtwifi-client
 vendor/bin/xtwifi-inet-agent
 vendor/etc/configstore/vpp.configstore.xml
 vendor/etc/cs.cfg
+vendor/etc/ftm_test_config
 vendor/etc/ftm_test_config_sdm710-skuw-snd-card
 vendor/etc/ftm_test_config_sdm710-tasha-snd-card
 vendor/etc/ftm_test_config_sdm710-tavil-snd-card
@@ -1609,6 +1610,10 @@ vendor/etc/init/vendor.qti.hardware.charger_monitor@1.0-service.rc
 vendor/etc/init/vendor.qti.hardware.cryptfshw@1.0-service-qti.rc
 vendor/etc/init/vendor.qti.hardware.wifi.wifilearner@1.0-service.rc
 vendor/etc/init/vendor.qti.hardware.wigig.supptunnel@1.0-service.rc
+vendor/lib64/vendor.qti.hardware.wigig.supptunnel@1.0.so
+vendor/lib/vendor.qti.hardware.wigig.netperftuner@1.0.so
+vendor/lib64/vendor.qti.hardware.wigig.netperftuner@1.0.so
+vendor/lib64/vendor.qti.hardware.wifi.wifilearner@1.0.so
 vendor/etc/init/vppservice.rc
 vendor/etc/init/wfdvndservice.rc
 vendor/etc/lm/AdaptLaunchFeature.xml
@@ -1759,6 +1764,13 @@ vendor/lib64/vendor.qti.hardware.cacert@1.0.so
 vendor/lib64/vendor.qti.hardware.capabilityconfigstore@1.0.so
 vendor/lib64/vendor.qti.hardware.cryptfshw@1.0.so
 vendor/lib64/vendor.qti.hardware.sigma_miracast@1.0.so
+vendor/lib/librecovery_updater_msm.so
+vendor/lib64/librecovery_updater_msm.so
+vendor/lib/libqsap_sdk.so
+vendor/lib64/libqsap_sdk.so
+vendor/lib64/libnetfilter_conntrack.so
+vendor/lib64/libnfnetlink.so
+vendor/lib64/libipanat.so
 
 # Light
 vendor/lib64/hw/lights.sdm710.so
