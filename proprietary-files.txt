@@ -741,7 +741,7 @@ vendor/lib/librs_adreno_sha1.so
 vendor/lib/libsdm-color.so
 vendor/lib/libsdm-diag.so
 vendor/lib/libsdm-disp-vndapis.so
-# vendor/lib/libtinyxml2_1.so
+vendor/lib/libtinyxml2_1.so
 vendor/lib64/egl/eglSubDriverAndroid.so
 vendor/lib64/egl/libEGL_adreno.so
 vendor/lib64/egl/libGLESv1_CM_adreno.so
@@ -768,7 +768,7 @@ vendor/lib64/librs_adreno_sha1.so
 vendor/lib64/libsdm-color.so
 vendor/lib64/libsdm-diag.so
 vendor/lib64/libsdm-disp-vndapis.so
-# vendor/lib64/libtinyxml2_1.so
+vendor/lib64/libtinyxml2_1.so
 
 # IFAA
 vendor/bin/hw/vendor.zui.hardware.ifaa@1.0-service
