@@ -1752,6 +1752,7 @@ vendor/lib64/libsynergy_loc_api.so
 # vendor/lib64/libvndfwk_detect_jni.qti.so
 vendor/lib64/libwapi_cert.so
 vendor/lib64/libwa_opticalzoomfactor.so
+vendor/lib64/libwifi-hal.so
 # vendor/lib64/libwifi-hal-ctrl.so
 vendor/lib64/qtibus.so
 vendor/lib64/qtimutex.so
