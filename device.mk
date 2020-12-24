@@ -150,22 +150,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.hardware.egl=adreno
 
 #Eng
-# ifeq ($(TARGET_BUILD_VARIANT),eng)
-# PRODUCT_PRODUCT_PROPERTIES += \
-#     persist.sys.usb.config=mtp,adb \
-#     ro.secure=0 \
-#     ro.allow.mock.location=0 \
-#     ro.debuggable=1 \
-#     persist.service.acm.enable=1  \
-#     persist.service.adb.enable=1 \
-#     persist.service.debuggable=1 \
-#     persist.logd.logpersistd=logcatd \
-#     ro.adb.secure=0 \
-#     ro.mount.fs=EXT4 \
-#     ro.persist.partition.support=no \
-#     ro.control_privapp_permissions=log 
-# endif
-ifeq ($(TARGET_BUILD_VARIANT),userdebug)
+ifeq ($(TARGET_BUILD_VARIANT),eng)
 PRODUCT_PRODUCT_PROPERTIES += \
     persist.sys.usb.config=mtp,adb \
     ro.secure=0 \
@@ -180,13 +165,13 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.persist.partition.support=no \
     ro.control_privapp_permissions=log 
 endif
-#Userdebug
-# ifeq ($(TARGET_BUILD_VARIANT),userdebug)
-# PRODUCT_PRODUCT_PROPERTIES += \
-#     ro.secure=1 \
-#     ro.adb.secure=1 \
-#     ro.control_privapp_permissions=log
-# endif
+# Userdebug
+ifeq ($(TARGET_BUILD_VARIANT),userdebug)
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.secure=1 \
+    ro.adb.secure=1 \
+    ro.control_privapp_permissions=log
+endif
 
 # AID/fs configs
 PRODUCT_PACKAGES += \
