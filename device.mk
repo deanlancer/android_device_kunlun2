@@ -520,10 +520,6 @@ PRODUCT_PACKAGES += \
     lights.sdm710 \
     android.hardware.light@2.0-impl
 
-# Net
-PRODUCT_PACKAGES += \
-    netutils-wrapper-1.0
-
 # Tethering
 PRODUCT_PACKAGES += \
     TetheringConfigOverlay
