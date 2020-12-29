@@ -502,11 +502,11 @@ PRODUCT_COPY_FILES += \
 
 # IMS
 PRODUCT_PACKAGES += \
-    ims-ext-common \
+    ims-ext-common_system \
     ims_ext_common.xml
 
 PRODUCT_BOOT_JARS += \
-	ims-ext-common
+	ims-ext-common_system 
 	
 # Input
 PRODUCT_COPY_FILES += \
