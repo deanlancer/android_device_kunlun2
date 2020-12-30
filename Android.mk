@@ -195,5 +195,14 @@ ALL_DEFAULT_INSTALLED_MODULES += \
 	$(LIBQ3DTOOLS_SYMLINK) \
 	$(LIBQ3DTOOLS64_SYMLINK)
 
+QDMA_UI_SYMLINK := $(TARGET_OUT_VENDOR)/app/QDMA-UI/lib/arm64/libvndfwk_detect_jni.qti.so
+$(QDMA_UI_SYMLINK): $(LOCAL_INSTALLED_MODULE)
+	@echo "Creating libvndfwk_detect_jni.qti.so symlink: $@"
+	@mkdir -p $(dir $@)
+	@rm -rf $@
+	$(hide) ln -sf /vendor/lib64/$(notdir $@) $@
+
+ALL_DEFAULT_INSTALLED_MODULES += $(QDMA_UI_SYMLINK)
+
 
 endif
