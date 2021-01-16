@@ -539,6 +539,7 @@ PRODUCT_PACKAGES += \
     librmnetctl \
     libxml2
 
+<<<<<<< HEAD
 # Broadcast
 PRODUCT_PACKAGES += \
     android.hardware.broadcastradio@1.0-impl
@@ -572,3 +573,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/graphite_ipc_platform_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/graphite_ipc_platform_info.xml \
     $(LOCAL_PATH)/configs/IPACM_cfg.xml:$(TARGET_COPY_OUT_VENDOR)/etc/IPACM_cfg.xml \
     $(LOCAL_PATH)/configs/lowi.conf:$(TARGET_COPY_OUT_VENDOR)/etc/lowi.conf    
+
+# loggy
+PRODUCT_PACKAGES += \
+    loggy.sh
