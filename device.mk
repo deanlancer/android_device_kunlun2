@@ -227,7 +227,8 @@ PRODUCT_PACKAGES += \
     init.qcom.factory.rc \
     init.lenovo.rc \
     init.ontim_fac.rc \
-    init.target.rc
+    init.target.rc \
+    logcat.rc
 
 # Device-specific settings
 PRODUCT_PACKAGES += \
@@ -539,7 +540,6 @@ PRODUCT_PACKAGES += \
     librmnetctl \
     libxml2
 
-<<<<<<< HEAD
 # Broadcast
 PRODUCT_PACKAGES += \
     android.hardware.broadcastradio@1.0-impl
