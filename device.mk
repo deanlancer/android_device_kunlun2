@@ -619,9 +619,9 @@ PRODUCT_COPY_FILES += \
 
 # Health
 PRODUCT_PACKAGES += \
-	android.hardware.health@2.0 \
-    android.hardware.health@2.0-impl \
-    android.hardware.health@2.0-service
+	android.hardware.health@2.1 \
+    android.hardware.health@2.1-impl \
+    android.hardware.health@2.1-service
 
 # Context Hub
 PRODUCT_PACKAGES += \
