@@ -170,7 +170,6 @@ persist.vendor.radio.rat_on=combine
 ril.subscription.types=NV,RUIM 
 ro.telephony.default_network=22,22 
 telephony.lteOnCdmaDevice=1 
-rild.libpath=/vendor/lib64/libril-qc-hal-qmi.so 
 persist.radio.VT_ENABLE=1 
 persist.radio.volte.dan_support=true 
 persist.data.iwlan=1 
