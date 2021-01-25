@@ -1,0 +1,20 @@
+set_prop(vendor_init, vendor_thermal_prop)
+set_prop(vendor_init, vendor_power_prop)
+set_prop(vendor_init, freq_prop)
+
+# Allow vendor_init to write to sysfs_ssr_toggle
+allow vendor_init sysfs_ssr_toggle:file w_file_perms;
+
+# Allow vendor_init to write to /dev/blkio
+allow vendor_init blkio:file w_file_perms;
+
+# Allow vendor_init to enable/disable sched_boost
+allow vendor_init proc_sysctl_schedboost:file rw_file_perms;
+
+# Allow vendor_init to read default prop
+allow vendor_init default_prop:file r_file_perms;
+
+# Allow vendor_init to read persist debug prop
+allow vendor_init persist_debug_prop:file r_file_perms;
+
+allow vendor_init apex_metadata_file:dir create_dir_perms;
