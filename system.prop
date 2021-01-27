@@ -44,10 +44,10 @@ persist.vendor.camera.CDS=Off
 ro.config.zuk.has_ir_camera=true
 sys.camera.packagename.zui=1
 ###################################
-persist.vendor.camera.privapp.list=org.codeaurora.snapcam,com.zui.camera
-persist.camera.privapp.list=org.codeaurora.snapcam,com.zui.camera
-vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,org.lineageos.snap,com.zui.camera
-vendor.camera.aux.packagelist2=com.motorola.motocit,com.zui.camera.yuvtest
+persist.vendor.camera.privapp.list=org.codeaurora.snapcam
+persist.camera.privapp.list=org.codeaurora.snapcam
+vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,org.lineageos.snap
+vendor.camera.aux.packagelist2=com.motorola.motocit
 
 # CNE and DPM
 persist.cne.feature=1

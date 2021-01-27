@@ -7,7 +7,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product-if-exists, vendor/lenovo/kunlun2/kunlun2-vendor.mk)
 
 # ZuiCam
-$(call inherit-product-if-exists, vendor/lenovo/ZuiCamera/config.mk)
+# $(call inherit-product-if-exists, vendor/lenovo/ZuiCamera/config.mk)
 
 # ZuiAudio
 $(call inherit-product-if-exists, vendor/lenovo/ZuiAudio/config.mk)
