@@ -656,7 +656,7 @@ vendor/firmware/mono.cnt
 # GPS
 vendor/bin/hw/android.hardware.gnss@2.0-service
 vendor/etc/init/android.hardware.gnss@2.0-service.rc
-vendor/etc/vintf/manifest/android.hardware.gnss@2.0-service.xml
+-vendor/etc/vintf/manifest/android.hardware.gnss@2.0-service.xml
 vendor/bin/garden_app
 vendor/bin/lowi-server
 vendor/bin/xtra-daemon
