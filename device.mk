@@ -165,6 +165,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.hardware.vulkan=adreno \
     ro.hardware.egl=adreno
 
+# Enable iorapd perfetto tracing for app starts
+PRODUCT_PROPERTY_OVERRIDES += \
+    iorapd.perfetto.enable=true
+
 #Eng
 ifeq ($(TARGET_BUILD_VARIANT),userdebug)
 PRODUCT_PRODUCT_PROPERTIES += \
