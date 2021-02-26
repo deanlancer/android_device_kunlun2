@@ -446,11 +446,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.freeform_window_management.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.freeform_window_management.xml
 
-# Offline charger
-PRODUCT_PACKAGES += \
-    charger_res_images \
-    product_charger_res_images
-
 # ANT+
 PRODUCT_PACKAGES += \
     AntHalService \
@@ -633,11 +628,6 @@ PRODUCT_PACKAGES += \
   	android.hardware.thermal@2.0-service.lenovo \
     android.hardware.thermal@1.0-impl \
     thermal.sdm710
-
-# Charging
-PRODUCT_PACKAGES += \
-    charger_res_images \
-    product_charger_res_images
 
 #Wfdconfig
 PRODUCT_COPY_FILES += \
