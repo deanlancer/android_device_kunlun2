@@ -66,10 +66,6 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_PRODUCT_PROPERTIES += \
    iorapd.readahead.enable=true
 
-#Apex
-PRODUCT_PRODUCT_PROPERTIES += \
-    ro.apex.updatable=true
-
 # Perf
 PRODUCT_PRODUCT_PROPERTIES += \
 	ro.sys.fw.dex2oat_thread_count=6
