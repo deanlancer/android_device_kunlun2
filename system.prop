@@ -236,8 +236,6 @@ mot.proximity.distance=16
 ###################################
 drm.service.enabled=true
 
-ro.vendor.qti.sys.fw.bg_apps_limit=180
-ro.vendor.qti.sys.fw.bservice_limit=90
 debug.performance.tuning=1
 
 persist.android.strictmode=0
