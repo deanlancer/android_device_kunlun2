@@ -76,8 +76,12 @@ PRODUCT_PRODUCT_PROPERTIES += \
 
 # ART
 PRODUCT_PRODUCT_PROPERTIES += \
-	dalvik.vm.dex2oat-filter=speed \
-	dalvik.vm.image-dex2oat-filter=speed 
+    dalvik.vm.dex2oat-cpu-set=0,1,2,3,4,5,6,7 \
+    dalvik.vm.dex2oat-filter=quicken \
+    dalvik.vm.dex2oat-threads=8 \
+    dalvik.vm.image-dex2oat-cpu-set=0,1,2,3,4,5,6,7 \
+    dalvik.vm.image-dex2oat-filter=quicken \
+    dalvik.vm.image-dex2oat-threads=8
 PRODUCT_PRODUCT_PROPERTIES += \
 	dalvik.vm.image-dex2oat-Xms=64m \
 	dalvik.vm.image-dex2oat-Xmx=64m \
@@ -93,7 +97,6 @@ PRODUCT_PRODUCT_PROPERTIES += \
 	pm.dexopt.boot=verify \
 	pm.dexopt.install=speed-profile \
 	pm.dexopt.bg-dexopt=speed-profile \
-	pm.dexopt.ab-ota=speed-profile \
 	pm.dexopt.inactive=verify \
 	pm.dexopt.shared=speed \
 	dalvik.vm.dex2oat-resolve-startup-strings=true \
