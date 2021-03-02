@@ -167,9 +167,6 @@ BUILD_BROKEN_USES_BUILD_COPY_HEADERS := true
 BUILD_BROKEN_VINTF_PRODUCT_COPY_FILES := true
 BUILD_BROKEN_PREBUILT_ELF_FILES := true
 
-#####################################################################################
-BOARD_PROPERTY_OVERRIDES_SPLIT_ENABLED := true
-
 # GPS################################################################################
 #BOARD_VENDOR_QCOM_GPS_LOC_API_HARDWARE := $(TARGET_BOARD_PLATFORM)
 BOARD_VENDOR_QCOM_GPS_LOC_API_HARDWARE := default
@@ -207,6 +204,7 @@ BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
 OVERRIDE_RS_DRIVER := libRSDriver_adreno.so
 
 ##################################################################################
+BOARD_PROPERTY_OVERRIDES_SPLIT_ENABLED := true
 # Properties
 TARGET_ODM_PROP += $(DEVICE_PATH)/odm.prop
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
@@ -275,6 +273,7 @@ BOARD_AVB_RECOVERY_ROLLBACK_INDEX_LOCATION := 1
 
 # AICP
 TARGET_USE_MUSICFX := false
+TARGET_PROVIDES_KEYMASTER := true
 
 # Inherit from the proprietary version
 -include vendor/lenovo/kunlun2/BoardConfigVendor.mk
