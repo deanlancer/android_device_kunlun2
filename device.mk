@@ -551,7 +551,7 @@ PRODUCT_PACKAGES += \
 
 # Atrace
  PRODUCT_PACKAGES += \
-    android.hardware.atrace@1.0-service
+    android.hardware.atrace@1.0-service.pixel
 
 # Sensors
 PRODUCT_PACKAGES += \
