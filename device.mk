@@ -259,6 +259,8 @@ PRODUCT_PACKAGES += \
     hwcomposer.sdm710 \
     libdisplayconfig \
     libdisplayconfig.vendor \
+    libdisplayconfig.qti \
+    libdisplayconfig.qti.vendor \
     libhwc2on1adapter \
     libhwc2onfbadapter \
     libqdMetaData.system \
