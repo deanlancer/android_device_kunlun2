@@ -448,6 +448,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libnl
 
+PRODUCT_BOOT_JARS += \
+    WfdCommon
+
 # WiFi
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/wifi/wigig_supplicant.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wigig_supplicant.conf \
