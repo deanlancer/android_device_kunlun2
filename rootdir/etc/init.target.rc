@@ -140,11 +140,6 @@ service vendor.pd_mapper /vendor/bin/pd-mapper
     user system
     group system
 
-service loggy /vendor/bin/loggy.sh
-    class core
-    user root
-    oneshot
-
 #Peripheral manager
 service vendor.per_mgr /vendor/bin/pm-service
     class core
