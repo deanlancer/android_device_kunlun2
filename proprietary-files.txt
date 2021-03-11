@@ -513,8 +513,9 @@ vendor/lib64/libQTEEConnector_vendor.so
 vendor/lib64/vendor.qti.hardware.qteeconnector@1.0.so
 
 # DRM-Widevine
-vendor/bin/hw/android.hardware.drm@1.2-service.widevine
-vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc
+vendor/bin/hw/android.hardware.drm@1.3-service.widevine|07ac13a602f25788e54c1500c2957f561dd9f90a
+vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc|c35e1a6f9a6faff19064a81e07c4be82ceaf4bb5
+-vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml|ebebcf8f367641480cf7d512fc06e6ab777527be
 # vendor/lib/mediadrm/libdrmclearkeyplugin.so
 vendor/lib/mediadrm/libwvdrmengine.so
 vendor/lib64/libwvhidl.so|eb7e90cec72946f7bda1ea3a589d9b3867a3f6a7
@@ -1897,3 +1898,4 @@ vendor/lib/libspl.so|7e3ab5ebb1786b6e272ae22aa37019dded979c49
 vendor/lib64/libash.so|e5f243b872cbacb03e8a9534e2957bdc23937df0
 vendor/lib64/libops.so|fc77360638cc155f6396994825481c4afa77a75b
 vendor/lib64/libspl.so|f24699732219695cc2d870b8ceeb267c7185300f
+
