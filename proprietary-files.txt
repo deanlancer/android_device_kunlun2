@@ -517,9 +517,9 @@ vendor/bin/hw/android.hardware.drm@1.2-service.widevine
 vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc
 # vendor/lib/mediadrm/libdrmclearkeyplugin.so
 vendor/lib/mediadrm/libwvdrmengine.so
-vendor/lib64/libwvhidl.so
+vendor/lib64/libwvhidl.so|eb7e90cec72946f7bda1ea3a589d9b3867a3f6a7
 # vendor/lib64/mediadrm/libdrmclearkeyplugin.so
-vendor/lib64/mediadrm/libwvdrmengine.so
+vendor/lib64/mediadrm/libwvdrmengine.so|df3dd313abe03b664ffbb91bf14c0a421c0747d3
 
 # Display-Hardware
 vendor/bin/hw/vendor.qti.hardware.display.allocator@1.0-service
@@ -1156,7 +1156,7 @@ vendor/lib64/libril-qc-qmi-1.so
 vendor/lib64/libril-qc-radioconfig.so
 vendor/lib64/libril-qcril-hook-oem.so
 vendor/lib64/librilqmiservices.so
-vendor/lib64/libsettings.so
+vendor/lib64/libsettings.so|e6acc25478d418ece5b35e9ba3f847f9a96b0cce
 vendor/lib64/libsystem_health_mon.so
 vendor/lib64/qcrild_librilutils.so
 vendor/lib64/vendor.qti.hardware.radio.am@1.0.so
@@ -1758,7 +1758,7 @@ vendor/lib64/qtibus.so
 vendor/lib64/qtimutex.so
 vendor/lib64/soundfx/libswdap.so
 vendor/lib64/soundfx/libswvqe.so
-vendor/lib64/unnhal-acc-adreno.so
+vendor/lib64/unnhal-acc-adreno.so|eb722101e05e36dd7500a952b163b0a56e274f8a
 vendor/lib64/unnhal-acc-common.so
 vendor/lib64/unnhal-acc-hvx.so
 vendor/lib64/vendor.qti.hardware.cacert@1.0.so
@@ -1890,3 +1890,10 @@ product/etc/CarrierSettings/vodafone_nl.pb|b171ae2a1866dedc686d0d64fab2597c23225
 product/etc/CarrierSettings/vodafone_tr.pb|c8f9dad785970690a0042ec9ee15907049e20b5b
 product/etc/CarrierSettings/xfinity_us.pb|80172c4205a4d78cd571090c9ef4a85b87214f1f
 -product/priv-app/CarrierSettings/CarrierSettings.apk;PRESIGNED|2fce902429037b51edf651f21b843ccfef9d199e
+
+
+vendor/lib/libops.so|a1d4a06c64ea0782f2f61ce8badd14238325d72f
+vendor/lib/libspl.so|7e3ab5ebb1786b6e272ae22aa37019dded979c49
+vendor/lib64/libash.so|e5f243b872cbacb03e8a9534e2957bdc23937df0
+vendor/lib64/libops.so|fc77360638cc155f6396994825481c4afa77a75b
+vendor/lib64/libspl.so|f24699732219695cc2d870b8ceeb267c7185300f
