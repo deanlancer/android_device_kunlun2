@@ -1899,3 +1899,6 @@ vendor/lib64/libash.so|e5f243b872cbacb03e8a9534e2957bdc23937df0
 vendor/lib64/libops.so|fc77360638cc155f6396994825481c4afa77a75b
 vendor/lib64/libspl.so|f24699732219695cc2d870b8ceeb267c7185300f
 
+# Wifi Display - from redfin rd1a.201105.003.c1
+vendor/lib/libdisplayconfig.qti.so|b7ca26de35037aa1a01124b7aae9c95be5247246
+vendor/lib64/libdisplayconfig.qti.so|dd5c86218edd8a785a079f648c36db72c773cbfc
