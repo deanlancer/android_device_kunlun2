@@ -157,6 +157,9 @@ MAX_EGL_CACHE_KEY_SIZE := 12*1024
 MAX_EGL_CACHE_SIZE := 2048*1024
 TARGET_ADDITIONAL_GRALLOC_10_USAGE_BITS := (1 << 21) | (1 << 27)
 
+# Display
+TARGET_SCREEN_DENSITY := 420
+
 # APEX###############################################################################
 DEXPREOPT_GENERATE_APEX_IMAGE := true
 
