@@ -1176,6 +1176,7 @@ vendor/lib64/vendor.qti.hardware.radio.uim@1.2.so
 vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.0.so
 vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.1.so
 vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0.so
+vendor/lib64/deviceInfoServiceModule.so|b20807d971e71c317b59704ff49d33f1aa406caa
 vendor/radio/qcril_database/qcril.db
 vendor/radio/qcril_database/upgrade/0_initial.sql
 vendor/radio/qcril_database/upgrade/1_version_intro.sql
@@ -1902,3 +1903,4 @@ vendor/lib64/libspl.so|f24699732219695cc2d870b8ceeb267c7185300f
 # Wifi Display - from redfin rd1a.201105.003.c1
 vendor/lib/libdisplayconfig.qti.so|b7ca26de35037aa1a01124b7aae9c95be5247246
 vendor/lib64/libdisplayconfig.qti.so|dd5c86218edd8a785a079f648c36db72c773cbfc
+
