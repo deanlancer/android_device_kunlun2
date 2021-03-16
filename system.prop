@@ -51,10 +51,8 @@ vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,org.line
 vendor.camera.aux.packagelist2=com.motorola.motocit
 vendor.camera.aux.packageexcludelist=org.telegram.messenger,com.microsoft.teams,com.discord
 
-# CNE and DPM
+# CNE 
 persist.cne.feature=1
-persist.vendor.dpm.feature=1
-persist.vendor.dpm.nsrm.bkg.evt=3955
 
 # Data modules
 persist.data.df.agg.dl_pkt=10
