@@ -439,11 +439,11 @@ vendor/lib64/libmmcamera_faceproc2.so
 vendor/bin/hvdcp_opti
 
 # DPM
-vendor/bin/dpmQmiMgr
-vendor/lib/com.qualcomm.qti.dpm.api@1.0.so
-vendor/lib/libdpmqmihal.so
-vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so
-vendor/lib64/libdpmqmihal.so
+vendor/bin/dpmQmiMgr|4fe936478b0da1ee20c6222234b80d478a72cc2a
+vendor/lib/com.qualcomm.qti.dpm.api@1.0.so|faeee47eb6295d360c12132bbb7b31c2d07dd262
+vendor/lib/libdpmqmihal.so|ede3c5bbf1e9574bf230109eb6e7b78081e190bf
+vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so|c5c893e86d38b8aa8cd277ccb8b011fb2f19995e
+vendor/lib64/libdpmqmihal.so|ffcd85e1f6bf7d54f37953edc2cb2c4a61fc894a
 
 # DRM
 vendor/bin/qseecomd
@@ -1511,7 +1511,7 @@ vendor/etc/init/aplog.rc
 vendor/etc/init/bugreport.rc
 vendor/etc/init/dataadpl.rc
 vendor/etc/init/dataqti.rc
-vendor/etc/init/dpmQmiMgr.rc
+vendor/etc/init/dpmQmiMgr.rc|1538743661a5c48c15cd105beaad20f72953885a
 vendor/etc/init/imsdatadaemon.rc
 vendor/etc/init/imsqmidaemon.rc
 vendor/etc/init/imsrcsd.rc
@@ -2007,7 +2007,7 @@ vendor/radio/qcril_database/upgrade/7_version_update_ecc_table.sql|9a76d5747da28
 system_ext/lib/vendor.qti.diaghal@1.0.so|6dbecf178c4ee24521d176b87b0b4e6799b7f846
 system_ext/lib64/vendor.qti.diaghal@1.0.so|d5a0fb4f332a3b6400bb91961d980b436023b1d9
 
-DPM - from OnePlus8Pro:11/RP1A.201005.001
+# DPM - from OnePlus8Pro:11/RP1A.201005.001
 framework/tcmclient.jar|22858e8bb7e3f956e487dc6764ad8250f118d7ac
 system_ext/bin/dpmd|95c1d9e3fd30f17a61fd776c9454a148fa4cf103
 system_ext/etc/dpm/dpm.conf|95e27da8c989e96c6faea6f0697bce11955b62a5
