@@ -3,6 +3,9 @@
 #
 # SPDX-License-Identifier: Apache-2.0
 #
+# QC framework value-adds
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+    ro.vendor.qti.va_aosp.support=1
 
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.vendor.qti.va_aosp.support=1 \
