@@ -15,6 +15,15 @@ $(call inherit-product-if-exists, vendor/lenovo/ZuiAudio/config.mk)
 # Enable updating of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
+# Hardware
+PRODUCT_BOARD_PLATFORM := sdm845
+PRODUCT_USES_QCOM_HARDWARE := true
+
+# HALS
+SRC_AUDIO_HAL_DIR := hardware/qcom-caf/sdm845/audio
+SRC_DISPLAY_HAL_DIR := hardware/qcom-caf/sdm845/display
+SRC_MEDIA_HAL_DIR := hardware/qcom-caf/sdm845/media
+
 PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
 -include $(LOCAL_PATH)/product_prop.mk
 
@@ -181,10 +190,6 @@ PRODUCT_PACKAGES += \
     libtinycompress.vendor \
     libvolumelistener \
     tinymix
-
-# Hardware
-PRODUCT_BOARD_PLATFORM := sdm710
-PRODUCT_USES_QCOM_HARDWARE := true
 
 # Camera
 PRODUCT_PACKAGES += \
@@ -435,7 +440,8 @@ PRODUCT_PACKAGES += \
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
-    hardware/google/pixel
+    hardware/google/pixel \
+    hardware/qcom-caf/sdm845
 
 # SoundRecoreder
 PRODUCT_PACKAGES += \
