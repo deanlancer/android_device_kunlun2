@@ -109,6 +109,8 @@ BOARD_SUPPORTS_FFV_EC_THREAD_RT_PRIORITY := true
 BOARD_USES_ALSA_AUDIO := true
 AUDIO_FEATURE_ENABLED_FM_POWER_OPT := true
 
+TARGET_PROVIDES_AUDIO_EXTNS := true
+
 # Bluetooth
 #####################################################################################
 BOARD_HAVE_BLUETOOTH_QCOM := true
@@ -139,6 +141,7 @@ BOARD_HAS_QCA_FM_SOC := "cherokee"
 
 # QCOM###############################################################################
 BOARD_USES_QCOM_HARDWARE := true
+TARGET_FWK_SUPPORTS_FULL_VALUEADDS := true
 
 # Display############################################################################
 TARGET_FORCE_HWC_FOR_VIRTUAL_DISPLAYS := true
