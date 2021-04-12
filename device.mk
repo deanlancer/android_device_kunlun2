@@ -54,13 +54,6 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth.audio@2.0-impl \
     audio.bluetooth.default \
     libbthost_if \
-    libldacBT_dec \
-    libldacBT_enc \
-    libldacBT_abr \
-    hwaddrs \
-    libbt-vendor \
-    libbtconfigstore \
-    vendor.qti.hardware.bluetooth_audio@2.0 \
     vendor.qti.hardware.bluetooth_audio@2.0.vendor \
     vendor.qti.hardware.btconfigstore@1.0.vendor
 
@@ -184,7 +177,6 @@ PRODUCT_PACKAGES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    android.frameworks.displayservice@1.0 \
     android.hardware.camera.provider@2.4-impl \
     android.hardware.camera.provider@2.4-service \
     GCam \
@@ -255,8 +247,6 @@ PRODUCT_PACKAGES += \
     android.hardware.graphics.allocator@4.0-impl \
     gralloc.sdm710 \
     hwcomposer.sdm710 \
-    libdisplayconfig \
-    libdisplayconfig.vendor \
     libdisplayconfig.qti \
     libdisplayconfig.qti.vendor \
     libhwc2on1adapter \
@@ -519,8 +509,7 @@ PRODUCT_PACKAGES += \
     libwifi-hal-qcom \
     libwpa_client \
     wpa_cli \
-    wpa_supplicant \
-    wpa_supplicant.conf
+    wpa_supplicant
 
 # Protobuf
 PRODUCT_PACKAGES += \
@@ -529,14 +518,6 @@ PRODUCT_PACKAGES += \
 
 # Radio
 PRODUCT_PACKAGES += \
-    android.hardware.radio@1.2 \
-    android.hardware.radio@1.3 \
-    android.hardware.radio@1.4 \
-    android.hardware.radio@1.5 \
-    android.hardware.radio.config@1.2 \
-    android.hardware.radio.config@1.1 \
-    android.hardware.radio.config@1.0 \
-    android.hardware.secure_element@1.0 \
     libcnefeatureconfig \
     libjson \
     librmnetctl \
