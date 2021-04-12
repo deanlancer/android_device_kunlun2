@@ -26,6 +26,7 @@ SRC_MEDIA_HAL_DIR := hardware/qcom-caf/sdm845/media
 
 PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
 -include $(LOCAL_PATH)/product_prop.mk
+-include $(LOCAL_PATH)/odm.mk
 
 # Disabled debugging
 PRODUCT_ART_TARGET_INCLUDE_DEBUG_BUILD := false
