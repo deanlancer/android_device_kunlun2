@@ -156,18 +156,10 @@ PRODUCT_PACKAGES += DefaultDark-Contacts-M \
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio.service \
-    android.hardware.audio@2.0-impl \
-    android.hardware.audio@6.0 \
     android.hardware.audio@6.0-impl \
-    android.hardware.audio.common@2.0-util \
-    android.hardware.audio.common@5.0 \
-    android.hardware.audio.common@5.0-util \
-    android.hardware.audio.effect@2.0-impl \
     audio.a2dp.default \
-    android.hardware.audio.effect@6.0 \
     android.hardware.audio.effect@6.0-impl \
     android.hardware.soundtrigger@2.3-impl \
-    android.hardware.soundtrigger@2.3 \
     audio.hearing_aid.default \
     audio.primary.sdm710 \
     audio.r_submix.default \
