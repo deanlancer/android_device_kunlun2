@@ -417,6 +417,7 @@ PRODUCT_PACKAGES += \
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
+    hardware/google/interfaces \
     hardware/google/pixel \
     hardware/qcom-caf/sdm845
 
@@ -459,9 +460,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/wifi/wpa_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant_overlay.conf \
     $(LOCAL_PATH)/configs/xtwifi.conf:$(TARGET_COPY_OUT_VENDOR)/etc/xtwifi.conf
 
-#ThermalPixel
+# Thermal HAL
 PRODUCT_PACKAGES += \
-  	android.hardware.thermal@2.0-service.lenovo \
+    android.hardware.thermal@2.0-service.lenovo \
     android.hardware.thermal@1.0-impl \
     thermal.sdm710
 
