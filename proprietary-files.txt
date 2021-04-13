@@ -147,32 +147,32 @@ vendor/lib64/soundfx/libqcomvoiceprocessing.so
 vendor/lib64/soundfx/libvolumelistener.so|abb573d099b777d4f4e85960778999b3a92a393e
 
 # Bluetooth
-vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
+vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti|3cb9cb71179cf088919965d022c36f921879ab23
 vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc
 vendor/lib/com.qualcomm.qti.bluetooth_audio@1.0.so
 # vendor/lib/hw/android.hardware.bluetooth.audio@2.0-impl.so
-vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so
+vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so|cd047caf524ba5d57d72d2d8996f82cf920340db
 # vendor/lib/hw/audio.bluetooth.default.so
-vendor/lib/hw/audio.bluetooth_qti.default.so
+vendor/lib/hw/audio.bluetooth_qti.default.so|7dcd20a9637021233693ac2474e61bc651dbea76
 vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so
 vendor/lib/hw/vendor.qti.hardware.bluetooth_sar@1.0-impl.so
 vendor/lib/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so
 # vendor/lib/libbluetooth_audio_session.so
-vendor/lib/libbluetooth_audio_session_qti.so
+vendor/lib/libbluetooth_audio_session_qti.so|cb4d4a1f6827c5775a79ca1930c99ffffdb2b49f
 vendor/lib/libbt-hidlclient.so
 vendor/lib/libbtnv.so
 # vendor/lib/vendor.qti.hardware.bluetooth_audio@2.0.so
 vendor/lib/vendor.qti.hardware.bluetooth_sar@1.0.so
 # vendor/lib/vendor.qti.hardware.btconfigstore@1.0.so
 # vendor/lib64/hw/android.hardware.bluetooth.audio@2.0-impl.so
-vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so
+vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so|5c9c56615fbe4f0b61c00906a7546241b14f6c84
 # vendor/lib64/hw/audio.bluetooth.default.so
-vendor/lib64/hw/audio.bluetooth_qti.default.so
+vendor/lib64/hw/audio.bluetooth_qti.default.so|e5431638939be5867c14f040eee2d2e595bc5d2b
 vendor/lib64/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so
 vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.0-impl.so
 vendor/lib64/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so
 # vendor/lib64/libbluetooth_audio_session.so
-vendor/lib64/libbluetooth_audio_session_qti.so
+vendor/lib64/libbluetooth_audio_session_qti.so|01ebacaeed0e576eed7f5b74774176fd7eb30a62
 vendor/lib64/libbt-hidlclient.so
 vendor/lib64/libbtnv.so
 # vendor/lib64/vendor.qti.hardware.bluetooth_audio@2.0.so
