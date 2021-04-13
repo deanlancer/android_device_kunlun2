@@ -1,13 +1,13 @@
 
 # ADSP
 vendor/bin/adsprpcd
-vendor/lib/libadsprpc.so
+vendor/lib/libadsprpc.so|65b59d001bf7ceaff81475f468f3249c1a3b05d2
 vendor/lib/libadsp_default_listener.so
 vendor/lib/libfastcvdsp_stub.so|6ccfd797a035075db44aaf288a87d1eb041288b7
 vendor/lib/libfastcvopt.so|6c2c1c72b99428aa6e76660fe4ccd2bca6517c48
 vendor/lib/libmdsprpc.so
 vendor/lib/libsdsprpc.so
-vendor/lib64/libadsprpc.so
+vendor/lib64/libadsprpc.so|816fdf3309e7fe3dbced1fc1f4f006d8d1a991fa
 vendor/lib64/libadsp_default_listener.so
 vendor/lib64/libfastcvdsp_stub.so|de764c199026839848cdc803ed5cb2d8a51ad9b9
 vendor/lib64/libfastcvopt.so|dcbd38864009f985e98f8eaea10bb2658385995a
