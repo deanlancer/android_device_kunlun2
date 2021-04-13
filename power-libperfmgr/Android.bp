@@ -60,3 +60,27 @@ cc_binary {
     ],
     proprietary: true,
 }
+
+cc_binary {
+    name: "android.hardware.power-service.lenovo-libperfmgr",
+    relative_install_path: "hw",
+    init_rc: ["aidl/android.hardware.power-service.lenovo-libperfmgr.rc"],
+    vintf_fragments: ["aidl/android.hardware.power-service.lenovo.xml"],
+    vendor: true,
+    shared_libs: [
+        "android.hardware.power-ndk_platform",
+        "libbase",
+        "libcutils",
+        "liblog",
+        "libutils",
+        "libbinder_ndk",
+        "libdisppower-pixel",
+        "libperfmgr",
+        "pixel-power-ext-ndk_platform",
+    ],
+    srcs: [
+        "aidl/service.cpp",
+        "aidl/Power.cpp",
+        "aidl/PowerExt.cpp",
+    ],
+}
