@@ -699,7 +699,6 @@ vendor/lib64/vendor.qti.gnss@1.2.so
 vendor/lib64/vendor.qti.gnss@2.0.so
 vendor/lib64/vendor.qti.gnss@2.1.so
 vendor/lib64/vendor.qti.gnss@3.0.so
-vendor/bin/loc_launcher|bb84609e1beee17b3adc24032446f851bc0fd015
 vendor/bin/slim_daemon|c6d6d72d7ca281077663e7a0136e3d65fbf5af25
 vendor/lib/libbatching.so|2cfd49d2a416023402eabd3af0993f2966500753
 vendor/lib/libgeofencing.so|4aa9350a90d9cf11b69ae562c21ab81597c93fdd
