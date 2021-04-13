@@ -5,14 +5,14 @@ vendor/lib/libadsprpc.so|65b59d001bf7ceaff81475f468f3249c1a3b05d2
 vendor/lib/libadsp_default_listener.so
 vendor/lib/libfastcvdsp_stub.so|6ccfd797a035075db44aaf288a87d1eb041288b7
 vendor/lib/libfastcvopt.so|057266b575f33589a423b78af413f482840434d1
-vendor/lib/libmdsprpc.so
-vendor/lib/libsdsprpc.so
+vendor/lib/libmdsprpc.so|59010b948e3fa03b94319f286e0769dde3526ba1
+vendor/lib/libsdsprpc.so|57c7779a65525a74bdc9557bb712019e88627a74
 vendor/lib64/libadsprpc.so|816fdf3309e7fe3dbced1fc1f4f006d8d1a991fa
 vendor/lib64/libadsp_default_listener.so
 vendor/lib64/libfastcvdsp_stub.so|de764c199026839848cdc803ed5cb2d8a51ad9b9
 vendor/lib64/libfastcvopt.so|dcbd38864009f985e98f8eaea10bb2658385995a
-vendor/lib64/libmdsprpc.so
-vendor/lib64/libsdsprpc.so
+vendor/lib64/libmdsprpc.so|c292f2665805d39bd3c5aaeb6d9bfe17bb83e088
+vendor/lib64/libsdsprpc.so|bb2b5ccf1a6ad67f23279a5e652ce0a8fa6e1daf
 
 # ADSP-Modules
 vendor/lib/rfsa/adsp/capi_v2_aptX_Classic.so
@@ -181,11 +181,11 @@ vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so
 
 # CDSP
 vendor/bin/cdsprpcd
-vendor/lib/libcdsprpc.so
+vendor/lib/libcdsprpc.so|e607d1149e1d79f29bb54a43734f8906a062a854
 vendor/lib/libcdsp_default_listener.so
 vendor/lib/libfastrpc_utf_stub.so
 vendor/lib/libsysmon_cdsp_skel.so
-vendor/lib64/libcdsprpc.so
+vendor/lib64/libcdsprpc.so|908f7bf2d031967fb008a9c7ea71bf84c4fed569
 vendor/lib64/libcdsp_default_listener.so
 vendor/lib64/libfastrpc_utf_stub.so
 vendor/lib64/libsysmon_cdsp_skel.so
