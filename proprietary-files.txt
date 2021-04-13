@@ -1445,7 +1445,7 @@ vendor/lib/vendor.qti.hardware.wifidisplaysession@1.0.so|fdba1b3c11ace4b0415be4e
 vendor/lib64/vendor.qti.hardware.wifidisplaysession@1.0.so|8c6a5c79f8f15db6f8f4123cba7079c98ba10b95
 
 # WiFi
-vendor/bin/cnss-daemon
+vendor/bin/cnss-daemon|c3b6d91977074064ea9b2668fc49cfecf888350b
 vendor/bin/cnss_diag
 vendor/bin/fstman
 vendor/etc/wifi/aoa_cldb_falcon.bin
