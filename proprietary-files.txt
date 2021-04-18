@@ -892,7 +892,6 @@ vendor/lib/libvpplibrary.so|00a356cc74a8b9b360098a8a291b65d3af9b5523
 vendor/lib/vendor.qti.hardware.vpp@1.1.so|b5ea7f4684be59d96cf0f225a83296cdb3d3344c
 vendor/lib/vendor.qti.hardware.vpp@1.2.so|e233b44a7d2b17cbb2f20ecfbaf1e1519e278aa6
 vendor/lib/vndk/libstagefright_foundation.so
-vendor/lib/vndk/libstagefright_omx.so
 vendor/lib64/libAlacSwDec.so|bfd2eb75d733c99d7c0b46f3016834f6f3ebcbdc
 vendor/lib64/libApeSwDec.so|96b957bd6d993737483d9d8705229b406d616ec7
 vendor/lib64/libFlacSwDec.so|720f8497fcbc3d98aa8ff333ed55ca575eb08815
@@ -1696,7 +1695,6 @@ vendor/lib64/libsns_registry_skel.so
 vendor/lib64/libspiris.so
 vendor/lib64/libspkrprot.so
 vendor/lib64/libssrec.so
-vendor/lib64/libstagefright_softomx.so
 vendor/lib64/libstagefright_soft_ac4dec.so
 vendor/lib64/libstagefright_soft_ddpdec.so
 vendor/lib64/libsynergy_loc_api.so
