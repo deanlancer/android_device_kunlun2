@@ -452,7 +452,7 @@ vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so|c5c893e86d38b8aa8cd277ccb8b011fb2f1
 vendor/lib64/libdpmqmihal.so|ffcd85e1f6bf7d54f37953edc2cb2c4a61fc894a
 
 # DRM
-vendor/bin/qseecomd|8c5810bf557341ca5392fce160214b66a1ac4e93
+vendor/bin/qseecomd|6a3030a7ba57f2e49cc8325c65fedce8a6ca345e
 vendor/lib/libbase64.so
 vendor/lib/libcpion.so
 vendor/lib/libcppf.so|845189e615c9649a18a7c8398f1ec8d0a724c4b6
