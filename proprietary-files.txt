@@ -601,9 +601,6 @@ vendor/lib64/vendor.qti.esepowermanager@1.1.so|8b97297a7d728e37eb7c4da3d0cb85099
 vendor/lib64/vendor.qti.esepowermanager@1.0.so
 
 # FM
-lib64/fm_helium.so
-lib64/libfm-hci.so
-product/lib64/vendor.qti.hardware.fm@1.0.so
 vendor/bin/fm_qsoc_patches
 vendor/lib/ftm_fm_lib.so
 vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so
@@ -612,6 +609,12 @@ vendor/lib64/ftm_fm_lib.so
 vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so|1d191661a6aee776e3b2a851354dc2cbc819bfef
 vendor/lib64/vendor.qti.hardware.fm@1.0.so|17e86e9a2054db733d955fcf1066f6e06a44fb21
 vendor/etc/init/init.qti.fm.rc
+system_ext/lib/fm_helium.so|3134029a5de146bd722055ed20165b104bb60bd1
+system_ext/lib/libfm-hci.so|cc3a54738aa34f33122bcc77423bd069c99326c4
+system_ext/lib/vendor.qti.hardware.fm@1.0.so|7b797634343736613bc7e447c7864b226a54014d
+system_ext/lib64/fm_helium.so|55ef376cc802574df92025bebaba1cebcc74a918
+system_ext/lib64/libfm-hci.so|0cfbf3d84724428721973cc7ad22f5d1e1368591
+system_ext/lib64/vendor.qti.hardware.fm@1.0.so|4a2522113d6b737a87d3b43233f1afa94d9e45ad
 
 # Factory
 vendor/bin/hw/vendor.qti.hardware.factory@1.0-service
