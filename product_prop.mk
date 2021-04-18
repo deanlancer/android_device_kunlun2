@@ -142,8 +142,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     iorapd.perfetto.enable=true
 
-#Eng
-ifeq ($(TARGET_BUILD_VARIANT),userdebug)
+# Eng
+ifeq ($(TARGET_BUILD_VARIANT),eng)
 PRODUCT_PRODUCT_PROPERTIES += \
     persist.sys.usb.config=mtp,adb \
     ro.secure=0 \
@@ -159,9 +159,9 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.control_privapp_permissions=log 
 endif
 # Userdebug
-# ifeq ($(TARGET_BUILD_VARIANT),userdebug)
-# PRODUCT_PRODUCT_PROPERTIES += \
-#     ro.secure=1 \
-#     ro.adb.secure=1 \
-#     ro.control_privapp_permissions=log
-# endif
+ifeq ($(TARGET_BUILD_VARIANT),userdebug)
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.secure=1 \
+    ro.adb.secure=1 \
+    ro.control_privapp_permissions=log
+endif
