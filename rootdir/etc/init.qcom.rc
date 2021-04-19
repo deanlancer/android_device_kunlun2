@@ -73,6 +73,15 @@ on init
     chown root system /sys/fs/cgroup/memory/bg/tasks
     chmod 0660 /sys/fs/cgroup/memory/bg/tasks
 
+    # Setup permission for Power HAL
+    chown system system /sys/class/devfreq/soc:qcom,cpubw/min_freq
+    chown system system /sys/class/devfreq/soc:qcom,l3-cpu0/min_freq
+    chown system system /sys/class/devfreq/soc:qcom,l3-cpu6/min_freq
+
+    chown 0664 /sys/class/devfreq/soc:qcom,cpubw/min_freq
+    chown 0664 /sys/class/devfreq/soc:qcom,l3-cpu0/min_freq
+    chown 0664 /sys/class/devfreq/soc:qcom,l3-cpu6/min_freq
+
     # Disable powersaving
     write /sys/module/lpm_levels/parameters/sleep_disabled 1
 
