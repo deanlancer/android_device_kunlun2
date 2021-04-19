@@ -25,4 +25,7 @@
     <dimen name="config_default_keyboard_height">215.6dp</dimen>
     <fraction name="config_max_keyboard_height">52%p</fraction>
     <fraction name="config_min_keyboard_height">-47.8%p</fraction>
+    <fraction name="config_key_vertical_gap_holo">0.927%p</fraction>
+    <fraction name="config_key_horizontal_gap_holo">0.439%p</fraction>
+    <fraction name="config_emoji_keyboard_key_letter_size">58%p</fraction>
 </resources>
