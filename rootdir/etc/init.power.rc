@@ -45,12 +45,6 @@ on property:sys.boot_completed=1
     write /sys/class/devfreq/soc:qcom,l3-cpu6/polling_interval 10
     write /sys/class/devfreq/soc:qcom,l3-cpu6/mem_latency/ratio_ceil 400
 
-    # Limit the min frequency of LC to 576MHz
-    write /sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq 576000
-
-    # Limit the min frequency of BC to 300MHz
-    write /sys/devices/system/cpu/cpu6/cpufreq/scaling_min_freq 300000
-
     # Turn on sleep modes.
     write /sys/module/lpm_levels/parameters/sleep_disabled 0
 
