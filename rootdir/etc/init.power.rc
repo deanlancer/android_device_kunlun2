@@ -30,6 +30,10 @@ on property:sys.boot_completed=1
 
     write /sys/class/devfreq/soc:qcom,mincpubw/governor "cpufreq"
 
+    # Set cpuset parameters
+    write /dev/cpuset/background/cpus 0-5
+    write /dev/cpuset/system-background/cpus 0-5
+
     # Enable memlat governor
     write /sys/class/devfreq/soc:qcom,memlat-cpu0/governor "mem_latency"
     write /sys/class/devfreq/soc:qcom,memlat-cpu0/polling_interval 10
