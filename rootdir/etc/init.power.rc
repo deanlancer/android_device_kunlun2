@@ -45,6 +45,9 @@ on property:sys.boot_completed=1
     write /sys/class/devfreq/soc:qcom,l3-cpu6/polling_interval 10
     write /sys/class/devfreq/soc:qcom,l3-cpu6/mem_latency/ratio_ceil 400
 
+    # Set allocstall_threshold to 0
+    write /sys/module/vmpressure/parameters/allocstall_threshold 0
+
     # Turn on sleep modes.
     write /sys/module/lpm_levels/parameters/sleep_disabled 0
 
