@@ -380,14 +380,6 @@ on boot
     setprop persist.vendor.radio.uicc_se_enabled true
 
 on late-fs
-    # Runtime fs tuning
-    write /sys/block/sda/queue/iostats 0
-    write /sys/block/sda/queue/scheduler cfq
-    write /sys/block/sda/queue/read_ahead_kb 2048
-    write /sys/block/sda/queue/nr_requests 256
-    write /sys/block/dm-0/queue/read_ahead_kb 2048
-    write /sys/block/dm-1/queue/read_ahead_kb 2048
-
     chmod 0664 /sys/kernel/wlan/power_stats
     chmod 0664 sys/power/system_sleep/stats
     chmod 0664 /sys/power/rpmh_stats/master_stats
@@ -546,7 +538,9 @@ on post-fs-data
     mkdir /data/vendor/swap 0770 root system
     chmod 2770 /data/vendor/swap
 
-    # set aggressive read ahead for dm-0 and dm-1 during boot up
+    # Set aggressive read ahead for sda, sdf, dm-0...dm-2 during boot up
+    write /sys/block/sda/queue/read_ahead_kb 2048
+    write /sys/block/sdf/queue/read_ahead_kb 2048
     write /sys/block/dm-0/queue/read_ahead_kb 2048
     write /sys/block/dm-1/queue/read_ahead_kb 2048
     write /sys/block/dm-2/queue/read_ahead_kb 2048
@@ -657,13 +651,6 @@ on property:sys.boot_completed=1
     chown media audio /sys/kernel/wcd_cpe0/fw_name
     #Reinit lmkd to reconfigure lmkd properties
     setprop lmkd.reinit 1
-
-    write /sys/block/sda/queue/iostats 1
-    write /sys/block/sda/queue/scheduler noop
-    write /sys/block/sda/queue/read_ahead_kb 512
-    write /sys/block/sda/queue/nr_requests 128
-    write /sys/block/dm-0/queue/read_ahead_kb 512
-    write /sys/block/dm-1/queue/read_ahead_kb 512
 
     # Setup runtime blkio
     # value for group_idle is us
