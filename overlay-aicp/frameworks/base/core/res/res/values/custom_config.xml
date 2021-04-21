@@ -49,6 +49,12 @@
          pulsating and RGB control would set this config to 75. -->
     <integer name="config_deviceLightCapabilities">75</integer>
 
+    <!-- Does the battery LED support multiple colors? Used to decide if the user can change the colors -->
+    <bool name="config_multiColorBatteryLed">true</bool>
+
+        <!-- Does the device support battery LED? -->
+    <bool name="config_intrusiveBatteryLed">true</bool>
+
     <!-- Whether notify fingerprint client of successful cancelled authentication -->
     <bool name="config_notifyClientOnFingerprintCancelSuccess">true</bool>
 
