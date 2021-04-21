@@ -21,7 +21,7 @@
         "1516800",
         "1324800",
         "1209600",
-        "576000"
+        "748800"
       ],
       "ResetOnInit": true
     },
@@ -43,11 +43,11 @@
       "Path": "/sys/devices/system/cpu/cpu6/cpufreq/scaling_min_freq",
       "Values": [
         "9999999",
-        "1747200",
         "1536000",
         "1363200",
         "1132800",
-        "825600"
+        "979200",
+        "652800"
       ],
       "ResetOnInit": true
     },
