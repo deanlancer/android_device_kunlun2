@@ -524,7 +524,7 @@ vendor/lib/libdrmutils.so
 vendor/lib/libgpu_tonemapper.so
 vendor/lib/libgralloccore.so
 vendor/lib/libgrallocutils.so
-vendor/lib/libqdMetaData.so
+vendor/lib/libqdMetaData.so|6513574229f60ff924b6dc91246190374cbdcf1d
 vendor/lib/libqdutils.so
 # vendor/lib/libqservice.so
 vendor/lib/libsdmcore.so|e71175a1fb0b170cbcf6ae3b860d1f51def51797
@@ -542,7 +542,7 @@ vendor/lib64/libdrmutils.so
 vendor/lib64/libgpu_tonemapper.so
 vendor/lib64/libgralloccore.so
 vendor/lib64/libgrallocutils.so
-vendor/lib64/libqdMetaData.so
+vendor/lib64/libqdMetaData.so|76ff0bde843d9e9b79ead2c156e56d96d1c88b6e
 vendor/lib64/libqdutils.so
 # vendor/lib64/libqservice.so
 vendor/lib64/libsdmcore.so|e3fd7f10613346651855c7f4505edfe568037a63
@@ -1828,6 +1828,11 @@ vendor/lib64/libspl.so|f24699732219695cc2d870b8ceeb267c7185300f
 # Wifi Display - from redfin rd1a.201105.003.c1
 vendor/lib/libdisplayconfig.qti.so|b7ca26de35037aa1a01124b7aae9c95be5247246
 vendor/lib64/libdisplayconfig.qti.so|dd5c86218edd8a785a079f648c36db72c773cbfc
+system_ext/lib/libdisplayconfig.qti.so|b7ca26de35037aa1a01124b7aae9c95be5247246
+system_ext/lib/libqdMetaData.so|6513574229f60ff924b6dc91246190374cbdcf1d
+system_ext/lib64/libdisplayconfig.qti.so|dd5c86218edd8a785a079f648c36db72c773cbfc
+system_ext/lib64/libqdMetaData.so|76ff0bde843d9e9b79ead2c156e56d96d1c88b6e
+
 
 # WFD - from PNX_sprout:11/RKQ1.200906.002
 system_ext/bin/wfdservice|91f6e2d58de9354a694d3b3da6e6d224dd7e47c1
@@ -2033,4 +2038,3 @@ vendor/lib64/se_nq_extn_client.so|8c2087a41e3df2e3ae6d8715d0fd59650487d43f
 -product/priv-app/HotwordEnrollmentXGoogleWCD9340/HotwordEnrollmentXGoogleWCD9340.apk|24b4885a1f9194c65f378a2afd8e08b4b11842d8
 system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml|563a58554d9c0dd0608552b644fbf74519a447bb
 system_ext/framework/com.android.hotwordenrollment.common.util.jar|bef92589e75a6da6043f85f4b9b0e85866429624
-
