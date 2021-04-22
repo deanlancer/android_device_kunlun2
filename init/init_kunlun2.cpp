@@ -133,6 +133,7 @@ static void workaround_snet_properties() {
 
 	chmod("/sys/fs/selinux/enforce", 0640);
 	chmod("/sys/fs/selinux/policy", 0440);
+  chmod("/proc/net/unix", 0440);
 }
 
 void vendor_load_properties()
