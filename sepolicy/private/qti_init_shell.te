@@ -1,3 +1,0 @@
-type qti_init_shell, domain;
-
-dontaudit qti_init_shell self:capability { dac_override dac_read_search };

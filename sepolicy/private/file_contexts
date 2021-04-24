@@ -1,6 +1,3 @@
-# DT2W
-/sys/class/touch/tp_dev/gesture_on u:object_r:sysfs_tp:s0
-
 # Apex Metadata
 /data/apex/sessions(/.*)?                     u:object_r:apex_metadata_file:s0
 /data/apex/active(/.*)?                       u:object_r:apex_metadata_file:s0
@@ -9,7 +6,6 @@
 
 # Files in rootfs
 /bt_firmware(/.*)?       u:object_r:bt_firmware_file:s0
-/dsp(/.*)?               u:object_r:adsprpcd_file:s0
 /firmware(/.*)?          u:object_r:firmware_file:s0
 /persist(/.*)?           u:object_r:persist_file:s0
 
