@@ -251,7 +251,8 @@ PRODUCT_PACKAGES += \
     libdisplayconfig.qti.vendor \
     libhwc2on1adapter \
     libhwc2onfbadapter \
-    libqdMetaData.system \
+    libqdMetaData \
+    libqdMetaData.vendor \
     libtinyxml2 \
     libvulkan \
     memtrack.sdm710 \
