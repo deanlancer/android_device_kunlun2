@@ -135,17 +135,17 @@ vendor/etc/acdbdata/QRD/sdm670-skuw-snd-card/QRD_SKUW_workspaceFile.qwsp
 vendor/lib/hw/audio.primary.sdm710.so
 # vendor/lib/hw/audio.r_submix.default.so
 # vendor/lib/hw/audio.usb.default.so
-vendor/lib/soundfx/libqcompostprocbundle.so
-vendor/lib/soundfx/libqcomvisualizer.so
-vendor/lib/soundfx/libqcomvoiceprocessing.so
+# vendor/lib/soundfx/libqcompostprocbundle.so
+# vendor/lib/soundfx/libqcomvisualizer.so
+# vendor/lib/soundfx/libqcomvoiceprocessing.so
 vendor/lib/soundfx/libvolumelistener.so|eccf8e24f178f3679f9309be0d92234b4cb58489
 # vendor/lib64/hw/audio.primary.default.so
 vendor/lib64/hw/audio.primary.sdm710.so
 # vendor/lib64/hw/audio.r_submix.default.so
 # vendor/lib64/hw/audio.usb.default.so
-vendor/lib64/soundfx/libqcompostprocbundle.so
-vendor/lib64/soundfx/libqcomvisualizer.so
-vendor/lib64/soundfx/libqcomvoiceprocessing.so
+# vendor/lib64/soundfx/libqcompostprocbundle.so
+# vendor/lib64/soundfx/libqcomvisualizer.so
+# vendor/lib64/soundfx/libqcomvoiceprocessing.so
 vendor/lib64/soundfx/libvolumelistener.so|abb573d099b777d4f4e85960778999b3a92a393e
 
 # Bluetooth
@@ -324,7 +324,7 @@ vendor/lib/camera/megviisegment_model
 vendor/lib/camera/model_mdl_cache
 vendor/lib/hw/camera.qcom.so
 vendor/lib/hw/com.qti.chi.override.so
-vendor/lib/libcamera2ndk_vendor.so
+# vendor/lib/libcamera2ndk_vendor.so
 vendor/lib/libcamera_nn_stub.so
 vendor/lib/libcamxfdalgov7.so
 vendor/lib/libcamxfdengine.so
@@ -391,7 +391,7 @@ vendor/lib64/camera/fdconfigvideo.bin
 vendor/lib64/camera/fdconfigvideolite.bin
 vendor/lib64/hw/camera.qcom.so
 vendor/lib64/hw/com.qti.chi.override.so
-vendor/lib64/libcamera2ndk_vendor.so
+# vendor/lib64/libcamera2ndk_vendor.so
 vendor/lib64/libcamera_nn_stub.so
 vendor/lib64/libcamxfdalgov7.so
 vendor/lib64/libcamxfdalgov8.so
@@ -510,44 +510,34 @@ vendor/lib64/libwvhidl.so|eb7e90cec72946f7bda1ea3a589d9b3867a3f6a7
 vendor/lib64/mediadrm/libwvdrmengine.so|df3dd313abe03b664ffbb91bf14c0a421c0747d3
 
 # Display-Hardware
-vendor/bin/hw/vendor.qti.hardware.display.allocator@1.0-service
-vendor/etc/init/vendor.qti.hardware.display.allocator@1.0-service.rc
-vendor/lib/hw/android.hardware.graphics.mapper@2.0-impl-qti-display.so
 # vendor/lib/hw/gralloc.default.so
-vendor/lib/hw/gralloc.sdm710.so
 vendor/lib/hw/hwcomposer.sdm710.so|69f28113ea02625f61d26112f5bfd56ced254f32
-vendor/lib/hw/memtrack.sdm710.so
-vendor/lib/libdisplaydebug.so
+# vendor/lib/libdisplaydebug.so
 vendor/lib/libdisplayqos.so|7b83c36716bae758c71d34b85401d7d77afa2c23
-vendor/lib/libdrm.so
-vendor/lib/libdrmutils.so
-vendor/lib/libgpu_tonemapper.so
-vendor/lib/libgralloccore.so
-vendor/lib/libgrallocutils.so
-vendor/lib/libqdMetaData.so|6513574229f60ff924b6dc91246190374cbdcf1d
-vendor/lib/libqdutils.so
+# vendor/lib/libdrm.so
+# vendor/lib/libdrmutils.so
+# vendor/lib/libgpu_tonemapper.so
+# vendor/lib/libgralloccore.so
+# vendor/lib/libgrallocutils.so
+# vendor/lib/libqdutils.so
 # vendor/lib/libqservice.so
-vendor/lib/libsdmcore.so|e71175a1fb0b170cbcf6ae3b860d1f51def51797
+# vendor/lib/libsdmcore.so|e71175a1fb0b170cbcf6ae3b860d1f51def51797
 vendor/lib/libsdmextension.so
-vendor/lib/libsdmutils.so
-vendor/lib64/hw/android.hardware.graphics.mapper@2.0-impl-qti-display.so
+# vendor/lib/libsdmutils.so
 # vendor/lib64/hw/gralloc.default.so
-vendor/lib64/hw/gralloc.sdm710.so
 vendor/lib64/hw/hwcomposer.sdm710.so|efdd732b4a847f750815b67bb4d352aa757744e6
-vendor/lib64/hw/memtrack.sdm710.so
-vendor/lib64/libdisplaydebug.so
+# vendor/lib64/libdisplaydebug.so
 vendor/lib64/libdisplayqos.so|c3d45315871e402053dd1f353e9bde5cbf757277
-vendor/lib64/libdrm.so
-vendor/lib64/libdrmutils.so
-vendor/lib64/libgpu_tonemapper.so
-vendor/lib64/libgralloccore.so
-vendor/lib64/libgrallocutils.so
-vendor/lib64/libqdMetaData.so|76ff0bde843d9e9b79ead2c156e56d96d1c88b6e
-vendor/lib64/libqdutils.so
+# vendor/lib64/libdrm.so
+# vendor/lib64/libdrmutils.so
+# vendor/lib64/libgpu_tonemapper.so
+# vendor/lib64/libgralloccore.so
+# vendor/lib64/libgrallocutils.so
+# vendor/lib64/libqdutils.so
 # vendor/lib64/libqservice.so
-vendor/lib64/libsdmcore.so|e3fd7f10613346651855c7f4505edfe568037a63
+# vendor/lib64/libsdmcore.so|e3fd7f10613346651855c7f4505edfe568037a63
 vendor/lib64/libsdmextension.so
-vendor/lib64/libsdmutils.so
+# vendor/lib64/libsdmutils.so
 
 # Display-calibration
 vendor/etc/qdcm_calib_data_Dual_nt35597_cmd_mode_dsi_truly_panel_without_DSC.xml
@@ -899,34 +889,34 @@ vendor/lib64/vendor.qti.hardware.vpp@1.1.so|49bd6d4ad9881c23266f093e2a533a841095
 vendor/lib64/vendor.qti.hardware.vpp@1.2.so|60b902481d0339d292ba1e0f1370470b1f3f68d9
 
 # Media-Hardware
-vendor/lib/libc2dcolorconvert.so
-vendor/lib/libmm-omxcore.so
-vendor/lib/libOmxAacEnc.so
-vendor/lib/libOmxAmrEnc.so
-vendor/lib/libOmxCore.so
-vendor/lib/libOmxEvrcEnc.so
-vendor/lib/libOmxG711Enc.so
-vendor/lib/libOmxQcelp13Enc.so
+# vendor/lib/libc2dcolorconvert.so
+# vendor/lib/libmm-omxcore.so
+# vendor/lib/libOmxAacEnc.so
+# vendor/lib/libOmxAmrEnc.so
+# vendor/lib/libOmxCore.so
+# vendor/lib/libOmxEvrcEnc.so
+# vendor/lib/libOmxG711Enc.so
+# vendor/lib/libOmxQcelp13Enc.so
 vendor/lib/libOmxSwVdec.so|2ec723ca5de33920e516b25558430f470b5b639a
 vendor/lib/libOmxSwVencMpeg4.so|2451be687eebe41230dbe212f08427168a38d3c5
-vendor/lib/libOmxVdec.so
-vendor/lib/libOmxVenc.so
--vendor/lib/libplatformconfig.so
-vendor/lib/libstagefrighthw.so
-vendor/lib64/libc2dcolorconvert.so
-vendor/lib64/libmm-omxcore.so
-vendor/lib64/libOmxAacEnc.so
-vendor/lib64/libOmxAmrEnc.so
-vendor/lib64/libOmxCore.so
-vendor/lib64/libOmxEvrcEnc.so
-vendor/lib64/libOmxG711Enc.so
-vendor/lib64/libOmxQcelp13Enc.so
+# vendor/lib/libOmxVdec.so
+# vendor/lib/libOmxVenc.so
+# vendor/lib/libplatformconfig.so
+# vendor/lib/libstagefrighthw.so
+# vendor/lib64/libc2dcolorconvert.so
+# vendor/lib64/libmm-omxcore.so
+# vendor/lib64/libOmxAacEnc.so
+# vendor/lib64/libOmxAmrEnc.so
+# vendor/lib64/libOmxCore.so
+# vendor/lib64/libOmxEvrcEnc.so
+# vendor/lib64/libOmxG711Enc.so
+# vendor/lib64/libOmxQcelp13Enc.so
 vendor/lib64/libOmxSwVdec.so|f943053bac4801df2ddee447873c7df692188779
 vendor/lib64/libOmxSwVencMpeg4.so|74a9c6ce43ba1094666ec18602a378b3b68e2d1c
-vendor/lib64/libOmxVdec.so
-vendor/lib64/libOmxVenc.so
--vendor/lib64/libplatformconfig.so
-vendor/lib64/libstagefrighthw.so
+# vendor/lib64/libOmxVdec.so
+# vendor/lib64/libOmxVenc.so
+# vendor/lib64/libplatformconfig.so
+# vendor/lib64/libstagefrighthw.so
 
 # NFC
 vendor/bin/nqnfcinfo
@@ -1056,8 +1046,6 @@ vendor/lib64/libqmi_common_so.so|13364998f37a22ed9b526af9afe899ba27ea8150
 vendor/lib64/libqmi_csi.so|151585196b08a2b42389dab1461314ba0c4844a1
 vendor/lib64/libqmi_csvt_srvc.so
 vendor/lib64/libqmi_encdec.so|acfff1a63cbf216f7349e55668bef9d4eb2e1f00
-
-# Qdutils
 
 # Radio
 etc/permissions/privapp-permissions-qti.xml
@@ -1334,8 +1322,8 @@ vendor/lib/libthermalclient.so
 vendor/lib64/libthermalclient.so
 
 # Thermal-Hardware
-vendor/lib/hw/thermal.sdm710.so
-vendor/lib64/hw/thermal.sdm710.so
+# vendor/lib/hw/thermal.sdm710.so
+# vendor/lib64/hw/thermal.sdm710.so
 
 # Time
 -vendor/app/TimeService/TimeService.apk|12495431d5cc284822a303a43861c9b3c0c446ac
@@ -1610,7 +1598,7 @@ vendor/lib/vendor.qti.hardware.cryptfshw@1.0.so
 vendor/lib/vendor.qti.hardware.sigma_miracast@1.0.so
 vendor/lib64/android.hardware.sensors@2.0-impl.so
 vendor/lib64/btaudio_offload_if.so|7382efc1b7db3d4efc2b0d3f997ddb61d23a0d7e
-vendor/lib64/liboffloadhal.so
+# vendor/lib64/liboffloadhal.so
 vendor/lib64/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so
 vendor/lib64/liba2dpoffload.so
 vendor/lib64/libappclassifier.so
@@ -1669,13 +1657,9 @@ vendor/lib/librecovery_updater_msm.so
 vendor/lib64/librecovery_updater_msm.so
 vendor/lib/libqsap_sdk.so
 vendor/lib64/libqsap_sdk.so
-vendor/lib64/libnetfilter_conntrack.so
-vendor/lib64/libnfnetlink.so
-vendor/lib64/libipanat.so
-
-# Light
-vendor/lib64/hw/lights.sdm710.so
-vendor/lib/hw/lights.sdm710.so
+# vendor/lib64/libnetfilter_conntrack.so
+# vendor/lib64/libnfnetlink.so
+# vendor/lib64/libipanat.so
 
 # Bluetooth (aptX) - from crosshatch - QP1A.190711.020
 product/lib64/libaptX_encoder.so|df1c89d7af1bb35808d5fe3496b04ba066c10cbc
@@ -1824,14 +1808,6 @@ vendor/lib/libspl.so|7e3ab5ebb1786b6e272ae22aa37019dded979c49
 vendor/lib64/libash.so|e5f243b872cbacb03e8a9534e2957bdc23937df0
 vendor/lib64/libops.so|fc77360638cc155f6396994825481c4afa77a75b
 vendor/lib64/libspl.so|f24699732219695cc2d870b8ceeb267c7185300f
-
-# Wifi Display - from redfin rd1a.201105.003.c1
-vendor/lib/libdisplayconfig.qti.so|b7ca26de35037aa1a01124b7aae9c95be5247246
-vendor/lib64/libdisplayconfig.qti.so|dd5c86218edd8a785a079f648c36db72c773cbfc
-system_ext/lib/libdisplayconfig.qti.so|b7ca26de35037aa1a01124b7aae9c95be5247246
-system_ext/lib/libqdMetaData.so|6513574229f60ff924b6dc91246190374cbdcf1d
-system_ext/lib64/libdisplayconfig.qti.so|dd5c86218edd8a785a079f648c36db72c773cbfc
-system_ext/lib64/libqdMetaData.so|76ff0bde843d9e9b79ead2c156e56d96d1c88b6e
 
 
 # WFD - from PNX_sprout:11/RKQ1.200906.002
