@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="favorite_button_normal">#7DB694</color> <!-- Ethereal Green -->
+    <color name="favorite_button_active">#ff303030</color> <!-- AICP Gray -->
+    <color name="background_color">#ff303030</color>
+    <color name="picker_background_color">@color/primary</color>
+    <color name="white">#FAFAFA</color>
+    <!-- Material -->
+    <color name="primary">#ff303030</color>
+    <color name="primary_dark">#ff303030</color>
+    <color name="accent">#7DB694</color>
+</resources>
