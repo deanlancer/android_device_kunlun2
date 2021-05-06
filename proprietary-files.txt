@@ -1589,8 +1589,8 @@ vendor/lib/libwa_sat.so
 # vendor/lib/libwifi-hal-ctrl.so
 vendor/lib/qtibus.so
 vendor/lib/qtimutex.so|a1ba68a902c3941968c536e6eeed1f4b6496b694
-vendor/lib/soundfx/libswdap.so
-vendor/lib/soundfx/libswvqe.so
+# vendor/lib/soundfx/libswdap.so
+# vendor/lib/soundfx/libswvqe.so
 vendor/lib/vendor.qti.hardware.cacert@1.0.so|3200b2c1d261acf551252031fcce97defb688d9b
 # vendor/lib/vendor.qti.hardware.capabilityconfigstore@1.0.so
 vendor/lib/vendor.qti.hardware.cryptfshw@1.0.so
@@ -1643,8 +1643,8 @@ vendor/lib64/libwifi-hal.so
 # vendor/lib64/libwifi-hal-ctrl.so
 vendor/lib64/qtibus.so|56beef9d486918297ec50fe9335a8f15fd93b008
 vendor/lib64/qtimutex.so|40cbbb4e7e9db8fab8c3855f49886b6fd6bb251b
-vendor/lib64/soundfx/libswdap.so
-vendor/lib64/soundfx/libswvqe.so
+# vendor/lib64/soundfx/libswdap.so
+# vendor/lib64/soundfx/libswvqe.so
 vendor/lib64/unnhal-acc-adreno.so|7ad6daa9bf39c5a199b2afb1bd60c1ae53ffbb06
 vendor/lib64/unnhal-acc-common.so|32fdec585f2d710e37ffe327894aec6a7ea220eb
 vendor/lib64/unnhal-acc-hvx.so|3e44efdca5e1c20ca4bf00c6a5f19fc1863c9830
