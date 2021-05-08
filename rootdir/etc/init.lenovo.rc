@@ -20,25 +20,25 @@ on property:vendor.hq.temp=1
 	setprop vendor.sw.internal.version ${ro.product.sw.internal.version}
 	start hqread
 
-service hqread /system/bin/hqread
-	class main
-	user root
-	oneshot
-	group root sdcard_rw
+# service hqread /system/bin/hqread
+#	class main
+#	user root
+#	oneshot
+#	group root sdcard_rw
 
-service do_reset /system/bin/hqread do_reset
-	class main
-	user root
-	oneshot
-	group root cache
-	seclabel u:r:hqread:s0
+# service do_reset /system/bin/hqread do_reset
+#	class main
+#	user root
+#	oneshot
+#	group root cache
+#	seclabel u:r:hqread:s0
 
-service read_reset /system/bin/hqread read_reset
-	class main
-	user root
-	oneshot
-	group root cache
-	seclabel u:r:hqread:s0
+# service read_reset /system/bin/hqread read_reset
+#	class main
+#	user root
+#	oneshot
+#	group root cache
+#	seclabel u:r:hqread:s0
 
 on property:vendor.hq.do_factory_reset=1
 	start do_reset

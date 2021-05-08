@@ -52,10 +52,10 @@ on post-fs
 
     write /dev/ipa 1
 
-service sec_nvm /vendor/bin/sec_nvm
-    class core
-    user system
-    group system
+# service sec_nvm /vendor/bin/sec_nvm
+#    class core
+#    user system
+#    group system
 
 on late-fs
     mount_all /vendor/etc/fstab.qcom --late
@@ -151,10 +151,10 @@ on charger
 #on property:persist.usb.chgdisabled=0
 #    write /sys/class/power_supply/battery/charging_enabled 1
 
-service spdaemon /vendor/bin/spdaemon
-    class core
-    user system
-    group system
+# service spdaemon /vendor/bin/spdaemon
+#    class core
+#    user system
+#    group system
 
 #service qosmgrd /system/bin/qosmgr /system/etc/qosmgr_rules.xml
 #   user system
@@ -278,12 +278,12 @@ service vendor.imsqmidaemon /system/vendor/bin/imsqmidaemon
     group radio log vendor_qti_diag
 
 # imsdatadaemon starts with root and UID will be downgraded to SYSTEM.
-service vendor.imsdatadaemon /system/vendor/bin/imsdatadaemon
-    class main
-    user system
-    socket ims_datad stream 0660 system radio
-    group system wifi radio inet log vendor_qti_diag
-    disabled
+# service vendor.imsdatadaemon /system/vendor/bin/imsdatadaemon
+#    class main
+#    user system
+#    socket ims_datad stream 0660 system radio
+#    group system wifi radio inet log vendor_qti_diag
+#    disabled
 
 #service mdm_helper /system/bin/mdm_helper
 #    class core
@@ -406,11 +406,11 @@ service hbtp /system/vendor/bin/hbtp_daemon
      group system
      disabled
 
-service energy-awareness /system/vendor/bin/energy-awareness
-    class main
-    user system
-    group system
-    oneshot
+# service energy-awareness /system/vendor/bin/energy-awareness
+#    class main
+#    user system
+#    group system
+#    oneshot
 # Huaqin add SAMSUNG Remosaic for ZQL1822 by chenjun at 2018/9/18 start
 service remosaic_daemon /system/vendor/bin/remosaic_daemon
     class late_start
