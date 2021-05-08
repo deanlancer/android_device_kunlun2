@@ -90,6 +90,10 @@ on property:sys.boot_completed=1
     write /sys/class/devfreq/soc:qcom,l3-cpu6/polling_interval 10
     write /sys/class/devfreq/soc:qcom,l3-cpu6/mem_latency/ratio_ceil 400
 
+    # Powerkey input CPU Boost
+    write /sys/module/cpu_boost/parameters/powerkey_input_boost_freq "0:1209600 1:0 2:0 3:0 4:0 5:0 6:2054400 7:0"
+    write /sys/module/cpu_boost/parameters/powerkey_input_boost_ms 400
+
     # Set allocstall_threshold to 0
     write /sys/module/vmpressure/parameters/allocstall_threshold 0
 
