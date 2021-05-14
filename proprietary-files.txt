@@ -835,7 +835,7 @@ vendor/lib/libAlacSwDec.so|e49062c9fd9377e8264bf8f7901394653b9f02dc
 vendor/lib/libApeSwDec.so|f14f08a55b32cc252417e3970b1d2cb296d48fa0
 vendor/lib/libdsd2pcm.so|427be2997fcd72e94c33d08b2cf1fde5bf969fd4
 vendor/lib/libFlacSwDec.so|bba6d4155029b2fd1a3d2dfe9f75f422f0d8a35e
-vendor/lib/libmm-color-convertor.so|67b7fa51e3b179531ccb8e502c79a4fbb6af5fa9
+# vendor/lib/libmm-color-convertor.so|67b7fa51e3b179531ccb8e502c79a4fbb6af5fa9
 vendor/lib/libMpeg4SwEncoder.so|631e5c91aa89a1f0d60755f3dcea7d74e57af262
 vendor/lib/libmulawdec.so
 vendor/lib/libOmxAacDec.so|4085ad67945e0fbb85aeb45bbd5c98e9ed3350da
@@ -865,7 +865,7 @@ vendor/lib/vndk/libstagefright_foundation.so
 vendor/lib64/libAlacSwDec.so|bfd2eb75d733c99d7c0b46f3016834f6f3ebcbdc
 vendor/lib64/libApeSwDec.so|96b957bd6d993737483d9d8705229b406d616ec7
 vendor/lib64/libFlacSwDec.so|720f8497fcbc3d98aa8ff333ed55ca575eb08815
-vendor/lib64/libmm-color-convertor.so|218c14814a524c3e4331b1aed6807828e22eaec3
+# vendor/lib64/libmm-color-convertor.so|218c14814a524c3e4331b1aed6807828e22eaec3
 vendor/lib64/libMpeg4SwEncoder.so|1fc7361424c655ed94c1ac9280c4fe33903a65f6
 vendor/lib64/libmulawdec.so
 vendor/lib64/libOmxAacDec.so|a6007c53468f883fccea0e84cec17087ecddad3b
