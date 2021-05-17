@@ -37,7 +37,7 @@
             </intent-filter>
         </receiver>
 
-        <service android:name="org.lineageos.pocketmode.PocketModeService"
+        <service android:name=".PocketModeService"
                  android:permission="PocketModeService">
         </service>
 
