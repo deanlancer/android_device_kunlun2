@@ -46,8 +46,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
     
 # LMKD
 PRODUCT_PRODUCT_PROPERTIES += \
-    ro.config.low_ram=false \
-    ro.lmk.log_stats=true
+    ro.config.low_ram=false
 
 # Charger
 PRODUCT_PRODUCT_PROPERTIES += \
