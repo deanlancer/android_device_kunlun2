@@ -141,6 +141,13 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     iorapd.perfetto.enable=true
 
+# Power-saving props
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.vold.umsdirtyratio=20 \
+    ro.ril.disable.power.collapse=0 \
+    power.saving.mode=1 \
+    pm.sleep_mode=1
+
 # Eng
 ifeq ($(TARGET_BUILD_VARIANT),eng)
 PRODUCT_PRODUCT_PROPERTIES += \
