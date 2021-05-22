@@ -188,11 +188,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl:32 \
     android.hardware.camera.provider@2.4-service \
-    GCam \
     libxml2 \
     libdng_sdk \
     libdng_sdk.vendor \
-    vendor.qti.hardware.camera.device@1.0.vendor
+    vendor.qti.hardware.camera.device@1.0.vendor \
+    Snap
 
 # Common init scripts
 PRODUCT_PACKAGES += \
