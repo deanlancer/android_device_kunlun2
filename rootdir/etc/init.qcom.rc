@@ -1229,15 +1229,6 @@ service vendor.contexthub-hal-1-0 /vendor/bin/hw/android.hardware.contexthub@1.0
     disabled
 
 ######################################################################
-service vendor.imsdatadaemon /vendor/bin/imsdatadaemon
-    override
-    class main
-    user radio
-    socket ims_datad stream 0660 system radio
-    group radio wifi inet vendor_qti_diag log
-    disabled
-
-######################################################################
 service adsprpcd_root /vendor/bin/adsprpcd
    class main
    user media
