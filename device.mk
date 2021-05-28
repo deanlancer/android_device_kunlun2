@@ -231,14 +231,8 @@ PRODUCT_PACKAGES += \
 	LenovoParts \
 	LenovoPocketMode
 
-# Dex preopt
-PRODUCT_DEXPREOPT_SPEED_APPS += \
-    Settings \
-    LenovoParts \
-    LenovoPocketMode \
-    Launcher3 \
-    Etar \
-    AicpExtras
+# Dex
+PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := everything
 
 # Display
 PRODUCT_PACKAGES += \
