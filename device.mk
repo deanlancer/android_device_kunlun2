@@ -12,9 +12,6 @@ $(call inherit-product-if-exists, vendor/lenovo/kunlun2/kunlun2-vendor.mk)
 # ZuiAudio
 $(call inherit-product-if-exists, vendor/lenovo/ZuiAudio/config.mk)
 
-# Enable updating of APEXes
-$(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
-
 # Hardware
 PRODUCT_BOARD_PLATFORM := sdm845
 PRODUCT_USES_QCOM_HARDWARE := true
