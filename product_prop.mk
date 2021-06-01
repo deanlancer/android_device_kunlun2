@@ -62,33 +62,14 @@ PRODUCT_PRODUCT_PROPERTIES += \
 
 # ART
 PRODUCT_PRODUCT_PROPERTIES += \
-    dalvik.vm.dex2oat-cpu-set=0,1,2,3,4,5,6,7 \
-    dalvik.vm.dex2oat-filter=quicken \
-    dalvik.vm.dex2oat-threads=8 \
-    dalvik.vm.image-dex2oat-cpu-set=0,1,2,3,4,5,6,7 \
-    dalvik.vm.image-dex2oat-filter=quicken \
-    dalvik.vm.image-dex2oat-threads=8
-PRODUCT_PRODUCT_PROPERTIES += \
-	dalvik.vm.image-dex2oat-Xms=64m \
-	dalvik.vm.image-dex2oat-Xmx=64m \
-	dalvik.vm.dex2oat-Xms=64m \
-	dalvik.vm.dex2oat-Xmx=512m \
-	dalvik.vm.usejit=true \
-	dalvik.vm.usejitprofiles=true \
-	dalvik.vm.dexopt.secondary=true \
-	dalvik.vm.appimageformat=lz4 \
-	ro.dalvik.vm.native.bridge=0
-PRODUCT_PRODUCT_PROPERTIES += \
-	pm.dexopt.first-boot=quicken \
-	pm.dexopt.boot=verify \
-	pm.dexopt.install=speed-profile \
-	pm.dexopt.bg-dexopt=speed-profile \
-	pm.dexopt.inactive=verify \
-	pm.dexopt.shared=speed \
-	dalvik.vm.dex2oat-resolve-startup-strings=true \
-	dalvik.vm.dex2oat-max-image-block-size=524288 \
-	dalvik.vm.minidebuginfo=true \
-	dalvik.vm.dex2oat-minidebuginfo=true
+    pm.dexopt.ab-ota=speed-profile \
+    dalvik.vm.dex2oat-filter=speed \
+    dalvik.vm.image-dex2oat-filter=speed \
+    ro.vendor.qti.am.reschedule_service=true \
+    ro.sys.fw.dex2oat_thread_count=8 \
+    dalvik.vm.boot-dex2oat-threads=8 \
+    dalvik.vm.dex2oat-threads=4 \
+    dalvik.vm.dex2oat64.enabled=true
 
     # Better Ram
 PRODUCT_PROPERTY_OVERRIDES += \
