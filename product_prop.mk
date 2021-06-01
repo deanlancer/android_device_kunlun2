@@ -56,10 +56,6 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_PRODUCT_PROPERTIES += \
    iorapd.readahead.enable=true
 
-# Perf
-PRODUCT_PRODUCT_PROPERTIES += \
-	ro.sys.fw.dex2oat_thread_count=6
-
 # Dalvik
 PRODUCT_PRODUCT_PROPERTIES += \
 	dalvik.vm.dex2oat64.enabled=true
