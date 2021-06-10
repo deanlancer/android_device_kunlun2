@@ -206,7 +206,6 @@ PRODUCT_PACKAGES += \
     init.lenovo.common.rc \
     init.lenovo.usb.configfs.rc \
     init.qcom.usb.rc \
-    init.safailnet.rc \
     init.power.rc \
     init.qcom.rc \
     init.qcom.factory.rc \

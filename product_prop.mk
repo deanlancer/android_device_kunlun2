@@ -137,13 +137,11 @@ PRODUCT_PRODUCT_PROPERTIES += \
     persist.logd.logpersistd=logcatd \
     ro.adb.secure=0 \
     ro.mount.fs=EXT4 \
-    ro.persist.partition.support=no \
-    ro.control_privapp_permissions=log 
+    ro.persist.partition.support=no
 endif
 # Userdebug
 ifeq ($(TARGET_BUILD_VARIANT),userdebug)
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.secure=1 \
-    ro.adb.secure=1 \
-    ro.control_privapp_permissions=log
+    ro.adb.secure=1
 endif
