@@ -47,7 +47,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         <property name="vendor.voice.voip.conc.disabled" value="false"/>
         <flag name="audio_extn_formats_enabled" value="true" />
         <flag name="audio_extn_hdmi_spk_enabled" value="true" />
-        <flag name="use_xml_audio_policy_conf" value="true" />
         <flag name="voice_concurrency" value="false" />
 
         <!-- AV Configs -->
