@@ -115,7 +115,6 @@ AUDIO_FEATURE_ENABLED_EXTENDED_COMPRESS_FORMAT := true
 
 # Bluetooth
 #####################################################################################
-BOARD_HAVE_BLUETOOTH_QCOM := true
 QCOM_BT_USE_BTNV := true
 TARGET_USE_QTI_BT_STACK := true
 #####################################################################################
