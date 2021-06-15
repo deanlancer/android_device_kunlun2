@@ -540,16 +540,7 @@ vendor/lib64/libsdmextension.so
 # vendor/lib64/libsdmutils.so
 
 # Display-calibration
-vendor/etc/qdcm_calib_data_Dual_nt35597_cmd_mode_dsi_truly_panel_without_DSC.xml
-vendor/etc/qdcm_calib_data_Dual_nt35597_video_mode_dsi_truly_panel_without_DSC.xml
-vendor/etc/qdcm_calib_data_Dual_nt36850_cmd_mode_dsi_truly_panel_without_DSC.xml
 vendor/etc/qdcm_calib_data_ft8719_focaltech_video_mode_dsi_panel.xml
-vendor/etc/qdcm_calib_data_ft8719_tm_fhd_video_mode_dsi_panel.xml
-vendor/etc/qdcm_calib_data_hx8399_video_mode_dsi_truly_panel.xml
-vendor/etc/qdcm_calib_data_nt35597_cmd_mode_dsi_truly_panel_with_DSC.xml
-vendor/etc/qdcm_calib_data_nt35597_video_mode_dsi_truly_panel_with_DSC.xml
-vendor/etc/qdcm_calib_data_Sharp_4k_cmd_mode_dsc_dsi_panel.xml
-vendor/etc/qdcm_calib_data_Sharp_4k_video_mode_dsc_dsi_panel.xml
 
 # Dolby
 vendor/bin/hw/vendor.dolby.hardware.dms@2.0-service
