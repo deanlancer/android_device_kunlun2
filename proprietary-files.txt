@@ -1036,7 +1036,6 @@ vendor/lib64/libqmi_csvt_srvc.so
 vendor/lib64/libqmi_encdec.so|acfff1a63cbf216f7349e55668bef9d4eb2e1f00
 
 # Radio
-etc/permissions/privapp-permissions-qti.xml
 vendor/bin/ATFWD-daemon
 vendor/bin/hw/qcrild|3eea6728924507e6200a2a58c827bf1235eba28f
 vendor/bin/netmgrd|7f37235817e19f4b1a2f6ade887722811e28019a
