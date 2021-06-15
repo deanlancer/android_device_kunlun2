@@ -14,11 +14,12 @@
  * limitations under the License.
  */
 
-#define LOG_TAG "android.hardware.power.stats@1.0-service.pixel"
+#define LOG_TAG "android.hardware.power.stats@1.0-service.lenovo"
 
 #include <android/log.h>
 #include <binder/IPCThreadState.h>
 #include <binder/IServiceManager.h>
+#include <binder/ProcessState.h>
 #include <hidl/HidlTransportSupport.h>
 
 #include <pixelpowerstats/AidlStateResidencyDataProvider.h>
@@ -47,7 +48,8 @@ using android::hardware::google::pixel::powerstats::PowerEntityConfig;
 using android::hardware::google::pixel::powerstats::StateResidencyConfig;
 
 int main(int /* argc */, char ** /* argv */) {
-    ALOGE("power.stats service 1.0 is starting.");
+
+    ALOGI("power.stats service 1.0 is starting.");
 
     PowerStats *service = new PowerStats();
 
@@ -80,7 +82,10 @@ int main(int /* argc */, char ** /* argv */) {
     uint32_t cdspId = service->addPowerEntity("CDSP", PowerEntityType::SUBSYSTEM);
     rpmSdp->addEntity(cdspId, PowerEntityConfig("CDSP", rpmStateResidencyConfigs));
 
-    service->addStateResidencyDataProvider(rpmSdp);
+    uint32_t slpiId = service->addPowerEntity("SLPI", PowerEntityType::SUBSYSTEM);
+    rpmSdp->addEntity(slpiId, PowerEntityConfig("SLPI", rpmStateResidencyConfigs));
+
+    service->addStateResidencyDataProvider(std::move(rpmSdp));
 
     // Add SoC power entity
     std::vector<StateResidencyConfig> socStateResidencyConfigs = {
