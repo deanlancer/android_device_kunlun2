@@ -457,10 +457,6 @@ PRODUCT_PACKAGES += \
     android.hardware.thermal@1.0-impl \
     thermal.sdm710
 
-#Wfdconfig
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/wfdconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wfdconfig.xml   
-
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/msm_irqbalance.conf:$(TARGET_COPY_OUT_VENDOR)/etc/msm_irqbalance.conf
 
