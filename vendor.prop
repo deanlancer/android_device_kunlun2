@@ -161,3 +161,5 @@ ro.vendor.audio.soundtrigger.hist.duration=1500
  # Camera
 log.tag.CHIUSECASE=ERROR
 persist.vendor.camera.logInfoMask=false
+# DPM
+persist.vendor.dpmhalservice.enable=1
