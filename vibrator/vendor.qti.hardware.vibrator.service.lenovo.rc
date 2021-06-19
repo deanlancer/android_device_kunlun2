@@ -1,0 +1,4 @@
+service vendor.qti.vibrator.lenovo /vendor/bin/hw/vendor.qti.hardware.vibrator.service.lenovo
+    class hal
+    user system
+    group system input
