@@ -35,3 +35,5 @@
 # Debug
 /sys/kernel/debug/(/.*)?                    u:object_r:qti_debugfs:s0
 
+# Vibrator
+/vendor/bin/hw/vendor\.qti\.hardware\.vibrator\.service\.lenovo    u:object_r:hal_vibrator_default_exec:s0
