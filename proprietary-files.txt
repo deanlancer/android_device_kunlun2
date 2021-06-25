@@ -5,16 +5,14 @@ vendor/lib/libadsprpc.so|65b59d001bf7ceaff81475f468f3249c1a3b05d2
 vendor/lib/libadsp_default_listener.so
 vendor/lib/libfastcvdsp_stub.so|6ccfd797a035075db44aaf288a87d1eb041288b7
 vendor/lib/libfastcvopt.so|057266b575f33589a423b78af413f482840434d1
-vendor/lib/libmdsprpc.so|68fb7732dd93dec1c87acc9570cb0ffceb4cad45
-vendor/lib/libsdsprpc.so|42c4b3a5bc618e2bbd5e6cf20c1a01d70a8234d5
+vendor/lib/libmdsprpc.so|59010b948e3fa03b94319f286e0769dde3526ba1
+vendor/lib/libsdsprpc.so|57c7779a65525a74bdc9557bb712019e88627a74
 vendor/lib64/libadsprpc.so|816fdf3309e7fe3dbced1fc1f4f006d8d1a991fa
 vendor/lib64/libadsp_default_listener.so
 vendor/lib64/libfastcvdsp_stub.so|de764c199026839848cdc803ed5cb2d8a51ad9b9
 vendor/lib64/libfastcvopt.so|dcbd38864009f985e98f8eaea10bb2658385995a
-vendor/lib64/libmdsprpc.so|4abbca2cb130cd3a558eb9d56e2d3332ee9620ed
-vendor/lib64/libsdsprpc.so|868910927b4011ec680ee6f79a1345848fe82f3a
-vendor/lib/vendor.qti.hardware.dsp@1.0.so|e553aafebc4b5f2908fc03f29b086cd1261aa454
-vendor/lib64/vendor.qti.hardware.dsp@1.0.so|5f30d9c5fff738e6194a36a5b93372fa32ec0471
+vendor/lib64/libmdsprpc.so|c292f2665805d39bd3c5aaeb6d9bfe17bb83e088
+vendor/lib64/libsdsprpc.so|bb2b5ccf1a6ad67f23279a5e652ce0a8fa6e1daf
 
 # ADSP-Modules
 vendor/lib/rfsa/adsp/capi_v2_aptX_Classic.so
@@ -185,15 +183,15 @@ vendor/lib64/hw/vendor.qti.hardware.btconfigstore@2.0-impl.so|5a907028e9f5c570e0
 vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.1.so|1671815a79dab0fde9248d0851085ec1ab314f64
 
 # CDSP
-vendor/bin/cdsprpcd|8f541eab74d52bff8d73f7f280e085c4bf706e99
-vendor/lib/libcdsprpc.so|10dee10f945e61310a6e6395537b7e66dc137f5e
-vendor/lib/libcdsp_default_listener.so|3af8e9fbe0b154574ac0a709d1af401960922471
-vendor/lib/libfastrpc_utf_stub.so|b7df4310dec92972bd92116fed5e932d90825d76
-vendor/lib/libsysmon_cdsp_skel.so|d30f7863f72cbcb6d5f657ab780bb53e02e1aaa4
-vendor/lib64/libcdsprpc.so|91c088c734f71506902db9a4c0b7f102996ac83a
-vendor/lib64/libcdsp_default_listener.so|c639e68a44537450a7aabb3549ac9edb5b940641
-vendor/lib64/libfastrpc_utf_stub.so|f689fe4deb2f9b37aa6c008182e21895762e41cb
-vendor/lib64/libsysmon_cdsp_skel.so|e5ba4d173b0e09d736b16474ed2f57874cb91916
+vendor/bin/cdsprpcd
+vendor/lib/libcdsprpc.so|e607d1149e1d79f29bb54a43734f8906a062a854
+vendor/lib/libcdsp_default_listener.so
+vendor/lib/libfastrpc_utf_stub.so
+vendor/lib/libsysmon_cdsp_skel.so
+vendor/lib64/libcdsprpc.so|908f7bf2d031967fb008a9c7ea71bf84c4fed569
+vendor/lib64/libcdsp_default_listener.so
+vendor/lib64/libfastrpc_utf_stub.so
+vendor/lib64/libsysmon_cdsp_skel.so
 
 # CNE
 -vendor/app/CneApp/CneApp.apk|ad233c1a1e303a1a68cc71156ee6040454ed9bb0
@@ -1592,7 +1590,7 @@ vendor/lib/libdeccfg.so
 vendor/lib/libdiagjni.so
 vendor/lib/libdisplayconfig.so
 vendor/lib/libexthwplugin.so
-vendor/lib/libfastcrc.so|893b4b886cc892bb67291f064f2df6a4a67aa039
+vendor/lib/libfastcrc.so
 vendor/lib/libFileMux_proprietary.so|e59edd4604a7c73147118161cab5b7ac6bb16c82
 vendor/lib/libhdmiedid.so
 vendor/lib/libhdmipassthru.so
@@ -2031,4 +2029,3 @@ vendor/lib64/se_nq_extn_client.so|8c2087a41e3df2e3ae6d8715d0fd59650487d43f
 -product/priv-app/HotwordEnrollmentXGoogleWCD9340/HotwordEnrollmentXGoogleWCD9340.apk|24b4885a1f9194c65f378a2afd8e08b4b11842d8
 system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml|563a58554d9c0dd0608552b644fbf74519a447bb
 system_ext/framework/com.android.hotwordenrollment.common.util.jar|bef92589e75a6da6043f85f4b9b0e85866429624
-
