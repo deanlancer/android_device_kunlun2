@@ -113,15 +113,6 @@
       "ResetOnInit": true
     },
     {
-      "Name": "TASchedtuneBoost",
-      "Path": "/dev/stune/top-app/schedtune.boost",
-      "Values": [
-        "10",
-        "5"
-      ],
-      "ResetOnInit": true
-    },
-    {
       "Name": "CPUBWHystTriggerCount",
       "Path": "/sys/class/devfreq/soc:qcom,cpubw/bw_hwmon/hyst_trigger_count",
       "Values": [
@@ -184,15 +175,6 @@
         "100"
       ],
       "HoldFd": true
-    },
-    {
-      "Name": "ForegroundCpuset",
-      "Path": "/dev/cpuset/foreground/cpus",
-      "Values": [
-        "0-5",
-        "0-5,7"
-      ],
-      "ResetOnInit": true
     },
     {
       "Name": "SchedBoost",
@@ -261,12 +243,6 @@
     },
     {
       "PowerHint": "INTERACTION",
-      "Node": "TASchedtuneBoost",
-      "Duration": 0,
-      "Value": "10"
-    },
-    {
-      "PowerHint": "INTERACTION",
       "Node": "CPUBWHystTriggerCount",
       "Duration": 0,
       "Value": "0"
@@ -288,12 +264,6 @@
       "Node": "CPUBWMinFreq",
       "Duration": 0,
       "Value": "5161"
-    },
-    {
-      "PowerHint": "LAUNCH",
-      "Node": "ForegroundCpuset",
-      "Duration": 3000,
-      "Value": "0-5"
     },
     {
       "PowerHint": "LAUNCH",
