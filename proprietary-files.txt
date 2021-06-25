@@ -1534,8 +1534,6 @@ vendor/etc/hostapd/hostapd.accept
 vendor/etc/hostapd/hostapd.deny
 vendor/etc/hostapd/hostapd_default.conf
 # vendor/etc/init/android.hardware.atrace@1.0-service.rc
-vendor/etc/init/aplog.rc
-vendor/etc/init/bugreport.rc
 vendor/etc/init/dataadpl.rc
 vendor/etc/init/dataqti.rc
 vendor/etc/init/dpmQmiMgr.rc|1538743661a5c48c15cd105beaad20f72953885a
