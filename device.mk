@@ -7,7 +7,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product-if-exists, vendor/lenovo/kunlun2/kunlun2-vendor.mk)
 
 # ZuiCam
-# $(call inherit-product-if-exists, vendor/lenovo/ZuiCamera/config.mk)
+$(call inherit-product-if-exists, vendor/lenovo/ZuiCamera/config.mk)
 
 # ZuiAudio
 $(call inherit-product-if-exists, vendor/lenovo/ZuiAudio/config.mk)
@@ -177,8 +177,7 @@ PRODUCT_PACKAGES += \
     libxml2 \
     libdng_sdk \
     libdng_sdk.vendor \
-    vendor.qti.hardware.camera.device@1.0.vendor \
-    Snap
+    vendor.qti.hardware.camera.device@1.0.vendor
 
 # Common init scripts
 PRODUCT_PACKAGES += \
