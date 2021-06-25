@@ -151,6 +151,36 @@
             "Multiplier":0.001
         },
         {
+            "Name":"cpuss-0-usr",
+            "Type":"CPU",
+            "HotThreshold":[
+                "NAN",
+                "NAN",
+                "NAN",
+                95.0,
+                "NAN",
+                "NAN",
+                125.0
+            ],
+            "VrThreshold":"NAN",
+            "Multiplier":0.001
+        },
+        {
+            "Name":"cpuss-1-usr",
+            "Type":"CPU",
+            "HotThreshold":[
+                "NAN",
+                "NAN",
+                "NAN",
+                95.0,
+                "NAN",
+                "NAN",
+                125.0
+            ],
+            "VrThreshold":"NAN",
+            "Multiplier":0.001
+        },
+        {
             "Name":"battery",
             "Type":"BATTERY",
             "HotThreshold":[
@@ -164,7 +194,7 @@
             ],
             "VrThreshold":"NAN",
             "Multiplier":0.001
-        },   
+        }   
     ],
     "CoolingDevices":[
         {
