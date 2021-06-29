@@ -153,7 +153,7 @@ TARGET_USES_DISPLAY_RENDER_INTENTS := true
 TARGET_ADDITIONAL_GRALLOC_10_USAGE_BITS := (1 << 21) | (1 << 27)
 
 # Display
-TARGET_SCREEN_DENSITY := 420
+TARGET_SCREEN_DENSITY := 440
 
 # APEX###############################################################################
 DEXPREOPT_GENERATE_APEX_IMAGE := true
