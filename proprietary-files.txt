@@ -509,7 +509,6 @@ vendor/lib64/mediadrm/libwvdrmengine.so|df3dd313abe03b664ffbb91bf14c0a421c0747d3
 
 # Display-Hardware
 # vendor/lib/hw/gralloc.default.so
-vendor/lib/hw/hwcomposer.sdm710.so|69f28113ea02625f61d26112f5bfd56ced254f32
 # vendor/lib/libdisplaydebug.so
 vendor/lib/libdisplayqos.so|7b83c36716bae758c71d34b85401d7d77afa2c23
 # vendor/lib/libdrm.so
@@ -523,7 +522,6 @@ vendor/lib/libdisplayqos.so|7b83c36716bae758c71d34b85401d7d77afa2c23
 vendor/lib/libsdmextension.so
 # vendor/lib/libsdmutils.so
 # vendor/lib64/hw/gralloc.default.so
-vendor/lib64/hw/hwcomposer.sdm710.so|efdd732b4a847f750815b67bb4d352aa757744e6
 # vendor/lib64/libdisplaydebug.so
 vendor/lib64/libdisplayqos.so|c3d45315871e402053dd1f353e9bde5cbf757277
 # vendor/lib64/libdrm.so
