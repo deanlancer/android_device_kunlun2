@@ -361,7 +361,7 @@ PRODUCT_PACKAGES += \
 
 # Lights
 PRODUCT_PACKAGES += \
-    android.hardware.light@2.0-service.lenovo \
+    android.hardware.lights-service.lenovo \
     lights.sdm710 \
     android.hardware.light@2.0-impl
 
