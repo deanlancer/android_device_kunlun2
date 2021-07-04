@@ -1,17 +1,33 @@
-ro.com.android.dataroaming=false
+# Graphics
 ro.opengles.version=196610
-persist.vendor.audio.fluence.speaker=false
-persist.vendor.audio.endcall.delay=600
-vendor.hw.fm.init=0
 ro.hardware.keystore_desede=true
-persist.radio.multisim.config=dsds
-persist.vendor.qcomsysd.enabled=1
 ro.hardware.vulkan=adreno
 ro.hardware.egl=adreno
+debug.sf.hw=1
+debug.egl.hw=0
+# PASR
 vendor.power.pasr.enabled=true
+# Keyguard
 keyguard.no_require_sim=true
-ro.carrier=unknown
+# MAINKEYS
+qemu.hw.mainkeys=0
+# IOCGRP
+ro.vendor.iocgrp.config=1
+# Display
+persist.demo.hdmirotationlock=false
+ro.vendor.display.cabl=2
+vendor.display.enable_default_color_mode=1
+persist.sys.sf.native_mode=0
+# FM
+vendor.hw.fm.init=0
+# Qualcomm System Daemon
+persist.vendor.qcomsysd.enabled=1
+# Perf Dummy
 ro.vendor.extension_library=libqti-perfd-client.so
+# Radio
+ro.com.android.dataroaming=false
+persist.radio.multisim.config=dsds
+ro.carrier=unknown
 persist.vendor.radio.apm_sim_not_pwdn=1
 persist.vendor.radio.sib16_support=1
 persist.vendor.radio.custom_ecc=1
@@ -19,7 +35,11 @@ persist.vendor.radio.rat_on=combine
 persist.backup.ntpServer=0.pool.ntp.org
 sys.vendor.shutdown.waittime=500
 persist.vendor.radio.procedure_bytes=SKIP
+# Factory Reset Protection
 ro.frp.pst=/dev/block/bootdevice/by-name/frp
+# Audio
+persist.vendor.audio.fluence.speaker=false
+persist.vendor.audio.endcall.delay=600
 af.fast_track_multiplier=1
 vendor.audio_hal.period_size=192
 persist.vendor.audio.ambisonic.capture=false
@@ -51,10 +71,6 @@ vendor.audio.offload.gapless.enabled=true
 vendor.audio.safx.pbe.enabled=false
 vendor.audio.parser.ip.buffer.size=262144
 vendor.audio.flac.sw.decoder.24bit=true
-persist.vendor.bt.a2dp_offload_cap=sbc-aptx-aptxhd-aac-ldac
-ro.bluetooth.a2dp_offload.supported=true
-persist.bluetooth.a2dp_offload.disabled=false
-persist.bluetooth.a2dp_offload.cap=sbc-aptx-aptxtws-aptxhd-aac-ldac
 vendor.audio.use.sw.alac.decoder=true
 vendor.audio.use.sw.ape.decoder=true
 vendor.audio.hw.aac.encoder=true
@@ -107,21 +123,19 @@ vendor.audio.feature.vbat.enable=true
 vendor.audio.feature.wsa.enable=false
 vendor.audio.feature.audiozoom.enable=false
 vendor.audio.feature.snd_mon.enable=true
-qemu.hw.mainkeys=0
-ro.vendor.iocgrp.config=1
+# Bluetooth
 persist.vendor.qcom.bluetooth.soc=cherokee
 sys.autosuspend.timeout=500000
 persist.vendor.qcom.bluetooth.enable.splita2dp=true
 persist.vendor.qcom.bluetooth.a2dp_offload_cap=sbc-aptx-aptxtws-aptxhd-aac-ldac
+persist.vendor.bt.a2dp_offload_cap=sbc-aptx-aptxhd-aac-ldac
+ro.bluetooth.a2dp_offload.supported=true
+persist.bluetooth.a2dp_offload.disabled=false
+persist.bluetooth.a2dp_offload.cap=sbc-aptx-aptxtws-aptxhd-aac-ldac
 ro.vendor.bluetooth.wipower=false
 persist.vendor.qcom.bluetooth.aac_frm_ctl.enabled=true
 persist.vendor.qcom.bluetooth.twsp_state.enabled=false
-persist.demo.hdmirotationlock=false
-ro.vendor.display.cabl=2
-debug.sf.hw=1
-debug.egl.hw=0
-vendor.display.enable_default_color_mode=1
-persist.sys.sf.native_mode=0
+# Media
 debug.stagefright.omx_default_rank.sw-audio=1
 debug.stagefright.omx_default_rank=0
 # Network manager
@@ -157,7 +171,7 @@ ro.vendor.audio.soundtrigger.cnn.adsp.level=27
 ro.vendor.audio.soundtrigger.vop.adsp.level=10
 ro.vendor.audio.soundtrigger.training.level=60
 ro.vendor.audio.soundtrigger.hist.duration=1500
- # Camera
+# Camera
 log.tag.CHIUSECASE=ERROR
 persist.vendor.camera.logInfoMask=false
 # DPM
