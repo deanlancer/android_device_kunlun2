@@ -9,6 +9,7 @@
 /(vendor|system/vendor)/bin/hw/android\.hardware\.power\.stats@1\.0-service\.lenovo                              u:object_r:hal_power_stats_default_exec:s0
 /(vendor|system/vendor)/bin/hw/android\.hardware\.thermal@2\.0-service\.lenovo                                   u:object_r:hal_thermal_default_exec:s0
 /(vendor|system/vendor)/bin/hw/vendor\.zui\.hardware\.ifaa@1\.0-service											 u:object_r:hal_ifaa_default_exec:s0
+/(vendor|system/vendor)/bin/hw/vendor\.qti\.hardware\.cvp@1\.0-service             								 u:object_r:vendor_cvp_exec:s0
 
 # Persist files
 /mnt/vendor/persist/audio(/.*)?               u:object_r:persist_audio_file:s0

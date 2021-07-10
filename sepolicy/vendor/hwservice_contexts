@@ -3,3 +3,4 @@ vendor.zui.hardware.ifaa::IIFAADevice 				u:object_r:hal_ifaa_hwservice:s0
 vendor.qti.hardware.fingerprint::IQtiExtendedFingerprint     u:object_r:hal_fingerprint_hwservice:s0
 com.fingerprints.extension::IFingerprintEngineering     u:object_r:hal_fingerprint_hwservice:s0
 vendor.qti.hardware.slmadapter::ISlmAdapter               u:object_r:vendor_hal_slmadapter_hwservice:s0
+vendor.qti.hardware.cvp::ICvp                               u:object_r:vendor_hal_cvp_hwservice:s0

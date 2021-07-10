@@ -1,4 +1,5 @@
 type hal_ifaa_hwservice, hwservice_manager_type;
 type vendor_hal_slmadapter_hwservice, hwservice_manager_type, protected_hwservice;
 type hal_dms_hwservice, hwservice_manager_type;
+type vendor_hal_cvp_hwservice, hwservice_manager_type;
 
