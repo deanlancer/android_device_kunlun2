@@ -1,1 +1,2 @@
 allow radio hal_cacert_hwservice:hwservice_manager {add find};
+allow radio hidl_base_hwservice:hwservice_manager {add find};
