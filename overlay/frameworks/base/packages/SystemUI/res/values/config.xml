@@ -41,6 +41,12 @@
     <integer name="quick_settings_num_columns">4</integer>
 
     <!-- The number of rows in the QuickSettings -->
-    <integer name="quick_settings_max_rows">2</integer>   
+    <integer name="quick_settings_max_rows">2</integer>
+
+    <!-- Whether to show a warning notification when device's skin temperature is high. -->
+    <integer name="config_showTemperatureWarning">1</integer>
+
+    <!-- Whether to show a alarm dialog when device's usb port is overheating. -->
+    <integer name="config_showUsbPortAlarm">1</integer>   
 </resources>
 
