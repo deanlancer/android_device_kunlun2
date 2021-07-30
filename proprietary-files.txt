@@ -1046,10 +1046,9 @@ vendor/lib/liboemaids_vendor.so
 vendor/lib/libpdmapper.so|5033cf35656d687dd034680d957a091ae3f1d1ae
 vendor/lib/libpdnotifier.so|b2173231e8d2e66e9a204d600b0c2eacb13af9ec
 vendor/lib/libqcmaputils.so|9a4787a5908be14ddf65fd5e633e5332cec5b2f4
-vendor/lib/libqcrilFramework.so|87591c14c000754b81435acf1a9987660c414514
+vendor/lib/libqcrilFramework.so|59e95491dc7f8a9ff0e1bbc390f9006ff80dab9f
 vendor/lib/libqrtr.so|545d74fb62d03ecf834d9374e95620598d38ee3b
 vendor/lib/libqsocket.so|c4cbaa2f1137630798f8a32ef03265b4f48893a3
-vendor/lib/libril-qc-hal-qmi.so|5e0f6ec9c7dba5cae20001bc01b80f5b2f5804a3
 vendor/lib/libril-qc-ltedirectdisc.so|3adf91f93458f20614fe78fab0d6428de4077e3d
 vendor/lib/libril-qc-qmi-1.so
 vendor/lib/libril-qc-radioconfig.so|cbd2f4ca03bab7062f25ef28d819347d52ec5300
@@ -1087,10 +1086,10 @@ vendor/lib64/liboemaids_vendor.so
 vendor/lib64/libpdmapper.so|eafa707e55b5baeb15f28a19ad215dd47250c16f
 vendor/lib64/libpdnotifier.so|7d41a1af23cf69a6d6674047cb8a5634e3491f01
 vendor/lib64/libqcmaputils.so|5d12382be7692459d47a172cc5913da3698de78b
-vendor/lib64/libqcrilFramework.so|da3c0216ddad60f48b1fc90b31a6d6d1114e95be
+vendor/lib64/libqcrilFramework.so|546550d1f96a837efd70f98e1c73398e8ed5acea
 vendor/lib64/libqrtr.so|6f7abe88e19e44f6b933de1cac0c7a3437318f04
 vendor/lib64/libqsocket.so|391748e46f7dbbf267dbc5a5c89f0d2a8b4fca4e
-vendor/lib64/libril-qc-hal-qmi.so|293ef00f295482f40afdcfdf10b3c8f1e336c8fa
+vendor/lib64/libril-qc-hal-qmi.so|e85d16734b4ac7459b0927c4a806ce0cc2505251
 vendor/lib64/libril-qc-ltedirectdisc.so|bbbaae54ac78615a8c1f8449336ec47f3b15be94
 vendor/lib64/libril-qc-qmi-1.so
 vendor/lib64/libril-qc-radioconfig.so|2a337386bfb0097b3ff7510a9ebdcff9d76dd126
@@ -1647,8 +1646,7 @@ vendor/lib/libwa_opticalzoomfactor.so
 vendor/lib/libwa_rtdof.so
 vendor/lib/libwa_sat.so
 # vendor/lib/libwifi-hal-ctrl.so
-vendor/lib/qtibus.so
-vendor/lib/qtimutex.so|a1ba68a902c3941968c536e6eeed1f4b6496b694
+vendor/lib/qtimutex.so|d9532674381476d75c3200a55fbf2026ab60ca35
 # vendor/lib/soundfx/libswdap.so
 # vendor/lib/soundfx/libswvqe.so
 vendor/lib/vendor.qti.hardware.cacert@1.0.so|3200b2c1d261acf551252031fcce97defb688d9b
@@ -1701,8 +1699,8 @@ vendor/lib64/libwapi_cert.so
 vendor/lib64/libwa_opticalzoomfactor.so
 vendor/lib64/libwifi-hal.so
 # vendor/lib64/libwifi-hal-ctrl.so
-vendor/lib64/qtibus.so|56beef9d486918297ec50fe9335a8f15fd93b008
-vendor/lib64/qtimutex.so|40cbbb4e7e9db8fab8c3855f49886b6fd6bb251b
+vendor/lib64/qtibus.so|bb7fb8ce1f530ebbbe9088ba5443a2a9ed435253
+vendor/lib64/qtimutex.so|1e9601d8e9b447294df744718be06cb2abe841cf
 # vendor/lib64/soundfx/libswdap.so
 # vendor/lib64/soundfx/libswvqe.so
 vendor/lib64/unnhal-acc-adreno.so|7ad6daa9bf39c5a199b2afb1bd60c1ae53ffbb06
