@@ -121,10 +121,6 @@ audio.offload.gapless.enabled=true
 #codecs:(PARSER_)AAC AC3 AMR_NB AMR_WB ASF AVI DTS FLV 3GP 3G2 MKV MP2PS MP2TS MP3 OGG QCP WAV AIFF APE DSD
 vendor.mm.enable.qcom_parser=13500415
 
-debug.stagefright.ccodec=1
-debug.stagefright.omx_default_rank.sw-audio=1
-debug.stagefright.omx_default_rank=0
-
 # Face Unlock
 ro.face.moto_unlock_service.cam_id=1
 

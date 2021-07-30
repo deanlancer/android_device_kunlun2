@@ -136,8 +136,8 @@ ro.vendor.bluetooth.wipower=false
 persist.vendor.qcom.bluetooth.aac_frm_ctl.enabled=true
 persist.vendor.qcom.bluetooth.twsp_state.enabled=false
 # Media
-debug.stagefright.omx_default_rank.sw-audio=1
 debug.stagefright.omx_default_rank=0
+debug.stagefright.ccodec=1
 # Network manager
 persist.vendor.data.iwlan.enable=true
 ro.telephony.iwlan_operation_mode=legacy
