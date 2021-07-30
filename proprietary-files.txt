@@ -1590,7 +1590,7 @@ vendor/lib/libdapparamstorage.so
 vendor/lib/libdeccfg.so
 vendor/lib/libdiagjni.so
 vendor/lib/libdisplayconfig.so
-vendor/lib/libexthwplugin.so
+vendor/lib/libexthwplugin.so|ffb662dea05eafaeb423ea8e953c9c73a3aaa621
 vendor/lib/libfastcrc.so
 vendor/lib/libFileMux_proprietary.so|e59edd4604a7c73147118161cab5b7ac6bb16c82
 vendor/lib/libhdmiedid.so
@@ -1673,7 +1673,7 @@ vendor/lib64/libdeccfg.so
 vendor/lib64/libdiagjni.so
 vendor/lib64/libdisplayconfig.so
 vendor/lib64/libdlbdsservice.so
-vendor/lib64/libexthwplugin.so
+vendor/lib64/libexthwplugin.so|b885daeb7a893aadfac4a080428fc2793d02708a
 vendor/lib64/libgameoptfeature.so
 vendor/lib64/libhdmiedid.so
 vendor/lib64/libhdmipassthru.so
