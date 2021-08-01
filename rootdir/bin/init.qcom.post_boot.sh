@@ -101,7 +101,7 @@ write /proc/sys/vm/page-cluster 0
 
 # Reset default thermal config
 chmod 644 /sys/class/thermal/thermal_message/sconfig
-write /sys/class/thermal/thermal_message/sconfig 16
+write /sys/class/thermal/thermal_message/sconfig 10
 chmod 444 /sys/class/thermal/thermal_message/sconfig
 
 # Unify all blocks setup
