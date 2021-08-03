@@ -15,14 +15,6 @@ PRODUCT_PRODUCT_PROPERTIES += \
 	ro.vendor.fm.use_audio_session=true
 
 PRODUCT_PRODUCT_PROPERTIES += \
-	dalvik.vm.heapstartsize=8m \
-    dalvik.vm.heapgrowthlimit=256m \
-    dalvik.vm.heapsize=512m \
-    dalvik.vm.heaptargetutilization=0.6 \
-    dalvik.vm.heapminfree=8m \
-    dalvik.vm.heapmaxfree=16m
-
-PRODUCT_PRODUCT_PROPERTIES += \
     persist.camera.HAL3.enabled=1 \
     persist.vendor.camera.HAL3.enabled=1 \
     persist.camera.eis.enable=1 \
