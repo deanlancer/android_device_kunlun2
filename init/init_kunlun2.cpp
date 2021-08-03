@@ -27,19 +27,36 @@
    IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
+#include <fstream>
+#include <unistd.h>
+#include <vector>
+#include <cstdlib>
+#include <string.h>
 #include <stdlib.h>
-#include <android-base/properties.h>
+
 #define _REALLY_INCLUDE_SYS__SYSTEM_PROPERTIES_H_
 #include <sys/_system_properties.h>
+#include <sys/sysinfo.h>
 #include <stdio.h>
-#include <sys/system_properties.h>
 #include <sys/stat.h>
 #include <sys/types.h>
 
+#include <android-base/properties.h>
 #include "vendor_init.h"
 #include "property_service.h"
 
 using android::base::GetProperty;
+using std::string;
+
+std::vector<string> ro_props_default_source_order = {
+    "",
+    "bootimage.",
+    "odm.",
+    "product.",
+    "system.",
+    "system_ext.",
+    "vendor."
+};
 
 /* From Magisk@jni/magiskhide/hide_utils.c */
 static const char *snet_prop_key[] = {
@@ -70,7 +87,7 @@ static const char *snet_prop_value[] = {
 	NULL
 };
 
-void property_override(char const prop[], char const value[])
+void property_override(char const prop[], char const value[], bool add = true)
 {
 	prop_info *pi;
 
@@ -85,6 +102,26 @@ void property_override_dual(char const system_prop[], char const vendor_prop[], 
 {
 	property_override(system_prop, value);
 	property_override(vendor_prop, value);
+}
+
+void load_dalvikvm_properties() {
+  struct sysinfo sys;
+  sysinfo(&sys);
+  if (sys.totalram > 4096ull * 1024 * 1024) {
+    // from - phone-xhdpi-6144-dalvik-heap.mk
+    property_override("dalvik.vm.heapstartsize", "16m");
+    property_override("dalvik.vm.heaptargetutilization", "0.5");
+    property_override("dalvik.vm.heapmaxfree", "32m");
+    }
+  else {
+    // from - phone-xhdpi-4096-dalvik-heap.mk
+    property_override("dalvik.vm.heapstartsize", "8m");
+    property_override("dalvik.vm.heaptargetutilization", "0.7");
+    property_override("dalvik.vm.heapmaxfree", "16m");
+  }
+  property_override("dalvik.vm.heapgrowthlimit", "256m");
+  property_override("dalvik.vm.heapsize", "512m");
+  property_override("dalvik.vm.heapminfree", "8m");
 }
 
 static void workaround_snet_properties() {
@@ -104,4 +141,6 @@ void vendor_load_properties()
 
 	// Workaround SafetyNet
 	workaround_snet_properties();
+	// dalvikvm props
+  load_dalvikvm_properties();
 }
