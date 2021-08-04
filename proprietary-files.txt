@@ -1172,14 +1172,6 @@ vendor/lib64/libscveObjectTracker.so|e9a50d6898796b6d182be6b45a64716670e8740b
 vendor/lib64/libscveObjectTracker_stub.so|e4e3db0b7674e326e07fa0a49211593cb7bc4963
 vendor/lib64/vendor.qti.hardware.scve.objecttracker@1.0.so
 vendor/lib64/vendor.qti.hardware.scve.panorama@1.0.so
-vendor/lib/libscveBlobDescriptor.so|c058ca01299e1d93e472e1254bbc953d5c58821d
-vendor/lib/libscveBlobDescriptor_stub.so|080a236c8443f0f9c3a68eba0a56d93e57751c7c
-vendor/lib/libscvePanorama.so|eaba420982eef5405af83f60a4626763ea7adb32
-vendor/lib/rfsa/adsp/libscveBlobDescriptor_skel.so|637e3c05ff05fb62ff9eede4ba394cd8f1874e18
-vendor/lib/rfsa/adsp/libscveObjectSegmentation_skel.so|44ee517f73908376a226f02a1ecd7ab22e5ae6ca
-vendor/lib64/libscveBlobDescriptor.so|afac314d971d53ff7eac4fca305cdf372a7c94b3
-vendor/lib64/libscveBlobDescriptor_stub.so|1ef52c8d21c6c76344d5360059e039bcae9f66d3
-vendor/lib64/libscvePanorama.so|93b5fd54a56ffe48d98fa37b2e7bb5e9a3c1a998
 
 # SSR
 vendor/bin/ssr_diag
