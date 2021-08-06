@@ -102,9 +102,6 @@ mmp.enable.3g2=true
 persist.mm.enable.prefetch=true
 qcom.hw.aac.encoder=true
 
-# Seamless transfer
-sys.fflag.override.settings_seamless_transfer=true
-
 # enable tunnel encoding for amrwb
 tunnel.audio.encode = true
 
