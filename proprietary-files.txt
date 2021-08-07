@@ -918,7 +918,7 @@ vendor/lib64/vendor.qti.power.pasrmanager@1.0.so
 
 # Perf
 # vendor/bin/hw/vendor.qti.hardware.perf@2.0-service
-vendor/bin/msm_irqbalance
+vendor/bin/msm_irqbalance|b075c2f4092c175950a2c26d19bf2013e2efd6d5
 # vendor/etc/init/vendor.qti.hardware.perf@2.0-service.rc
 # vendor/etc/perf/commonresourceconfigs.xml
 # vendor/etc/perf/perfboostsconfig.xml
