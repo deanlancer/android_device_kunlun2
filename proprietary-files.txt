@@ -1449,7 +1449,7 @@ vendor/etc/wifi/fstman.ini
 # Misc
 vendor/bin/hw/android.hardware.sensors@2.0-service
 vendor/etc/init/android.hardware.sensors@2.0-service.rc
--vendor/app/CACertService/CACertService.apk|69e2e74add9fd8a8110812042408700bcb7a0852
+-vendor/app/CACertService/CACertService.apk|6219aa05aa3de128abe538c8b7755e5565ca3d97
 -vendor/app/ConnectionSecurityService/ConnectionSecurityService.apk
 -vendor/app/QDMA-UI/QDMA-UI.apk
 -vendor/app/TrustZoneAccessService/TrustZoneAccessService.apk
@@ -1562,7 +1562,7 @@ vendor/lib/btaudio_offload_if.so|689144ff1e853f5e1f8427ead1e3863763ccdd5e
 vendor/lib/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so
 vendor/lib/liba2dpoffload.so
 vendor/lib/libbatterylistener.so
-vendor/lib/libcacertclient.so|2a32d99dbae8f3121e7f8526006a2ba056b31bd7
+vendor/lib/libcacertclient.so|cf5f80245d2b857f6992573b61a2a87f8596319d
 vendor/lib/libcert_parse.wpa_s.so
 vendor/lib/libcirrusspkrprot.so
 vendor/lib/libcomprcapture.so
@@ -1632,7 +1632,7 @@ vendor/lib/libwa_sat.so
 vendor/lib/qtimutex.so|d9532674381476d75c3200a55fbf2026ab60ca35
 # vendor/lib/soundfx/libswdap.so
 # vendor/lib/soundfx/libswvqe.so
-vendor/lib/vendor.qti.hardware.cacert@1.0.so|3200b2c1d261acf551252031fcce97defb688d9b
+vendor/lib/vendor.qti.hardware.cacert@1.0.so|a3d244d49686ee087330dd3e4ec8fcec1b853b07
 # vendor/lib/vendor.qti.hardware.capabilityconfigstore@1.0.so
 # vendor/lib/vendor.qti.hardware.cryptfshw@1.0.so
 vendor/lib/vendor.qti.hardware.sigma_miracast@1.0.so
@@ -1643,7 +1643,7 @@ vendor/lib64/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so
 vendor/lib64/liba2dpoffload.so
 vendor/lib64/libappclassifier.so
 vendor/lib64/libbatterylistener.so
-vendor/lib64/libcacertclient.so
+vendor/lib64/libcacertclient.so|69ae73b9be13507ff39398ac5813ad709b8b7c32
 vendor/lib64/libcert_parse.wpa_s.so
 vendor/lib64/libcirrusspkrprot.so
 vendor/lib64/libcomprcapture.so
@@ -1689,7 +1689,7 @@ vendor/lib64/qtimutex.so|1e9601d8e9b447294df744718be06cb2abe841cf
 vendor/lib64/unnhal-acc-adreno.so|7ad6daa9bf39c5a199b2afb1bd60c1ae53ffbb06
 vendor/lib64/unnhal-acc-common.so|32fdec585f2d710e37ffe327894aec6a7ea220eb
 vendor/lib64/unnhal-acc-hvx.so|3e44efdca5e1c20ca4bf00c6a5f19fc1863c9830
-vendor/lib64/vendor.qti.hardware.cacert@1.0.so
+vendor/lib64/vendor.qti.hardware.cacert@1.0.so|1633c31212d1ea9338b79ebfc2476f83424f36ee
 # vendor/lib64/vendor.qti.hardware.capabilityconfigstore@1.0.so
 # vendor/lib64/vendor.qti.hardware.cryptfshw@1.0.so
 vendor/lib64/vendor.qti.hardware.sigma_miracast@1.0.so
