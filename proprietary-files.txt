@@ -782,10 +782,10 @@ vendor/lib64/libkeymasterutils.so|b9c888d579c9cf7a1c8f463be4048eb9d935daf8
 vendor/lib64/libqtikeymaster4.so|9c45da4b7daa40d44592d94061858813e35473d0
 
 # Keystore
-vendor/lib/libspcom.so|acec0b9bd1f9e31b3022f14975b0cc5566e4bb4a
+vendor/lib/libspcom.so|a59f13d03fd07400e68d7ad8802ca9cfb9aea783
 # vendor/lib64/libkeystore-engine-wifi-hidl.so
 # vendor/lib64/libkeystore-wifi-hidl.so
-vendor/lib64/libspcom.so|1e82b29e1c128c6aef28f9f632f5cd0e04f5c3d9
+vendor/lib64/libspcom.so|f6a97eed819a60eb7d6f6f0fb732e25aff8e271f
 vendor/lib64/vendor.qti.hardware.wifi.keystore@1.0.so
 
 # Latency
@@ -946,10 +946,10 @@ vendor/lib64/libqti-utils.so
 # vendor/lib64/vendor.qti.hardware.perf@2.0.so
 
 # Peripheral
-vendor/bin/pm-proxy|832cbe7995de8177a2ef5bdf3f145131dfe828d4
-vendor/bin/pm-service|28f5e8d8f98c8e97941f514bafdc0b369cc5b600
-vendor/lib/libperipheral_client.so|4f4700270730d4043580a1e76566fd0124b01e18
-vendor/lib64/libperipheral_client.so|8cb65f4c93719767048dd7b1b845473fe6074ff7
+vendor/bin/pm-proxy|60aaf1854b8d1010e9d124518dd81bbc5ae072f7
+vendor/bin/pm-service|534d7152d9c134e8f4c59eec134e0951e0970be2
+vendor/lib/libperipheral_client.so|cb130e759ee4b6160cfafa1c35de93aa6522ef8d
+vendor/lib64/libperipheral_client.so|9bfd41e276e16b8f7c6808f3d87531fc5be4cdd5
 
 # Postprocessing
 vendor/bin/hw/vendor.display.color@1.0-service|f953144ced6869e640ca67930cea6d63e38f0a0d
