@@ -1,6 +1,5 @@
 allow init hal_fingerprint_hwservice:hwservice_manager { add find };
 allow init hal_power_stats_hwservice:hwservice_manager { add find };
-allow init hal_dms_hwservice:hwservice_manager { add find };
 allow init hal_power_service:service_manager { add find };
 allow init hal_light_hwservice:hwservice_manager { add find };
 allow init hidl_base_hwservice:hwservice_manager add;
