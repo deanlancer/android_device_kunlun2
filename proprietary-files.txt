@@ -748,9 +748,7 @@ vendor/lib64/libgcs-osal.so|e5cd3ed3385b3797a67a8f4519eb59d63ae0a5d4
 vendor/lib64/libgcs.so|39c3cffb161f7ff2f52f046920b1243a9de62965
 vendor/lib64/liblistenjni.so|f7cfa08bb6f76673ed40a585dd0afd846212fe85
 vendor/lib64/liblistensoundmodel2.so
-
 vendor/lib64/librice.so|d90c7fe87420bc3482ec85af8df8cf1cddb84848
-
 
 # Media
 vendor/lib/libAlacSwDec.so|1d074a0415ee358cd13c981e35266cff4c6863ce
@@ -811,12 +809,6 @@ vendor/lib/libOmxSwVdec.so|dca5c2291dba00a044fbb755dca8f183ac28b0c2
 vendor/lib/libOmxSwVencMpeg4.so|9bf7c060f0962d15b73c6ac4d8177d74bd42039e
 vendor/lib64/libOmxSwVdec.so|e51f3098421c231ef4e855531f0ad394dad35c22
 vendor/lib64/libOmxSwVencMpeg4.so|242357226e62caab8595e55f29bdd9b006ba02d7
-
-# NFC
-vendor/bin/nqnfcinfo
-vendor/lib/libpn551_fw.so
-vendor/lib/libpn553_fw.so
-vendor/lib/libpn557_fw.so
 
 # Neural-networks
 vendor/lib64/libhexagon_nn_stub.so|a3676113882842116279fe902af00e630ec1778c
