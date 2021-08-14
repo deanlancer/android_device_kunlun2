@@ -536,13 +536,6 @@ on post-fs-data
     chown cameraserver cameraserver /data/vendor/camera/westalgo/megviisegment_model
     chown cameraserver cameraserver /data/vendor/camera/westalgo/upSample.model
 
-
-service nqnfcinfo /system/vendor/bin/nqnfcinfo
-    class late_start
-    group nfc
-    user system
-    oneshot
-
 service iop /system/vendor/bin/iop
     class main
     user root
