@@ -425,6 +425,7 @@ vendor/lib64/libtzdrmgenprov.so|ff8f9eadd70b0ae366a68848c9c71d37a8b75317
 vendor/lib64/libash.so|e5f243b872cbacb03e8a9534e2957bdc23937df0
 vendor/lib64/libops.so|fc77360638cc155f6396994825481c4afa77a75b
 vendor/lib64/libspl.so|f24699732219695cc2d870b8ceeb267c7185300f
+vendor/lib64/libStDrvInt.so|a166aeaeaeb70f12bc607ff7852e039ee5cb004f
 
 # DRM-HDCP
 vendor/bin/hdcp1prov
