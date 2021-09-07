@@ -6,7 +6,7 @@ kwrite(){
 
 write(){
   echo $2 > $1
-    [[ "$?" == "1" ]] && { kwrite "okita: failed to set $1 to $2"; }
+    [[ "$?" == "1" ]] && { kwrite "kunlun2: failed to set $1 to $2"; }
 }
 
 # Core control parameters on silver
@@ -89,9 +89,6 @@ echo N > /sys/module/lpm_levels/L3/cpu7/ret/idle_enabled
 
 # Turn off scheduler boost at the end
 echo 0 > /proc/sys/kernel/sched_boost
-
-# Turn on sleep modes.
-echo 0 > /sys/module/lpm_levels/parameters/sleep_disabled
 
 # Setup Memory Management
 write /proc/sys/vm/dirty_ratio 80
