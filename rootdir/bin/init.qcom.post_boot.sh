@@ -97,9 +97,9 @@ write /proc/sys/vm/dirty_background_ratio 8
 write /proc/sys/vm/page-cluster 0
 
 # Reset default thermal config
-chmod 644 /sys/class/thermal/thermal_message/sconfig
-write /sys/class/thermal/thermal_message/sconfig 10
-chmod 444 /sys/class/thermal/thermal_message/sconfig
+# chmod 644 /sys/class/thermal/thermal_message/sconfig
+# write /sys/class/thermal/thermal_message/sconfig 10
+# chmod 444 /sys/class/thermal/thermal_message/sconfig
 
 # Unify all blocks setup
 for i in /sys/block/*/queue; do
