@@ -319,11 +319,12 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/permissions/system_ext-privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-qti.xml \
     $(LOCAL_PATH)/permissions/com.custom.ambient.display.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.custom.ambient.display.xml \
     $(LOCAL_PATH)/permissions/privapp-permissions-google.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-google.xml \
-    $(LOCAL_PATH)/permissions/org.codeaurora.snapcam.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/org.codeaurora.snapcam.xml
+    $(LOCAL_PATH)/permissions/org.codeaurora.snapcam.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/org.codeaurora.snapcam.xml \
+    $(LOCAL_PATH)/permissions/com.google.android.carrier.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.google.android.carrier.xml
 
 # HotwordEnrollement app permissions
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/permissions/privapp-permissions-hotword.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-hotword.xml
+    $(LOCAL_PATH)/permissions/privapp-permissions-hotword.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-hotword.xml
 
 # Component overrides
 PRODUCT_COPY_FILES += \
