@@ -1726,3 +1726,5 @@ system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml|563a585
 system_ext/framework/com.android.hotwordenrollment.common.util.jar|bef92589e75a6da6043f85f4b9b0e85866429624
 
 
+vendor/lib/libvpphcp.so|226176e9b08c931fc857c51eccb9a29aabaf5a00
+vendor/lib64/libvpphcp.so|8e20b26195b5ae79fa4b26faf7d47de27cac33f4
