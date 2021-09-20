@@ -15,6 +15,9 @@ $(call inherit-product-if-exists, vendor/lenovo/GoogleCamera/config.mk)
 # ZuiAudio
 $(call inherit-product-if-exists, vendor/lenovo/ZuiAudio/config.mk)
 
+# MicroG
+$(call inherit-product-if-exists, vendor/lenovo/MicroG/config.mk)
+
 # Hardware
 PRODUCT_BOARD_PLATFORM := sdm845
 PRODUCT_USES_QCOM_HARDWARE := true
