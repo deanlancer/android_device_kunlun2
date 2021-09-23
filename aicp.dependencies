@@ -11,11 +11,17 @@
     "repository": "deanlancer/vendor_lenovo_ZiuAudio",
     "target_path": "vendor/lenovo/ZuiAudio"
   },
-    {
+  {
     "remote":"gitlab",
-    "branch":"R",
-    "repository": "deanlancer/vendor_lenovo_ZiuCamera",
-    "target_path": "vendor/lenovo/ZiuCamera"
+    "branch":"master",
+    "repository": "deanlancer/GoogleCamera",
+    "target_path": "vendor/lenovo/GoogleCamera"
+  },
+  {
+    "remote":"gitlab",
+    "branch":"master",
+    "repository": "deanlancer/MicroG",
+    "target_path": "vendor/lenovo/MicroG"
   },
   {
   	"remote": "github",
