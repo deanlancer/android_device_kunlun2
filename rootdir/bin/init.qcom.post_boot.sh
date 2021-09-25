@@ -24,6 +24,9 @@ echo 90 > /proc/sys/kernel/sched_downmigrate
 echo 140 > /proc/sys/kernel/sched_group_upmigrate
 echo 120 > /proc/sys/kernel/sched_group_downmigrate
 echo 1 > /proc/sys/kernel/sched_walt_rotate_big_tasks
+echo 1000000 > /proc/sys/kernel/sched_rt_period_us
+echo 1000000 > /proc/sys/kernel/sched_rt_runtime_us
+echo 1 > /proc/sys/kernel/sched_rr_timeslice_ms
 
 # sched_load_boost as -6 is equivalent to target load as 85. It is per cpu tunable.
 echo -6 >  /sys/devices/system/cpu/cpu6/sched_load_boost
