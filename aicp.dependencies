@@ -31,8 +31,8 @@
   },
   {
     "remote": "github",
-    "branch": "master",
-    "repository": "kdrag0n/proton-clang",
-    "target_path": "prebuilts/clang/host/linux-x86/clang-proton"
+    "branch": "main",
+    "repository": "cbendot/elastics-toolchain",
+    "target_path": "prebuilts/clang/host/linux-x86/clang-elastics"
   }
 ]
