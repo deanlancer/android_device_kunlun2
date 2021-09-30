@@ -1,0 +1,20 @@
+type lenovoparts_app, domain;
+
+app_domain(lenovoparts_app)
+
+# Access standard system services
+allow lenovoparts_app app_api_service:service_manager find;
+allow lenovoparts_app audioserver_service:service_manager find;
+
+# Allow reading and writing shared prefs
+allow lenovoparts_app system_app_data_file:dir create_dir_perms;
+allow lenovoparts_app system_app_data_file:{ file lnk_file } create_file_perms;
+
+# Allow binder communication with gpuservice
+binder_call(lenovoparts_app, gpuservice)
+
+# Allow lenovoParts to read and write to cgroup
+allow lenovoparts_app cgroup:file rw_file_perms;
+
+# Allow lenovoParts to write to sysfs_thermal
+allow lenovoparts_app sysfs_thermal:file w_file_perms;
