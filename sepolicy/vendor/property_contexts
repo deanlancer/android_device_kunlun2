@@ -1,0 +1,4 @@
+# Fingerprint
+gf.debug.dump_bigdata_data  u:object_r:vendor_fp_prop:s0
+vendor.fps_hal.             u:object_r:vendor_fp_prop:s0
+persist.vendor.runin.fphwid u:object_r:vendor_fp_prop:s0
