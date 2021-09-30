@@ -1,0 +1,7 @@
+allow hal_sensors_default mnt_vendor_file:file r_file_perms;
+
+get_prop(hal_sensors_default, adsprpc_prop)
+
+userdebug_or_eng(`
+  get_prop(hal_sensors_default, sensors_dbg_prop)
+')

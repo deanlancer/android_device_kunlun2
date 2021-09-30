@@ -1,0 +1,1 @@
+allow adsprpcd persist_file:lnk_file read;

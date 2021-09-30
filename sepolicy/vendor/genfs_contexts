@@ -1,0 +1,8 @@
+genfscon sysfs /power/rpmh_stats/master_stats         u:object_r:sysfs_rpm:s0
+genfscon sysfs /power/system_sleep/stats              u:object_r:sysfs_system_sleep_stats:s0
+
+genfscon debugfs /sched_features                      u:object_r:debugfs_sched_features:s0
+genfscon proc /sys/kernel/sched_boost                 u:object_r:proc_sysctl_schedboost:s0
+
+# DT2W
+genfscon sysfs /devices/virtual/touch/tp_dev/gesture_on u:object_r:sysfs_tp:s0

@@ -7,3 +7,7 @@ allow init default_android_vndservice:service_manager add;
 allow init hal_thermal_hwservice:hwservice_manager { add find };
 allow init default_android_hwservice:hwservice_manager { add find };
 
+allow init self:netlink_route_socket rw_socket_perms_no_ioctl;
+allow init self:rawip_socket create_socket_perms_no_ioctl;
+allow init socket_device:sock_file { unlink setattr create };
+
