@@ -21,3 +21,9 @@
 /mnt/vendor/persist/audio(/.*)?               u:object_r:persist_audio_file:s0
 /mnt/vendor/persist/camera(/.*)?              u:object_r:persist_camera_file:s0
 
+# GPS
+/sys/ontim_bootinfo/gps_avdd_en              u:object_r:sysfs_gps:s0
+/sys/ontim_bootinfo/gps_lna                  u:object_r:sysfs_gps:s0
+/sys/ontim_bootinfo/gps_reset                u:object_r:sysfs_gps:s0
+/dev/ttyHS1                                  u:object_r:gps_device:s0
+
