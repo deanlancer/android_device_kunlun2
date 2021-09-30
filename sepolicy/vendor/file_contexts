@@ -32,3 +32,6 @@
 /sys/ontim_bootinfo/gps_reset                u:object_r:sysfs_gps:s0
 /dev/ttyHS1                                  u:object_r:gps_device:s0
 
+# AICP - QS Sys UI Info
+/sys/kernel/gpu(/.*)?                         u:object_r:sysfs_info:s0
+

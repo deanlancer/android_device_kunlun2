@@ -1,0 +1,13 @@
+# AICP QS Header System UI Info
+allow platform_app sysfs_thermal:dir { search };
+allow platform_app sysfs_thermal:file r_file_perms;
+
+allow platform_app sysfs_info:dir { search };
+allow platform_app sysfs_info:lnk_file { read };
+allow platform_app sysfs_info:file { open read };
+
+allow platform_app sysfs_battery_supply:dir { search };
+allow platform_app sysfs_battery_supply:lnk_file { read };
+allow platform_app sysfs_battery_supply:file { getattr open read };
+
+allow platform_app sysfs_kgsl:file { getattr open read };

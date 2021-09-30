@@ -14,3 +14,6 @@ type sysfs_rpm, sysfs_type, fs_type;
 type sysfs_system_sleep_stats, sysfs_type, fs_type;
 type sysfs_tp, fs_type, sysfs_type;
 type sysfs_power_stats, sysfs_type, fs_type;
+
+# AICP SysUI QS Info
+type sysfs_info, fs_type, sysfs_type;

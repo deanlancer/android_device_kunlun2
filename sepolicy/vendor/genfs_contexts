@@ -8,3 +8,11 @@ genfscon proc /sys/kernel/sched_boost                 u:object_r:proc_sysctl_sch
 genfscon sysfs /devices/virtual/touch/tp_dev/gesture_on u:object_r:sysfs_tp:s0
 
 genfscon sysfs /kernel/wlan/power_stats               u:object_r:sysfs_power_stats:s0
+
+genfscon sysfs /devices/platform/soc/a88000.i2c/i2c-0/0-000c/a88000.i2c:qcom,smb1355@c:qcom,smb1355-charger@1000/power_supply          u:object_r:sysfs_batteryinfo:s0
+genfscon sysfs /devices/platform/soc/a88000.i2c/i2c-0/0-0061/power_supply                                                              u:object_r:sysfs_batteryinfo:s0
+genfscon sysfs /devices/platform/soc/a90000.i2c/i2c-4/4-0036/power_supply                                                              u:object_r:sysfs_batteryinfo:s0
+genfscon sysfs /devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-02/c440000.qcom,spmi:qcom,pmi8998@2:qcom,qpnp-smb2/power_supply    u:object_r:sysfs_batteryinfo:s0
+genfscon sysfs /devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-02/c440000.qcom,spmi:qcom,pmi8998@2:qcom,qpnp-smb2/power_supply/battery/temp    u:object_r:sysfs_batteryinfo:s0
+genfscon sysfs /devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-02/c440000.qcom,spmi:qcom,pmi8998@2:qpnp,fg                        u:object_r:sysfs_batteryinfo:s0
+
