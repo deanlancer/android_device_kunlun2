@@ -38,6 +38,7 @@ persist.vendor.radio.procedure_bytes=SKIP
 # Factory Reset Protection
 ro.frp.pst=/dev/block/bootdevice/by-name/frp
 # Audio
+ro.config.vc_call_vol_steps=6
 persist.vendor.audio.fluence.speaker=false
 persist.vendor.audio.endcall.delay=600
 af.fast_track_multiplier=1
