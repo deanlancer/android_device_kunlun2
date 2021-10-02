@@ -7,6 +7,7 @@ type fingerprint_data_file, data_file_type, file_type;
 
 type thermal_data_file, data_file_type, file_type;
 type debugfs_sched_features, debugfs_type, fs_type;
+type debugfs_wlan, debugfs_type, fs_type;
 type proc_sysctl_schedboost, proc_type, fs_type;
 type sysfs_msm_subsys, sysfs_type, fs_type;
 type sysfs_rpm, sysfs_type, fs_type;
