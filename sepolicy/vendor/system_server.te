@@ -1,1 +1,1 @@
-allow system_server default_android_hwservice:hwservice_manager find;
+dontaudit system_server default_android_hwservice:hwservice_manager find;

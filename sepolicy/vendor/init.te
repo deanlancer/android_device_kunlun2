@@ -1,13 +1,6 @@
 allow init apex_metadata_file:lnk_file r_file_perms;
 
-allow init hal_fingerprint_hwservice:hwservice_manager { add find };
-allow init hal_power_stats_hwservice:hwservice_manager { add find };
-allow init hal_power_service:service_manager { add find };
-allow init hal_light_hwservice:hwservice_manager { add find };
 allow init hidl_base_hwservice:hwservice_manager add;
-allow init default_android_vndservice:service_manager add;
-allow init hal_thermal_hwservice:hwservice_manager { add find };
-allow init default_android_hwservice:hwservice_manager { add find };
 
 allow init self:netlink_route_socket rw_socket_perms_no_ioctl;
 allow init self:rawip_socket create_socket_perms_no_ioctl;
@@ -15,12 +8,7 @@ allow init socket_device:sock_file { unlink setattr create };
 allow init hal_audio_default:binder call;
 allow init vendor_data_file:file lock;
 
-allow init sysfs_zram:dir add_name;
 allow init sysfs_zram:file create;
 
-allow init hal_light_service:service_manager add;
-binder_call(init, servicemanager);
-
-allow init sysfs_leds:dir add_name;
 allow init sysfs_leds:file create;
 
