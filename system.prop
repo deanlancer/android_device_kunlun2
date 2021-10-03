@@ -3,6 +3,8 @@ audio.deep_buffer.media=true
 audio.offload.min.duration.secs=30
 audio.offload.video=true
 ro.af.client_heap_size_kbyte=7168
+audio.sys.noisy.broadcast.delay=600
+audio.sys.offload.pstimeout.secs=3
 
 # BPF
 ro.kernel.ebpf.supported=true
@@ -180,6 +182,9 @@ persist.fuse_sdcard=true
 #snapdragon value add features
 #
 ro.qc.sdk.audio.ssr=false
+ro.qc.sdk.audio.fluencetype=fluence
+persist.audio.fluence.speaker=true
+persist.audio.fluence.voicecomm=true
 
 #enable voice path for PCM VoIP by default
 use.voice.path.for.pcm.voip=true
@@ -211,6 +216,9 @@ ro.hwui.text_small_cache_width=1024
 ro.hwui.text_small_cache_height=1024
 ro.hwui.text_large_cache_width=2048
 ro.hwui.text_large_cache_height=4096
+
+#iorapd perfetto tracing
+iorapd.perfetto.enable=true
 
 ####################################
 mot.proximity.distance=16

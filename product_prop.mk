@@ -69,18 +69,6 @@ PRODUCT_PRODUCT_PROPERTIES += \
     dalvik.vm.image-dex2oat-threads=8 \
     dalvik.vm.dex2oat-filter=speed \
     dalvik.vm.dex2oat-threads=8
-
-    # Better Ram
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.config.fha_enable=true \
-    ro.sys.fw.bg_apps_limit=32 \
-    ro.config.dha_cached_max=16 \
-    ro.config.dha_empty_max=42 \
-    ro.config.dha_empty_init=32 \
-    ro.config.dha_lmk_scale=0.545 \
-    ro.config.dha_th_rate=2.3 \
-    ro.config.sdha_apps_bg_max=64 \
-    ro.config.sdha_apps_bg_min=8
  
 
 #Enable 16 bit PCM offload by default
@@ -112,10 +100,6 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.hardware.vulkan=adreno \
     ro.hardware.egl=adreno
-
-# Enable iorapd perfetto tracing for app starts
-PRODUCT_PROPERTY_OVERRIDES += \
-    iorapd.perfetto.enable=true
 
 # Power-saving props
 PRODUCT_PRODUCT_PROPERTIES += \
