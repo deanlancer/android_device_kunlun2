@@ -1013,16 +1013,6 @@
     <!-- Whether the Unprocessed audio source supports the required frequency range and level -->
     <bool name="config_supportAudioSourceUnprocessed">true</bool>
 
-    <!-- Default value for proximity check on screen wake
-     NOTE ! - Enable for devices that have a fast response proximity sensor (ideally < 300ms)-->
-    <bool name="config_proximityCheckOnWake">true</bool>
-    <integer name="config_proximityCheckTimeout">100</integer>
-    <bool name="config_proximityCheckOnWakeEnabledByDefault">true</bool>
-    
-    <!-- Whether device supports gestures on fingerprint sensor -->
-    <!-- <bool name="config_supportsGesturesOnFingerprintSensor">true</bool>
-    -->
-
     <!-- Location Providers -->
     <string-array name="config_locationProviderPackageNames">
         <item>com.android.location.fused</item>
