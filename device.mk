@@ -18,6 +18,9 @@ $(call inherit-product-if-exists, vendor/lenovo/ZuiAudio/config.mk)
 # MicroG
 $(call inherit-product-if-exists, vendor/lenovo/MicroG/config.mk)
 
+# Enable updating of APEXes
+$(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
+
 # Hardware
 PRODUCT_BOARD_PLATFORM := sdm845
 PRODUCT_USES_QCOM_HARDWARE := true

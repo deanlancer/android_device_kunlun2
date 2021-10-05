@@ -155,7 +155,6 @@ TARGET_SCREEN_DENSITY := 440
 
 # APEX###############################################################################
 DEXPREOPT_GENERATE_APEX_IMAGE := true
-OVERRIDE_TARGET_FLATTEN_APEX := true
 
 # Broken rules#######################################################################
 BUILD_BROKEN_DUP_RULES := true
