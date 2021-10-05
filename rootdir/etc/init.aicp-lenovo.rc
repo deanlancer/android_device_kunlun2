@@ -1,0 +1,28 @@
+on boot
+    # AICP QS SystemUI Info (config_sysCPUTemp)
+    chmod 0664 /sys/devices/virtual/thermal/thermal_zone0/temp
+    chown system system /sys/devices/virtual/thermal/thermal_zone0/temp
+    chmod 0664 /sys/class/thermal/thermal_zone7/temp
+    chown system system /sys/class/thermal/thermal_zone7/temp
+
+    # AICP QS SystemUI Info (config_sysBatteryTemp)
+    chmod 0664 /sys/devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-02/c440000.qcom,spmi:qcom,pmi8998@2:qcom,qpnp-smb2/power_supply/battery/temp
+    chown system system /sys/devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-02/c440000.qcom,spmi:qcom,pmi8998@2:qcom,qpnp-smb2/power_supply/battery/temp
+
+    # AICP QS SystemUI Info (config_sysGPUFreq)
+    chmod 0664 /sys/kernel/gpu/gpu_clock
+    chown system system /sys/kernel/gpu/gpu_clock
+
+    # AICP QS SystemUI Info (config_sysGPULoad)
+    chmod 0664 /sys/kernel/gpu/gpu_busy
+    chown system system /sys/kernel/gpu/gpu_busy
+
+    # Battery Health
+    chown system system /sys/class/power_supply/bms/charge_full_design
+    chmod 0644 /sys/class/power_supply/bms/charge_full_design
+    chown system system /sys/class/power_supply/bms/cycle_count
+    chmod 0644 /sys/class/power_supply/bms/cycle_count
+    chown system system /sys/class/power_supply/bms/charge_counter
+    chmod 0644 /sys/class/power_supply/bms/charge_counter
+    chown system system /sys/class/power_supply/bms/battery_type
+    chmod 0644 /sys/class/power_supply/bms/battery_type

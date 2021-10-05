@@ -192,6 +192,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     fstab.qcom \
     ueventd.qcom.rc \
+    init.aicp-lenovo.rc \
     init.qcom.usb.sh \
     init.qti.fm.sh \
     init.qcom.early_boot.sh \
