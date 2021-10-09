@@ -36,3 +36,6 @@
 # AICP - QS Sys UI Info
 /sys/kernel/gpu(/.*)?                         u:object_r:sysfs_info:s0
 
+# Debug
+/sys/kernel/debug/(/.*)?                    u:object_r:qti_debugfs:s0
+
