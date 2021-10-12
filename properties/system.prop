@@ -227,12 +227,6 @@ drm.service.enabled=true
 
 debug.performance.tuning=1
 
-#persist.android.strictmode=0
-#profiler.force_disable_err_rpt=1
-#ro.config.nocheckin=1
-#ro.kernel.android.checkjni=0
-#ro.kernel.checkjni=0
-
 # ZRAM writeback
 ro.zram.mark_idle_delay_mins=60
 ro.zram.first_wb_delay_mins=1440

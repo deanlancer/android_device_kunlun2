@@ -94,13 +94,6 @@ PRODUCT_PRODUCT_PROPERTIES += \
     persist.audio.fluence.voicecall=true \
     persist.audio.fluence.voicerec=true
 
-#PRODUCT_PRODUCT_PROPERTIES += \
-#	ro.treble.enabled=false
-
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.hardware.vulkan=adreno \
-    ro.hardware.egl=adreno
-
 # Power-saving props
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.vold.umsdirtyratio=20 \
