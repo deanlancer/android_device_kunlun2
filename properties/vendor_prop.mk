@@ -186,4 +186,4 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Ringtone
 PRODUCT_PROPERTY_OVERRIDES += \
-	ro.config.notification_sound=Duet.ogg
+	ro.config.notification_sound=blare.ogg
