@@ -19,5 +19,6 @@
         <permission name="android.permission.MODIFY_PHONE_STATE"/>
         <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
         <permission name="android.permission.WRITE_APN_SETTINGS"/>
+        <permission name="com.android.permission.INSTALL_EXISTING_PACKAGES"/>
     </privapp-permissions>
 </permissions>
