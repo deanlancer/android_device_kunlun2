@@ -52,10 +52,6 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_PRODUCT_PROPERTIES += \
    ro.charger.enable_suspend=true
 
-# IORap
-PRODUCT_PRODUCT_PROPERTIES += \
-   iorapd.readahead.enable=true
-
 # Dalvik
 PRODUCT_PRODUCT_PROPERTIES += \
 	dalvik.vm.dex2oat64.enabled=true
