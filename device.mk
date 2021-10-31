@@ -40,6 +40,7 @@ PRODUCT_ART_TARGET_INCLUDE_DEBUG_BUILD := false
 PRODUCT_MINIMIZE_JAVA_DEBUG_INFO := true
 PRODUCT_PACKAGES_DEBUG := false
 PRODUCT_PACKAGES_DEBUG_ASAN := false
+USE_DEX2OAT_DEBUG := false
 
 # Always preopt extracted APKs to prevent extracting out of the APK
 # for gms modules.
