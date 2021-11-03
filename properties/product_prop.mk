@@ -38,11 +38,9 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_PRODUCT_PROPERTIES += \
     persist.hwc.enable_vds=1
 
-# Enable blurs
+# Disable blurs
 PRODUCT_PRODUCT_PROPERTIES += \
-    ro.surface_flinger.supports_background_blur=1 \
-    ro.sf.blurs_are_expensive=1 \
-    persist.sys.sf.disable_blurs=1
+    ro.surface_flinger.supports_background_blur=0
     
 # LMKD
 PRODUCT_PRODUCT_PROPERTIES += \
