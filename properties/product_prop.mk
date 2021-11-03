@@ -62,7 +62,9 @@ PRODUCT_PRODUCT_PROPERTIES += \
     dalvik.vm.image-dex2oat-filter=speed \
     dalvik.vm.image-dex2oat-threads=8 \
     dalvik.vm.dex2oat-filter=speed \
-    dalvik.vm.dex2oat-threads=8
+    dalvik.vm.dex2oat-threads=8 \
+    dalvik.vm.dex2oat-minidebuginfo=false \
+    dalvik.vm.minidebuginfo=false
  
 
 #Enable 16 bit PCM offload by default
