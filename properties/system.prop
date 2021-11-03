@@ -225,6 +225,8 @@ drm.service.enabled=true
 
 debug.performance.tuning=1
 
+persist.sys.binary_xml=false
+
 # ZRAM writeback
 ro.zram.mark_idle_delay_mins=60
 ro.zram.first_wb_delay_mins=1440
