@@ -184,6 +184,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
 	persist.vendor.dpmhalservice.enable=1
 
+# SoC
+PRODUCT_PROPERTY_OVERRIDES += \
+	ro.soc.manufacturer=Qualcomm \
+	ro.soc.model=SDM710
+
 # Ringtone
 PRODUCT_PROPERTY_OVERRIDES += \
 	ro.config.notification_sound=blare.ogg
