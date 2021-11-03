@@ -101,6 +101,9 @@ static void workaround_snet_properties() {
 void vendor_load_properties()
 {
 	property_override("ro.control_privapp_permissions", "log");
+	property_override("ro.build.description", "walleye-user 8.1.0 OPM1.171019.011 4448085 release-keys");
+  property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", "google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys");
+
 
 	// Workaround SafetyNet
 	workaround_snet_properties();
