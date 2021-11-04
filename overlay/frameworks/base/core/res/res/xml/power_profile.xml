@@ -9,8 +9,8 @@
     <item name="wifi.on">0.02</item>
     <item name="wifi.active">221.39</item>
     <item name="wifi.scan">10.91</item>
-    <item name="dsp.audio">15.08</item>
-    <item name="dsp.video">44.03</item>
+    <item name="audio">15.08</item>
+    <item name="video">44.03</item>
     <item name="radio.active">182.755</item>
     <item name="radio.scanning">59.12</item>
     <array name="radio.on">
