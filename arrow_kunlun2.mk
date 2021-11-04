@@ -20,18 +20,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/lenovo/kunlun2/device.mk)
 
 # Inherit some common Lineage stuff
-$(call inherit-product, vendor/aicp/config/common_full_phone.mk)
-
-# AICP maintainer
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    DEVICE_MAINTAINERS="Deanlancer"
+$(call inherit-product, vendor/arrow/config/common_full_phone.mk)
 
 #TARGET_GAPPS_ARCH := arm64
 # Recorder
 #TARGET_SUPPORTS_GOOGLE_RECORDER := true
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := aicp_kunlun2
+PRODUCT_NAME := arrow_kunlun2
 PRODUCT_BRAND := Lenovo
 PRODUCT_DEVICE := kunlun2
 PRODUCT_MODEL := Lenovo Z6SE
@@ -45,9 +41,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_DEVICE=kunlun2 \
     PRODUCT_NAME=kunlun2 \
     PRIVATE_BUILD_DESC="kunlun2-user 10 QKQ1.191014.001 11.5.160_200513 release-keys"
-
-# Google Walleye
-PRODUCT_OVERRIDE_INFO := true
-PRODUCT_OVERRIDE_FINGERPRINT := google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys
 
 PRODUCT_GMS_CLIENTID_BASE := android-lenovo
