@@ -19,8 +19,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 $(call inherit-product, device/lenovo/kunlun2/device.mk)
 
-# Inherit some common Lineage stuff
-$(call inherit-product, vendor/arrow/config/common_full_phone.mk)
+# Inherit some common Arrow OS stuff
+$(call inherit-product, vendor/arrow/config/common.mk)
 
 #TARGET_GAPPS_ARCH := arm64
 # Recorder
