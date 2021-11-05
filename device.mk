@@ -505,6 +505,11 @@ PRODUCT_PACKAGES += \
     android.hardware.health@2.1-impl:64 \
     android.hardware.health@2.1-service
 
+# Allocator
+PRODUCT_PACKAGES += \
+    android.hidl.allocator@1.0 \
+    android.hidl.allocator@1.0.vendor \
+
 # Context Hub
 PRODUCT_PACKAGES += \
     android.hardware.contexthub@1.0-impl.generic \
