@@ -594,6 +594,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libchrome.vendor
 
+# Fingerprint
+PRODUCT_PACKAGES += \
+android.hardware.biometrics.fingerprint@2.1.vendor
+
 # Seccomp policy
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/seccomp/mediacodec-seccomp.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediacodec.policy
