@@ -15,3 +15,4 @@ allow init sysfs_leds:file create;
 allow init qti_debugfs:dir rw_dir_perms;
 allow init qti_debugfs:file rw_file_perms;
 
+allow init hal_drm_hwservice:hwservice_manager { find add };
