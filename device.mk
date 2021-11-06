@@ -598,6 +598,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
 android.hardware.biometrics.fingerprint@2.1.vendor
 
+# Sensors
+PRODUCT_PACKAGES += \
+    android.hardware.sensors@2.0.vendor \
+    android.hardware.sensors@2.1.vendor
+
 # Seccomp policy
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/seccomp/mediacodec-seccomp.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediacodec.policy
