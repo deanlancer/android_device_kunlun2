@@ -192,3 +192,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Ringtone
 PRODUCT_PROPERTY_OVERRIDES += \
 	ro.config.notification_sound=blare.ogg
+
+# HEH filename encryption is being dropped
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.crypto.volume.filenames_mode=aes-256-cts
