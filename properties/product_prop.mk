@@ -79,10 +79,6 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_PRODUCT_PROPERTIES += \
     persist.vendor.bt.aac_frm_ctl.enabled=true
 
-# Zygote preforking
-PRODUCT_PRODUCT_PROPERTIES += \
-    persist.device_config.runtime_native.usap_pool_enabled=true 
-
 # Enable fluence for audio/voice recording
 PRODUCT_PRODUCT_PROPERTIES += \
     persist.vendor.audio.fluence.audiorec=true \
