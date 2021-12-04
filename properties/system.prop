@@ -2,7 +2,6 @@
 audio.deep_buffer.media=true
 audio.offload.min.duration.secs=30
 audio.offload.video=true
-ro.af.client_heap_size_kbyte=7168
 audio.sys.noisy.broadcast.delay=600
 audio.sys.offload.pstimeout.secs=3
 
@@ -87,8 +86,6 @@ sdm.debug.disable_inline_rotator_secure=1
 sdm.debug.prefersplit=1
 
 # Media
-audio.deep_buffer.media=true
-audio.offload.video=true
 persist.vendor.audio_hal.dsp_bit_width_enforce_mode=24
 ro.af.client_heap_size_kbyte=7168
 media.settings.xml=/vendor/etc/media_profiles_vendor.xml
@@ -106,9 +103,6 @@ qcom.hw.aac.encoder=true
 
 # enable tunnel encoding for amrwb
 tunnel.audio.encode = true
-
-#set AudioFlinger client heap size
-ro.af.client_heap_size_kbyte=7168
 
 #Enable offload audio video playback by default
 av.offload.enable=true
