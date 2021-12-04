@@ -727,10 +727,6 @@ vendor/lib/libOmxQcelp13Dec.so|3c8d0a986c786e5f1d63063821943a3d55b7c10e
 vendor/lib/libOmxVideoDSMode.so|98fb390a538c8be34bfbc2aefbdf72d22bd08cd5
 vendor/lib/libOmxVpp.so|bc1e3b1ef2e4da824bb30aaa33b8cdd1173deaec
 vendor/lib/libOmxWmaDec.so|8b804765609f4b640535ef6465b86a39c708a977
-vendor/lib/libstagefright_soft_ac4dec.so
-vendor/lib/libstagefright_soft_ddpdec.so
-vendor/lib/libstagefright_soft_qtiflacdec.so
-vendor/lib/vndk/libstagefright_foundation.so
 vendor/lib64/libAlacSwDec.so|9fbfad65ffca33e1ac480e9cb056467ac75a6d5a
 vendor/lib64/libApeSwDec.so|76d3cc02ca1c3cdc3c71e57dc6e53027d2bf3d37
 vendor/lib64/libFlacSwDec.so|002aa39927e75568efb81c7ae3a044c694babfc3
@@ -748,7 +744,6 @@ vendor/lib64/libOmxG711Dec.so|42ed1199b68a18458857b7e6e3a68fa12b1e56c0
 vendor/lib64/libOmxQcelp13Dec.so|73cb57acd1c743ceb900fa4757d2ef0aae41b233
 vendor/lib64/libOmxVpp.so|ecac67069b45ee1fac35207b31d87633a1550292
 vendor/lib64/libOmxWmaDec.so|397a1e6911c1cdf8b5cf9af141646e18a751cb48
-vendor/lib64/libstagefright_soft_qtiflacdec.so
 vendor/lib64/libvppclient.so|00ddeef7e54e1bb3025be74aa95647ab7196026c
 vendor/lib64/libvpphvx.so|f60a0dc45c410d63ff4825f5519fdb365f5700ea
 vendor/lib64/libvpplibrary.so|1f1b5e254048502df3d2160c569263cda0ea3c80
@@ -1407,8 +1402,6 @@ vendor/lib64/libsns_registry_skel.so
 vendor/lib64/libspiris.so
 vendor/lib64/libspkrprot.so
 vendor/lib64/libssrec.so
-vendor/lib64/libstagefright_soft_ac4dec.so
-vendor/lib64/libstagefright_soft_ddpdec.so
 vendor/lib64/libsynergy_loc_api.so
 vendor/lib64/libwapi_cert.so
 vendor/lib64/libwa_opticalzoomfactor.so
