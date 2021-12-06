@@ -284,3 +284,8 @@ debug.sf.early.app.duration=16500000
 debug.sf.earlyGl.sf.duration=13500000
 debug.sf.earlyGl.app.duration=21000000
 
+#Spark OS
+ro.spark.device.name=kunlun2
+ro.spark.maintainer.username=Deanlancer
+ro.spark.maintainer=Deanlancer
+ro.spark.group.url=https://t.me/LenovoK10Note
