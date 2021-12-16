@@ -111,7 +111,6 @@ AUDIO_FEATURE_ENABLED_EXTENDED_COMPRESS_FORMAT := true
 
 # Bluetooth
 #####################################################################################
-QCOM_BT_USE_BTNV := true
 TARGET_USE_QTI_BT_STACK := true
 #####################################################################################
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth
