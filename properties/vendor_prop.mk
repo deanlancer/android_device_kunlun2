@@ -196,3 +196,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # HEH filename encryption is being dropped
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.crypto.volume.filenames_mode=aes-256-cts
+
+# Apex
+PRODUCT_PROPERTY_OVERRIDES += \
+	ro.apex.updatable=false
+
