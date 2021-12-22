@@ -230,7 +230,6 @@ PRODUCT_PACKAGES += \
     init.lenovo.rc \
     init.ontim_fac.rc \
     init.target.rc \
-    apex_metadata.rc \
     logcat.rc
 
 # Device-specific settings
