@@ -45,7 +45,7 @@ sys.camera.packagename.zui=1
 ###################################
 persist.vendor.camera.privapp.list=org.codeaurora.snapcam,com.zui.camera
 persist.camera.privapp.list=org.codeaurora.snapcam,com.zui.camera
-vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,org.lineageos.snap,com.zui.camera
+vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,com.zui.camera
 vendor.camera.aux.packagelist2=com.motorola.motocit,com.zui.camera.yuvtest
 vendor.camera.aux.packageexcludelist=org.telegram.messenger,com.microsoft.teams,com.discord
 
