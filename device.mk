@@ -18,6 +18,9 @@ $(call inherit-product-if-exists, vendor/lenovo/ZuiAudio/config.mk)
 # MicroG
 $(call inherit-product-if-exists, vendor/lenovo/MicroG/config.mk)
 
+# ArrowOS Properties
+$(call inherit-product-if-exists, vendor/lawnchair/lawnchair.mk)
+
 # Hardware
 PRODUCT_BOARD_PLATFORM := sdm845
 PRODUCT_USES_QCOM_HARDWARE := true
