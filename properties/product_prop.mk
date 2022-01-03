@@ -87,7 +87,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
     persist.audio.fluence.voicerec=true
 
 # Eng
-ifeq ($(TARGET_BUILD_VARIANT),userdebug)
+ifeq ($(TARGET_BUILD_VARIANT),eng)
 PRODUCT_PRODUCT_PROPERTIES += \
     persist.sys.usb.config=mtp,adb \
     ro.secure=0 \
@@ -102,8 +102,8 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.persist.partition.support=no
 endif
 # Userdebug
-# ifeq ($(TARGET_BUILD_VARIANT),userdebug)
-# PRODUCT_PRODUCT_PROPERTIES += \
-#     ro.secure=1 \
-#     ro.adb.secure=1
-# endif
+ifeq ($(TARGET_BUILD_VARIANT),userdebug)
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.secure=1 \
+    ro.adb.secure=1
+endif
