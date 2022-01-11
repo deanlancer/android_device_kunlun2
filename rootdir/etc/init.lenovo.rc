@@ -8,6 +8,29 @@ on boot
     chown gps gps /sys/ontim_bootinfo/gps_reset
     chown gps gps /sys/ontim_bootinfo/gps_prtrg
 
+on post-fs
+    # Vibrator
+    chown system system /sys/class/leds/vibrator/vmax_override
+    # write /sys/class/leds/vibrator/vmax_override 1
+    chown system system /sys/class/leds/vibrator/vmax_mv_user
+    chown system system /sys/class/leds/vibrator/vmax_mv_call
+    chown system system /sys/class/leds/vibrator/vmax_mv_strong
+    chown system system /sys/class/leds/vibrator/vmax_mv
+    chmod 0660 /sys/class/leds/vibrator/vmax_mv
+    chmod 0660 /sys/class/leds/vibrator/vmax_mv_call
+    chmod 0660 /sys/class/leds/vibrator/vmax_mv_strong
+    chmod 0660 /sys/class/leds/vibrator/vmax_mv_user
+    chmod 0660 /sys/class/leds/vibrator/vmax_override
+    
+    chown system system /sys/class/leds/vibrator/trigger
+    chown system system /sys/class/leds/vibrator/activate
+    chown system system /sys/class/leds/vibrator/brightness
+    chown system system /sys/class/leds/vibrator/duration
+    chown system system /sys/class/leds/vibrator/state
+
+    chown system system /sys/class/vibrator/wf_samp
+    chown system system /sys/class/vibrator/wf_rep_count
+    chown system system /sys/class/vibrator/wf_s_rep_count
 
 on init
 #added touch gesture wake node permission
