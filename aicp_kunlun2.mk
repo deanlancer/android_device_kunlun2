@@ -30,6 +30,9 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 # Recorder
 #TARGET_SUPPORTS_GOOGLE_RECORDER := true
 
+# Quick Tap
+TARGET_SUPPORTS_QUICK_TAP := true
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := aicp_kunlun2
 PRODUCT_BRAND := Lenovo
