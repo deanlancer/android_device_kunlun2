@@ -843,9 +843,6 @@
          phone object irrespective of this config -->
     <bool name="config_switch_phone_on_voice_reg_state_change">false</bool>
 
-    <!-- Boolean indicating if current platform supports BLE peripheral mode -->
-    <bool name="config_bluetooth_le_peripheral_mode_supported">true</bool>
-
     <!-- Flag indicating if the speed up audio on mt call code should be executed -->
     <bool name="config_speed_up_audio_on_mt_calls">true</bool>			
 	
@@ -1136,9 +1133,6 @@
             2 - Global actions menu
     -->
     <integer name="config_keyChordPowerVolumeUp">1</integer>
-
-    <!-- Whether Hearing Aid profile is supported -->
-    <bool name="config_hearing_aid_profile_supported">true</bool>
 
     <!-- Flag indicating whether the surface flinger is inefficient
          at performing a blur.  Used by parts of the UI to turn off
