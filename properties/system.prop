@@ -51,6 +51,8 @@ persist.vendor.qcom.bluetooth.twsp_state.enabled=false
 ro.bluetooth.a2dp_offload.supported=true
 # support aptx feature flag (1:support)
 bt.aptx.enabled=APTX-APTX_HD-LDAC
+# Hearing Aid Audio Support Using Bluetooth LE
+bluetooth.profile.asha.central=true
 
 # Camera
 ro.camera.hfr.enable=1
