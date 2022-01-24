@@ -6,7 +6,6 @@
 # Graphics
 PRODUCT_PROPERTY_OVERRIDES += \
 	debug.hwui.renderer=skiavk \
-	debug.renderengine.backend=skiaglthreaded \
     renderthread.skia.reduceopstasksplitting=true \
 	ro.opengles.version=196610 \
 	ro.hardware.keystore_desede=true \
