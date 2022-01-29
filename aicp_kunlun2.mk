@@ -33,6 +33,9 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 # MicroG
 # ADD_MICROG := true
 
+# ZuiCam
+# ADD_ZUICAM := true
+
 # Quick Tap
 TARGET_SUPPORTS_QUICK_TAP := true
 
