@@ -16,7 +16,9 @@ $(call inherit-product-if-exists, vendor/lenovo/GoogleCamera/config.mk)
 $(call inherit-product-if-exists, vendor/lenovo/ZuiAudio/config.mk)
 
 # MicroG
+ifeq ($(ADD_MICROG), true)
 $(call inherit-product-if-exists, vendor/lenovo/MicroG/config.mk)
+endif
 
 # ArrowOS Properties
 $(call inherit-product-if-exists, vendor/lawnchair/lawnchair.mk)

@@ -30,6 +30,9 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 # Recorder
 #TARGET_SUPPORTS_GOOGLE_RECORDER := true
 
+# MicroG
+# ADD_MICROG := true
+
 # Quick Tap
 TARGET_SUPPORTS_QUICK_TAP := true
 
