@@ -26,6 +26,9 @@ $(call inherit-product, vendor/arrow/config/common.mk)
 # Recorder
 #TARGET_SUPPORTS_GOOGLE_RECORDER := true
 
+# MicroG
+# ADD_MICROG := true
+
 # Quick Tap
 TARGET_SUPPORTS_QUICK_TAP := true
 
