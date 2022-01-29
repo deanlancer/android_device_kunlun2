@@ -29,6 +29,9 @@ $(call inherit-product, vendor/arrow/config/common.mk)
 # MicroG
 # ADD_MICROG := true
 
+# ZuiCam
+# ADD_ZUICAM := true
+
 # Quick Tap
 TARGET_SUPPORTS_QUICK_TAP := true
 
