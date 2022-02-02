@@ -29,4 +29,7 @@
 
     <!-- Manufacturer backup settings label -->
     <string name="config_backup_settings_label" translatable="true">Backup Transport</string>
+
+    <!-- Whether to show the Preference for Adaptive connectivity -->
+    <bool name="config_show_adaptive_connectivity">false</bool>
 </resources>
