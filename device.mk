@@ -78,7 +78,8 @@ PRODUCT_PACKAGES += \
     libcodec2_vndk.vendor \
     libcodec2_hidl@1.0.vendor \
     android.hardware.media.c2@1.0 \
-    android.hardware.media.c2@1.1
+    android.hardware.media.c2@1.1 \
+    android.hardware.media.c2@1.2
 
 # Codec2 modules
 PRODUCT_PACKAGES += \
