@@ -5,9 +5,6 @@ audio.offload.video=true
 audio.sys.noisy.broadcast.delay=600
 audio.sys.offload.pstimeout.secs=3
 
-# BPF
-ro.kernel.ebpf.supported=true
-
 # Bluetooth
 #ro.bluetooth.wipower=true
 #ro.bluetooth.emb_wp_mode=true
