@@ -1256,7 +1256,6 @@ vendor/bin/hbtp_daemon
 vendor/bin/hw/capabilityconfigstoretest
 vendor/bin/hw/vendor.qti.hardware.capabilityconfigstore@1.0-service
 vendor/bin/ipacm-diag
-vendor/bin/ipacm
 vendor/bin/KmInstallKeybox
 vendor/bin/loadalgo
 vendor/bin/mlid|57a173eb230e6590810a0114f44ce1f591480ce7
@@ -1309,7 +1308,6 @@ vendor/etc/init/init-qcril-data.rc
 vendor/etc/init/init.qdmastats.rc
 vendor/etc/init/init.time_daemon.rc
 vendor/etc/init/ipacm-diag.rc
-vendor/etc/init/ipacm.rc
 vendor/etc/init/ipa_fws.rc
 vendor/etc/init/netmgrd.rc|ff425b7abb4e77c8d1648c0a5c02b3ba6070305b
 vendor/etc/init/port-bridge.rc
