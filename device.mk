@@ -264,7 +264,7 @@ PRODUCT_PACKAGES += \
     libhwc2onfbadapter \
     libqdMetaData \
     libqdMetaData.vendor \
-    libtinyxml2 \
+    libtinyxml \
     libvulkan \
     memtrack.sdm710 \
     vendor.display.config@1.0.vendor \
