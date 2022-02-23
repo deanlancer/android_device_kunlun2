@@ -1403,7 +1403,6 @@ vendor/lib64/libssrec.so
 vendor/lib64/libsynergy_loc_api.so
 vendor/lib64/libwapi_cert.so
 vendor/lib64/libwa_opticalzoomfactor.so
-vendor/lib64/libwifi-hal.so
 vendor/lib64/qtibus.so|bb7fb8ce1f530ebbbe9088ba5443a2a9ed435253
 vendor/lib64/qtimutex.so|1e9601d8e9b447294df744718be06cb2abe841cf
 vendor/lib64/unnhal-acc-adreno.so|7ad6daa9bf39c5a199b2afb1bd60c1ae53ffbb06
