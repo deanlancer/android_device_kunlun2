@@ -163,6 +163,9 @@ ro.telephony.iwlan_operation_mode=legacy
 persist.radio.add_power_save=1
 persist.sys.fflag.override.settings_provider_model=false
 
+# USB
+system.usb.product_string=Lenovo Z6SE
+
 # WLAN
 ro.wlan.vendor=qcom
 ro.wlan.mimo=0
