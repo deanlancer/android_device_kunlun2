@@ -199,4 +199,5 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Apex
 PRODUCT_PROPERTY_OVERRIDES += \
 	ro.apex.updatable=false
+	
 
