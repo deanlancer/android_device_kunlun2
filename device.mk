@@ -150,7 +150,6 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-spark
 PRODUCT_PACKAGES += \
     android.hardware.audio.service \
     android.hardware.audio@6.0-impl:32 \
-    audio.a2dp.default \
     android.hardware.audio.effect@6.0-impl:32 \
     android.hardware.soundtrigger@2.2-impl:32 \
     audio.hearing_aid.default \
