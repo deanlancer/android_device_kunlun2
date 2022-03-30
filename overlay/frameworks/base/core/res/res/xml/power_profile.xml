@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <device name="Android">
     <item name="none">0</item>
-    <item name="ambient.on">24</item>
-    <item name="screen.on">79.01</item>
-    <item name="screen.full">320</item>
+    <item name="ambient.on.display0">24</item>
+    <item name="screen.on.display0">79.01</item>
+    <item name="screen.full.display0">320</item>
     <item name="camera.flashlight">142.81</item>
     <item name="camera.avg">401.73</item>
     <item name="wifi.on">0.02</item>
