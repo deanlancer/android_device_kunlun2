@@ -984,10 +984,6 @@
          -->
     <string translatable="false" name="config_mainBuiltInDisplayCutout">M -58,0 L -58,74 L 58,74 L 58,0 Z</string>
 
-    <!-- Height of the status bar -->
-    <dimen name="status_bar_height_portrait">85px</dimen>
-    <dimen name="status_bar_height_landscape">28.0dp</dimen>
-
     <!-- Whether device supports double tap to wake -->
     <bool name="config_supportDoubleTapWake">true</bool>
 
