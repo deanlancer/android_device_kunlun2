@@ -32,10 +32,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	vendor.display.enable_default_color_mode=1 \
 	persist.sys.sf.native_mode=0
 
-# Qualcomm System Daemon
-PRODUCT_PROPERTY_OVERRIDES += \
-	persist.vendor.qcomsysd.enabled=1
-
 # Perf Dummy
 PRODUCT_PROPERTY_OVERRIDES += \
 	ro.vendor.extension_library=libqti-perfd-client.so
