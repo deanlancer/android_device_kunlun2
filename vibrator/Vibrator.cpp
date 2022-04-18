@@ -53,14 +53,6 @@ namespace vibrator {
 #define LIGHT_MAGNITUDE         0x5fff
 #define INVALID_VALUE           -1
 #define CUSTOM_DATA_LEN         3
-#define NAME_BUF_SIZE           32
-
-#define MSM_CPU_LAHAINA         415
-#define APQ_CPU_LAHAINA         439
-#define MSM_CPU_SHIMA           450
-#define MSM_CPU_SM8325          501
-#define APQ_CPU_SM8325P         502
-#define MSM_CPU_YUPIK           475
 
 #define test_bit(bit, array)    ((array)[(bit)/8] & (1<<((bit)%8)))
 
@@ -74,7 +66,6 @@ InputFFDevice::InputFFDevice()
     uint8_t ffBitmask[FF_CNT / 8];
     char devicename[PATH_MAX];
     const char *INPUT_DIR = "/dev/input/";
-    char name[NAME_BUF_SIZE];
     int fd, ret;
     int soc = property_get_int32("ro.vendor.qti.soc_id", -1);
 
@@ -106,20 +97,6 @@ InputFFDevice::InputFFDevice()
             continue;
         }
 
-        ret = TEMP_FAILURE_RETRY(ioctl(fd, EVIOCGNAME(sizeof(name)), name));
-        if (ret == -1) {
-            ALOGE("get input device name %s failed, errno = %d\n", devicename, errno);
-            close(fd);
-            continue;
-        }
-
-        if (strcmp(name, "qcom-hv-haptics") && strcmp(name, "qti-haptics")) {
-            ALOGE("%s not a qcom/qti haptics device\n", name);
-            close(fd);
-            continue;
-        }
-
-        ALOGI("%s is detected at %s\n", name, devicename);
         ret = TEMP_FAILURE_RETRY(ioctl(fd, EVIOCGBIT(EV_FF, sizeof(ffBitmask)), ffBitmask));
         if (ret == -1) {
             ALOGE("ioctl failed, errno = %d", errno);
@@ -139,18 +116,10 @@ InputFFDevice::InputFFDevice()
                 fscanf(fp, "%u", &soc);
                 fclose(fp);
             }
-            switch (soc) {
-            case MSM_CPU_LAHAINA:
-            case APQ_CPU_LAHAINA:
-            case MSM_CPU_SHIMA:
-            case MSM_CPU_SM8325:
-            case APQ_CPU_SM8325P:
-            case MSM_CPU_YUPIK:
+            if (soc == 400 || soc == 415) {
                 mSupportExternalControl = true;
-                break;
-            default:
+            } else {
                 mSupportExternalControl = false;
-                break;
             }
             break;
         }
