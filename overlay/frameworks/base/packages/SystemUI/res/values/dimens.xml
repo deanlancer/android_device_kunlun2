@@ -16,16 +16,16 @@
 */
 -->
 <resources>
-    <dimen name="rounded_corner_content_padding">7dp</dimen>
+    <!-- <dimen name="rounded_corner_content_padding">7dp</dimen> -->
 
     <!-- Height of the status bar header bar when on Keyguard -->
     <dimen name="status_bar_header_height_keyguard">@*android:dimen/status_bar_height</dimen>
 
     <!-- the padding on the start of the statusbar -->
-    <!-- <dimen name="status_bar_padding_start">8dp</dimen> -->
+    <dimen name="status_bar_padding_start">8dp</dimen>
 
     <!-- the padding on the end of the statusbar -->
-    <!-- <dimen name="status_bar_padding_end">8dp</dimen> -->
+    <dimen name="status_bar_padding_end">2dp</dimen>
     
     <dimen name="volume_dialog_slider_height">180.0dp</dimen>
 
