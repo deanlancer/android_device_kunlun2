@@ -28,6 +28,27 @@ on init
     # Disable powersaving
     write /sys/module/lpm_levels/parameters/sleep_disabled 1
 
+    # Cpuset
+    mkdir /dev/cpuset/audio-app
+    copy /dev/cpuset/cpus /dev/cpuset/audio-app/cpus
+    copy /dev/cpuset/mems /dev/cpuset/audio-app/mems
+
+    chown system system /dev/cpuset/audio-app
+    chown system system /dev/cpuset/audio-app/tasks
+    chmod 0664 /dev/cpuset/audio-app/tasks
+    
+    mkdir /dev/cpuset/display
+    copy /dev/cpuset/cpus /dev/cpuset/display/cpus
+    copy /dev/cpuset/mems /dev/cpuset/display/mems
+    
+    chown system system /dev/cpuset/display
+    chown system system /dev/cpuset/display/tasks
+    chmod 0664 /dev/cpuset/display/tasks
+
+    chown system system /dev/cpuset/display/cgroup.procs
+    chown system system /dev/cpuset/audio-app/cgroup.procs
+
+
     # bring back all cores
     write /sys/devices/system/cpu/cpu0/online 1
     write /sys/devices/system/cpu/cpu1/online 1
@@ -114,3 +135,8 @@ on property:sys.boot_completed=1
     write /sys/module/lpm_levels/L3/cpu5/ret/idle_enabled N
     write /sys/module/lpm_levels/L3/cpu6/ret/idle_enabled N
     write /sys/module/lpm_levels/L3/cpu7/ret/idle_enabled N
+
+    # For cpusets initialize for Silver only first and then Silver + Gold
+    # Silver only configuration cannot work with 0-7
+    write /dev/cpuset/display/cpus 1-3
+    write /dev/cpuset/audio-app/cpus 1-2
