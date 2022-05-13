@@ -1168,9 +1168,6 @@
     -->
     <integer name="config_keyChordPowerVolumeUp">1</integer>
 
-    <!-- Whether to show a preference item for mobile plan -->
-    <bool name="config_show_mobile_plan">false</bool>
-
     <!-- Whether Hearing Aid profile is supported -->
     <bool name="config_hearing_aid_profile_supported">true</bool>
 </resources>
