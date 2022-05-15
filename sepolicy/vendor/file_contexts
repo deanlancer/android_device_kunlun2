@@ -13,6 +13,7 @@
 /vendor/bin/hw/android\.hardware\.atrace@1.0-service\.pixel                                               		 u:object_r:hal_atrace_default_exec:s0
 /(vendor|system/vendor)/bin/qdmastatsd               															 u:object_r:qdmastatsd_exec:s0
 /(vendor|system/vendor)/bin/remosaic_daemon																		 u:object_r:remosaic_daemon_exec:s0
+/(vendor|system/vendor)/bin/hw/vendor\.lineage\.chgctrl@1\.0-service\.lenovo                                     u:object_r:hal_chargecontrol_default_exec:s0
 
 # Hexagon DSP-side executable needed for Halide operation
 # This is labeled as public_adsprpcd_file as it needs to be read by apps
