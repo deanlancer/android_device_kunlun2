@@ -11,3 +11,5 @@ allow platform_app sysfs_battery_supply:lnk_file { read };
 allow platform_app sysfs_battery_supply:file { getattr open read };
 
 allow platform_app sysfs_kgsl:file { getattr open read };
+
+allow platform_app default_android_service:service_manager { find add };

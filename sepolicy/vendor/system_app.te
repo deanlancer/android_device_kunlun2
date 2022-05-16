@@ -1,3 +1,4 @@
 # Battery Health rules
 allow system_app sysfs_battery_supply:dir { search };
 allow system_app sysfs_battery_supply:file { r_file_perms };
+allow system_app default_android_service:service_manager { find add };
