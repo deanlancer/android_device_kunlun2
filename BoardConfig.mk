@@ -256,6 +256,8 @@ BOARD_AVB_RECOVERY_ROLLBACK_INDEX_LOCATION := 1
 # AICP
 TARGET_USE_MUSICFX := false
 TARGET_PROVIDES_KEYMASTER := true
+TARGET_EXCLUDES_AUDIOFX := true
+
 
 # Inherit from the proprietary version
 -include vendor/lenovo/kunlun2/BoardConfigVendor.mk
