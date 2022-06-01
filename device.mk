@@ -21,9 +21,6 @@ ifeq ($(ADD_MICROG), true)
 $(call inherit-product-if-exists, vendor/lenovo/MicroG/config.mk)
 endif
 
-# ArrowOS Properties
-$(call inherit-product-if-exists, vendor/lawnchair/lawnchair.mk)
-
 # Hardware
 PRODUCT_BOARD_PLATFORM := sdm845
 PRODUCT_USES_QCOM_HARDWARE := true
