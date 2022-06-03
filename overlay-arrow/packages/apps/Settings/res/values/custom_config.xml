@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?> 
+
+<resources>
+
+    <!-- Battery Health -->
+    <string name="config_batChargeCycle">/sys/class/power_supply/bms/cycle_count</string>
+    <string name="config_batDesCap">/sys/class/power_supply/bms/charge_full_design</string>
+    <string name="config_batCurCap">/sys/class/power_supply/bms/charge_counter</string>
+    <integer name="config_batCurCapDivider">1000</integer>
+    <integer name="config_batDesCapDivider">1000</integer>
+    <bool name="config_supportBatteryHealth">true</bool>
+
+</resources>
