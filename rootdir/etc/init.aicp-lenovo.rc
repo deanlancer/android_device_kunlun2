@@ -24,5 +24,3 @@ on boot
     chmod 0644 /sys/class/power_supply/bms/cycle_count
     chown system system /sys/class/power_supply/bms/charge_counter
     chmod 0644 /sys/class/power_supply/bms/charge_counter
-    chown system system /sys/class/power_supply/bms/battery_type
-    chmod 0644 /sys/class/power_supply/bms/battery_type
