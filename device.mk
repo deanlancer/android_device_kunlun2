@@ -462,9 +462,10 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/google/pixel \
     hardware/qcom-caf/sdm845
 
-# SoundRecoreder
+# Packages
 PRODUCT_PACKAGES += \
-	SoundRecorder
+	SoundRecorder \
+    Etar
 
 # Telephony
 PRODUCT_PACKAGES += \
