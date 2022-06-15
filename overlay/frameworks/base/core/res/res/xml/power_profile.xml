@@ -7,15 +7,15 @@
     <item name="camera.flashlight">142.81</item>
     <item name="camera.avg">401.73</item>
     <item name="wifi.on">0.02</item>
-    <item name="wifi.active">221.39</item>
-    <item name="wifi.scan">10.91</item>
+    <item name="wifi.active">190</item>
+    <item name="wifi.scan">130</item>
     <item name="audio">15.08</item>
     <item name="video">44.03</item>
-    <item name="radio.active">182.755</item>
-    <item name="radio.scanning">59.12</item>
+    <item name="radio.active">90</item>
+    <item name="radio.scanning">3.8</item>
     <array name="radio.on">
-        <value>6.19</value>
-        <value>6.19</value>
+        <value>2</value>
+        <value>1</value>
     </array>
     <array name="cpu.clusters.cores">
         <value>6</value>
