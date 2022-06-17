@@ -36,6 +36,13 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
 	ro.vendor.extension_library=libqti-perfd-client.so
 
+# App launch prefetching (IORapd)
+PRODUCT_PROPERTY_OVERRIDES += \
+	ro.iorapd.enable=false \
+	iorapd.perfetto.enable=false \
+	iorapd.readahead.enable=false \
+	persist.device_config.runtime_native_boot.iorap_readahead_enable=false
+
 # Radio
 PRODUCT_PROPERTY_OVERRIDES += \
 	ro.com.android.dataroaming=false \
