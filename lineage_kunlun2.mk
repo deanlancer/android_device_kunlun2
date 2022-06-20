@@ -19,8 +19,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 $(call inherit-product, device/lenovo/kunlun2/device.mk)
 
-# Inherit some common Arrow OS stuff
-$(call inherit-product, vendor/arrow/config/common.mk)
+# Inherit some common Lineage OS stuff
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 #TARGET_GAPPS_ARCH := arm64
 # Recorder
@@ -35,8 +35,18 @@ $(call inherit-product, vendor/arrow/config/common.mk)
 # Quick Tap
 TARGET_SUPPORTS_QUICK_TAP := true
 
+# maintainer flag
+RICE_MAINTAINER := Deanlancer
+
+# gapps build flag, if not defined build type is vanilla
+# GAPPS package is similar to core gapps
+WITH_GAPPS := false
+
+# disable/enable blur support, default is false
+TARGET_ENABLE_BLUR := false
+
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := arrow_kunlun2
+PRODUCT_NAME := lineage_kunlun2
 PRODUCT_BRAND := Lenovo
 PRODUCT_DEVICE := kunlun2
 PRODUCT_MODEL := L38111
