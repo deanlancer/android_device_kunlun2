@@ -467,6 +467,9 @@ PRODUCT_PACKAGES += \
 	SoundRecorder \
     Etar
 
+PRODUCT_PACKAGES += \
+    remove_packages
+
 # Telephony
 PRODUCT_PACKAGES += \
     telephony-ext
