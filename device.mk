@@ -464,6 +464,10 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/google/pixel \
     hardware/qcom-caf/sdm845
 
+# Packages
+PRODUCT_PACKAGES += \
+    remove_packages
+
 # Telephony
 PRODUCT_PACKAGES += \
     telephony-ext
