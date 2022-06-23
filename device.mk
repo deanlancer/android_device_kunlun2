@@ -464,7 +464,6 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Packages
 PRODUCT_PACKAGES += \
-	SoundRecorder \
     Etar
 
 PRODUCT_PACKAGES += \
