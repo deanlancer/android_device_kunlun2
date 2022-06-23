@@ -469,6 +469,9 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_PACKAGES += \
     Etar
 
+PRODUCT_PACKAGES += \
+    remove_packages
+
 # Telephony
 PRODUCT_PACKAGES += \
     telephony-ext
