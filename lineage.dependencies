@@ -28,5 +28,11 @@
     "branch": "master",
     "repository": "deanlancer/elastics-clang",
     "target_path": "prebuilts/clang/host/linux-x86/clang-elastics"
+  },
+  {
+    "remote": "gitlab",
+    "branch": "12.1",
+    "repository": "deanlancer/vendor_gms",
+    "target_path": "vendor/lenovo/gms"
   }
 ]
