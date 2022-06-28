@@ -26,6 +26,10 @@ $(call inherit-product, vendor/aicp/config/common_full_phone.mk)
 PRODUCT_BUILD_PROP_OVERRIDES += \
     DEVICE_MAINTAINERS="Deanlancer"
 
+# gapps build flag, if not defined build type is vanilla
+# GAPPS package is similar to core gapps
+WITH_CORE_GAPPS := true
+
 #TARGET_GAPPS_ARCH := arm64
 # Recorder
 #TARGET_SUPPORTS_GOOGLE_RECORDER := true
