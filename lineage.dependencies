@@ -24,9 +24,9 @@
     "target_path": "kernel/lenovo/msm-4.9"
   },
   {
-    "remote": "github",
-    "branch": "main",
-    "repository": "cbendot/elastics-toolchain",
+    "remote": "gitlab",
+    "branch": "master",
+    "repository": "deanlancer/elastics-clang",
     "target_path": "prebuilts/clang/host/linux-x86/clang-elastics"
   }
 ]
