@@ -45,6 +45,16 @@
 
     <!-- The padding on the top of the statusbar -->
     <dimen name="status_bar_padding_top">4dp</dimen>
+
+    <!-- Icons that don't show in a collapsed non-keyguard statusbar -->
+    <string-array name="config_collapsed_statusbar_icon_blocklist" translatable="false">
+      <item>@*android:string/status_bar_call_strength</item>
+    </string-array>
+
+    <!-- Icons that don't show in a collapsed statusbar on keyguard -->
+    <string-array name="config_keyguard_statusbar_icon_blocklist" translatable="false">
+      <item>@*android:string/status_bar_call_strength</item>
+    </string-array>
  
     <!-- Default rounded corner curve (a Bezier). Must match (the curved path in) rounded.xml.
     Note that while rounded.xml includes the entire path (including the horizontal and vertical
