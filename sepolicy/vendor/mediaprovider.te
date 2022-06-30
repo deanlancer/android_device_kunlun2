@@ -1,0 +1,1 @@
+allow mediaprovider mediametrics_service:service_manager find;
