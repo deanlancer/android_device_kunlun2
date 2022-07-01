@@ -1,2 +1,3 @@
 dontaudit system_server default_android_hwservice:hwservice_manager find;
 allow system_server default_android_service:service_manager { find add };
+allow system_server app_zygote:process getpgid;
