@@ -40,7 +40,7 @@ RICE_MAINTAINER := Deanlancer
 
 # gapps build flag, if not defined build type is vanilla
 # GAPPS package is similar to core gapps
-WITH_CORE_GAPPS := true
+# WITH_CORE_GAPPS := true
 
 # disable/enable blur support, default is false
 TARGET_ENABLE_BLUR := false
