@@ -48,9 +48,6 @@ PRODUCT_PRODUCT_PROPERTIES += \
 
 # ART
 PRODUCT_PRODUCT_PROPERTIES += \
-    pm.dexopt.boot=verify \
-    pm.dexopt.first-boot=verify \
-    pm.dexopt.install=speed-profile \
     dalvik.vm.image-dex2oat-filter=speed \
     dalvik.vm.image-dex2oat-threads=8 \
     dalvik.vm.dex2oat-filter=speed \
