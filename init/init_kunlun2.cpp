@@ -142,6 +142,9 @@ void vendor_load_properties()
 	property_override("ro.build.description", "bonito-user 12 SP2A.220505.006 8561491 release-keys");
   property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", "google/bonito/bonito:12/SP2A.220505.006/8561491:user/release-keys");
 
+  //Dexopt
+  property_override ("dalvik.vm.dex2oat-minidebuginfo", "false");
+  property_override ("dalvik.vm.minidebuginfo", "false");
 
 	// Workaround SafetyNet
 	workaround_snet_properties();
