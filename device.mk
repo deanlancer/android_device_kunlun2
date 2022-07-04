@@ -21,12 +21,6 @@ ifeq ($(ADD_MICROG), true)
 $(call inherit-product-if-exists, vendor/lenovo/MicroG/config.mk)
 endif
 
-# GAPPS
-ifeq ($(WITH_CORE_GAPPS),true)
--include vendor/lenovo/gms/gms.mk
-PACKAGE_BUILD_TYPE := GAPPS
-endif
-
 # Hardware
 PRODUCT_BOARD_PLATFORM := sdm845
 PRODUCT_USES_QCOM_HARDWARE := true
