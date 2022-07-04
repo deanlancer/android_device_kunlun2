@@ -139,6 +139,10 @@ void vendor_load_properties()
 {
 	property_override("ro.control_privapp_permissions", "log");
 
+  //Dexopt
+  property_override ("dalvik.vm.dex2oat-minidebuginfo", "false");
+  property_override ("dalvik.vm.minidebuginfo", "false");
+
 	// Workaround SafetyNet
 	workaround_snet_properties();
 	// dalvikvm props
