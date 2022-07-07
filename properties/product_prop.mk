@@ -73,10 +73,6 @@ PRODUCT_PRODUCT_PROPERTIES += \
     persist.audio.fluence.voicecall=true \
     persist.audio.fluence.voicerec=true
 
-# App Launch Blur
-PRODUCT_PRODUCT_PROPERTIES += \
-    ro.launcher.blur.appLaunch=false
-
 # Eng
 ifeq ($(TARGET_BUILD_VARIANT),eng)
 PRODUCT_PRODUCT_PROPERTIES += \
