@@ -1056,10 +1056,10 @@
     <bool name="config_suspendWhenScreenOffDueToProximity">true</bool>
     
     <!-- The OEM specified sensor type for the gesture to launch the camera app. -->
-    <integer name="config_cameraLaunchGestureSensorType">33240633</integer>
+    <!-- <integer name="config_cameraLaunchGestureSensorType">33240633</integer> -->
     <!-- The OEM specified sensor string type for the gesture to launch camera app, this value
          must match the value of config_cameraLaunchGestureSensorType in OEM's HAL -->
-    <string translatable="false" name="config_cameraLaunchGestureSensorStringType">com.lenovo.sensor.twisttwice</string>
+    <!-- <string translatable="false" name="config_cameraLaunchGestureSensorStringType">com.lenovo.sensor.twisttwice</string> -->
 
     <!-- List supported color modes. -->
     <integer-array name="config_availableColorModes">
