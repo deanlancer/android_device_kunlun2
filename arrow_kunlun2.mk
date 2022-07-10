@@ -32,9 +32,6 @@ $(call inherit-product, vendor/arrow/config/common.mk)
 # ZuiCam
 # ADD_ZUICAM := true
 
-# Quick Tap
-TARGET_SUPPORTS_QUICK_TAP := true
-
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := arrow_kunlun2
 PRODUCT_BRAND := Lenovo
