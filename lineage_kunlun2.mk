@@ -32,9 +32,6 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # ZuiCam
 # ADD_ZUICAM := true
 
-# Quick Tap
-TARGET_SUPPORTS_QUICK_TAP := true
-
 # maintainer flag
 RICE_MAINTAINER := Deanlancer
 
