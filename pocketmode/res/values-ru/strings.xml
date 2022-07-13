@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="appname">Экономичный режим "В Кармане"</string>
-    <string name="pocketmode_title">Экономичный режим "В Кармане"</string>
-    <string name="pocketmode_short_title">Режим "В Кармане"</string>
-    <string name="pocketmode_summary">Экономичный режим "В Кармане"</string>
+    <string name="appname">Экономичный режим \"В Кармане\"</string>
+    <string name="pocketmode_title">Экономичный режим \"В Кармане\"</string>
+    <string name="pocketmode_short_title">Режим \"В Кармане\"</string>
+    <string name="pocketmode_summary">Экономичный режим \"В Кармане\"</string>
     <string name="pocketmode_description">\Состояние датчиков приближения и освещенности отслеживается только во время экрана блокировки, что продлевает срок работы телефона от заряда батареи.\nВ случае, если экран автоматически гаснет после того, как телефон достали из кармана, просто подождите пару секунд и все снова заработает как надо.</string>
 </resources>
