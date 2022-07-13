@@ -1141,12 +1141,6 @@ vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so|960561ba01e28777e099294fb0a9a74
 
 # Thermal
 vendor/bin/thermal-engine|142f2705d2a5ca323145b14c16851bfdf7a1bdcc
-vendor/etc/thermal-engine-sdm710-camera.conf|e14a831fc9cf7e5276f63c4595d9872349a0fd13
-vendor/etc/thermal-engine-sdm710-high.conf|d6e006f480bdeba3d4da9d352f2b262521915144
-vendor/etc/thermal-engine-sdm710-map.conf|4c1c7aa336aaa61e9912f08f0cc08adf24670461
-vendor/etc/thermal-engine-sdm710-nolimits.conf|c98d5c0f9cd473a1f3edec762a2d8617b315709b
-vendor/etc/thermal-engine-sdm710-phone.conf|c733cf3c6d06a0955c36654a45020aefafd096e2
-vendor/etc/thermal-engine-sdm710.conf|0dc7f1248bc9454cd6baa29d8a7b6f222fc9077d
 vendor/etc/thermal-engine.conf|c6c9312b7c7b52926cf7d0fc9bff933d90967100
 vendor/lib/libthermalclient.so|dc1655c135f1e37d743f454d7fba72372cc754d7
 vendor/lib64/libthermalclient.so|8daf4b680b432481c99eaa3b54a6da1d6348e2cb
