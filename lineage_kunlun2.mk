@@ -35,6 +35,9 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # maintainer flag
 RICE_MAINTAINER := Deanlancer
 
+# riceDroid Bootanimation
+SUSHI_BOOTANIMATION  := 1080
+
 # gapps build flag, if not defined build type is vanilla
 # GAPPS package is similar to core gapps
 # WITH_CORE_GAPPS := true
