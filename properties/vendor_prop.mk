@@ -32,7 +32,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	vendor.display.enable_default_color_mode=3 \
 	persist.sys.sf.native_mode=0 \
 	vendor.display.disable_scaler=1 \
-	debug.sf.disable_client_composition_cache=1
+	debug.sf.disable_client_composition_cache=1 \
+	debug.sf.predict_hwc_composition_strategy=0
 
 # Perf Dummy
 PRODUCT_PROPERTY_OVERRIDES += \
