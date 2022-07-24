@@ -35,6 +35,9 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # maintainer flag
 RICE_MAINTAINER := Deanlancer
 
+# chipset flag
+RICE_CHIPSET := Snapdragon®710
+
 # riceDroid Bootanimation
 SUSHI_BOOTANIMATION  := 1080
 
