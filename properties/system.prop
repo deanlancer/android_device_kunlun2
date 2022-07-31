@@ -115,15 +115,8 @@ vendor.mm.enable.qcom_parser=13500415
 # Face Unlock
 ro.face.moto_unlock_service.cam_id=1
 
-# Memory optimizations
-ro.vendor.qti.sys.fw.bservice_enable=true
-
 # Netflix custom property
 ro.netflix.bsp_rev=Q670-14477
-
-# Perf
-ro.vendor.qti.core_ctl_min_cpu=4
-ro.vendor.qti.core_ctl_max_cpu=6
 
 # RCS and IMS
 persist.data.iwlan.enable=true
