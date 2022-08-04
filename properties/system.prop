@@ -13,6 +13,7 @@ persist.service.btui.use_aptx=1
 persist.bluetooth.a2dp_offload.cap=sbc-aptx-aptxtws-aptxhd-aac-ldac
 persist.bluetooth.a2dp_offload.disabled=false
 persist.vendor.bt.a2dp.aac_whitelist=false
+persist.vendor.bt.a2dp.mac_whitelist=false
 persist.vendor.btstack.enable.splita2dp=true
 persist.vendor.btstack.connect.peer_earbud=true
 persist.vendor.btstack.enable.twsplus=true
