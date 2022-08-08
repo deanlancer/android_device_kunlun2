@@ -73,6 +73,10 @@ PRODUCT_PRODUCT_PROPERTIES += \
     persist.audio.fluence.voicecall=true \
     persist.audio.fluence.voicerec=true
 
+# BG apps limit
+PRODUCT_PRODUCT_PROPERTIES += \
+    persist.sys.fw.bg_apps_limit=128
+
 # Eng
 ifeq ($(TARGET_BUILD_VARIANT),eng)
 PRODUCT_PRODUCT_PROPERTIES += \
