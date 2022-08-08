@@ -97,6 +97,10 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_PRODUCT_PROPERTIES += \
 ro.telephony.block_binder_thread_on_incoming_calls=false
 
+# BG apps limit
+PRODUCT_PRODUCT_PROPERTIES += \
+    persist.sys.fw.bg_apps_limit=128
+
 # Eng
 ifeq ($(TARGET_BUILD_VARIANT),eng)
 PRODUCT_PRODUCT_PROPERTIES += \
