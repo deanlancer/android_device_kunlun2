@@ -535,10 +535,6 @@ PRODUCT_PACKAGES += \
     ipacm \
     IPACM_cfg.xml
 
-# Vibrator
-PRODUCT_PACKAGES += \
-    vendor.qti.hardware.vibrator.service
-
 # WiFi
 PRODUCT_PACKAGES += \
     android.hardware.wifi@1.5.vendor \
