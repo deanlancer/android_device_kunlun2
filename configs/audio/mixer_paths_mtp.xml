@@ -313,11 +313,11 @@
     <ctl name="EAR PA Gain" value="POS_1P5_DB" />
     <ctl name="EAR PA Boost" value="DISABLE" />
 
-    <ctl name="RX1 Digital Volume" value="95" />
-    <ctl name="RX2 Digital Volume" value="95" />
-    <ctl name="RX3 Digital Volume" value="95" />
-    <ctl name="RX4 Digital Volume" value="95" />
-    <ctl name="RX5 Digital Volume" value="95" />
+    <ctl name="RX1 Digital Volume" value="84" />
+    <ctl name="RX2 Digital Volume" value="84" />
+    <ctl name="RX3 Digital Volume" value="84" />
+    <ctl name="RX4 Digital Volume" value="84" />
+    <ctl name="RX5 Digital Volume" value="84" />
     <ctl name="ADC1 Volume" value="5" />
     <ctl name="ADC2 Volume" value="5" />
     <ctl name="ADC3 Volume" value="5" />
@@ -555,10 +555,16 @@
 
     <path name="low-latency-playback">
         <ctl name="PRI_MI2S_RX Audio Mixer MultiMedia5" value="1" />
+        <ctl name="RX1 Digital Volume" value="92" />
+        <ctl name="RX2 Digital Volume" value="92" />
+        <ctl name="RX3 Digital Volume" value="92" />
     </path>
 
     <path name="low-latency-playback speaker">
         <ctl name="PRI_MI2S_RX Audio Mixer MultiMedia5" value="1" />
+        <ctl name="RX1 Digital Volume" value="92" />
+        <ctl name="RX2 Digital Volume" value="92" />
+        <ctl name="RX3 Digital Volume" value="92" />
     </path>
 
     <path name="low-latency-playback handset">
@@ -579,6 +585,9 @@
 
     <path name="low-latency-playback bt-sco">
         <ctl name="SLIMBUS_7_RX Audio Mixer MultiMedia5" value="1" />
+        <ctl name="RX1 Digital Volume" value="88" />
+        <ctl name="RX2 Digital Volume" value="88" />
+        <ctl name="RX3 Digital Volume" value="88" />
     </path>
 
     <path name="low-latency-playback bt-sco-wb">
@@ -2555,6 +2564,9 @@
 
     <path name="low-latency-playback bt-a2dp">
         <ctl name="SLIMBUS_7_RX Audio Mixer MultiMedia5" value="1" />
+        <ctl name="RX1 Digital Volume" value="88" />
+        <ctl name="RX2 Digital Volume" value="88" />
+        <ctl name="RX3 Digital Volume" value="88" />
     </path>
 
     <path name="compress-offload-playback bt-a2dp">
