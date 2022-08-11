@@ -50,6 +50,9 @@
          2: gestures only for back, home and overview -->
     <integer name="config_navBarInteractionMode">2</integer>
 
+    <!-- System Info -->
+    <bool name="config_supportSystemInfo">true</bool>
+
     <!-- Temp nodes -->
     <string name="config_sysCPUTemp">/sys/class/thermal/thermal_zone0/temp</string>
     <string name="config_sysBatteryTemp">/sys/class/power_supply/battery/temp</string>
