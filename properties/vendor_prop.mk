@@ -141,7 +141,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	vendor.audio.feature.wsa.enable=false \
 	vendor.audio.feature.audiozoom.enable=false \
 	vendor.audio.feature.snd_mon.enable=true \
-	vendor.audio.hal.boot.timeout.ms=20000
+	vendor.audio.hal.boot.timeout.ms=20000 \
+	audio.sys.noisy.broadcast.delay=500 \
+	audio.sys.mute.latency.factor=2 \
+	audio.sys.routing.latency=0 \
+	media.stagefright.audio.deep=false
 
 # Bluetooth
 PRODUCT_PROPERTY_OVERRIDES += \
