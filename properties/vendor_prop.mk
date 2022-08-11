@@ -140,7 +140,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	vendor.audio.feature.vbat.enable=true \
 	vendor.audio.feature.wsa.enable=false \
 	vendor.audio.feature.audiozoom.enable=false \
-	vendor.audio.feature.snd_mon.enable=true
+	vendor.audio.feature.snd_mon.enable=true \
+	vendor.audio.hal.boot.timeout.ms=20000
 
 # Bluetooth
 PRODUCT_PROPERTY_OVERRIDES += \
