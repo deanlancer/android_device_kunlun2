@@ -20,8 +20,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 
 $(call inherit-product, device/lenovo/kunlun2/device.mk)
 
-# Inherit some common Arrow OS stuff
-$(call inherit-product, vendor/arrow/config/common.mk)
+# Inherit some common Spark OS stuff
+$(call inherit-product, vendor/spark/config/common_full_phone.mk)
 
 #TARGET_GAPPS_ARCH := arm64
 # Recorder
@@ -34,7 +34,7 @@ $(call inherit-product, vendor/arrow/config/common.mk)
 # ADD_ZUICAM := true
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := arrow_kunlun2
+PRODUCT_NAME := spark_kunlun2
 PRODUCT_BRAND := Lenovo
 PRODUCT_DEVICE := kunlun2
 PRODUCT_MODEL := L38111
