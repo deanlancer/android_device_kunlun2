@@ -47,14 +47,10 @@ PRODUCT_MANUFACTURER := Lenovo
 TARGET_VENDOR := lenovo
 
 # Stock
-BUILD_FINGERPRINT := Lenovo/kunlun2/kunlun2:10/QKQ1.191014.001/11.5.160_200513:user/release-keys 
+BUILD_FINGERPRINT := Lenovo/kunlun2/kunlun2:10/QKQ1.191014.001/11.5.117_200331:user/release-keys 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_DEVICE=kunlun2 \
     PRODUCT_NAME=kunlun2 \
-    PRIVATE_BUILD_DESC="kunlun2-user 10 QKQ1.191014.001 11.5.160_200513 release-keys"
-
-# Google Walleye
-PRODUCT_OVERRIDE_INFO := true
-PRODUCT_OVERRIDE_FINGERPRINT := google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys
+    PRIVATE_BUILD_DESC="kunlun2-user 10 QKQ1.191014.001 11.5.117_200331 release-keys"
 
 PRODUCT_GMS_CLIENTID_BASE := android-lenovo
