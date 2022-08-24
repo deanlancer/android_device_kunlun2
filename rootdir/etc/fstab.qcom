@@ -13,6 +13,7 @@
 /dev/block/bootdevice/by-name/userdata                  /data                    f2fs    noatime,nosuid,nodev,discard,background_gc=sync,fsync_mode=nobarrier                             latemount,wait,check,fileencryption=::v1,quota,formattable,reservedsize=128M
 /dev/block/bootdevice/by-name/cache                     /cache                   ext4    nosuid,noatime,nodev,barrier=1                         wait,check
 /dev/block/bootdevice/by-name/cache                     /cache                   f2fs    nosuid,nodev,noatime,inline_xattr                                                                wait,check,formattable
+/dev/block/by-name/logdump                              /metadata                ext4    noatime,nosuid,nodev,discard                         wait,check,formattable,first_stage_mount
 /devices/platform/soc/8804000.sdhci/mmc_host*           /storage/sdcard1         vfat    nosuid,nodev                                         wait,voldmanaged=sdcard1:auto
 /devices/platform/soc/1da4000.ufshc_card/host*          /storage/sdcard1         vfat    nosuid,nodev                                         wait,voldmanaged=sdcard1:auto
 /dev/block/bootdevice/by-name/boot                      /boot                    emmc    defaults                                                                                          recoveryonly
