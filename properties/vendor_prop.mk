@@ -204,6 +204,12 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.crypto.volume.filenames_mode=aes-256-cts
 
+# Crypto
+PRODUCT_PROPERTY_OVERRIDES += \
+	ro.crypto.dm_default_key.options_format.version=1 \
+	ro.crypto.volume.metadata.method=dm-default-key \
+	ro.crypto.volume.options=::v1
+
 # Apex
 PRODUCT_PROPERTY_OVERRIDES += \
 	ro.apex.updatable=false
