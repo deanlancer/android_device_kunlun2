@@ -17,6 +17,7 @@
  */
 -->
 <resources>
+    <!-- Default state of tap to wake -->
     <bool name="def_double_tap_to_wake">true</bool>
 
     <!-- Whether Bluetooth should be switched on by default -->
@@ -37,7 +38,7 @@
     <!-- Disable UI touch haptic feedback by default -->
     <bool name="def_haptic_feedback">true</bool>
 
-	<!-- <bool name="def_mobile_data_on">false</bool> -->
+	<!-- Default setting for Settings.Global.MOBILE_DATA_ALWAYS_ON -->
     <bool name="def_mobile_data_always_on">false</bool>
 
     <!-- Disable dial pad tones by default -->
