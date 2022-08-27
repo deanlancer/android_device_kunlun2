@@ -177,15 +177,6 @@
       "HoldFd": true
     },
     {
-      "Name": "SchedBoost",
-      "Path": "/proc/sys/kernel/sched_boost",
-      "Values": [
-        "1",
-        "0"
-      ],
-      "ResetOnInit": true
-    },
-    {
       "Name": "PowerHALMainState",
       "Path": "vendor.powerhal.state",
       "Values": [
@@ -267,12 +258,6 @@
     },
     {
       "PowerHint": "LAUNCH",
-      "Node": "SchedBoost",
-      "Duration": 3000,
-      "Value": "1"
-    },
-    {
-      "PowerHint": "LAUNCH",
       "Node": "CPUBigClusterMaxFreq",
       "Duration": 3000,
       "Value": "9999999"
@@ -348,12 +333,6 @@
       "Node": "L3BigClusterMinFreq",
       "Duration": 3000,
       "Value": "1440000000"
-    },
-    {
-      "PowerHint": "CAMERA_LAUNCH",
-      "Node": "SchedBoost",
-      "Duration": 1000,
-      "Value": "1"
     },
     {
       "PowerHint": "CAMERA_LAUNCH",
