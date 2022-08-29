@@ -122,10 +122,6 @@ vendor/etc/acdbdata/QRD/sdm670-skuw-snd-card/QRD_SKUW_Speaker_cal.acdb
 vendor/etc/acdbdata/QRD/sdm670-skuw-snd-card/QRD_SKUW_workspaceFile.qwsp
 vendor/etc/acdbdata/adsp_avs_config.acdb
 
-# Audio-Hardware
-vendor/lib/hw/audio.primary.sdm710.so
-vendor/lib64/hw/audio.primary.sdm710.so
-
 # Bluetooth
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti|2401640a10df4de23f704b87c4adab2da9ed111d
 vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc
