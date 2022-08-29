@@ -208,7 +208,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
 	ro.crypto.dm_default_key.options_format.version=1 \
 	ro.crypto.volume.metadata.method=dm-default-key \
-	ro.crypto.volume.options=::v1
+	ro.crypto.volume.options=aes-256-xts:aes-256-cts:v1
 
 # Apex
 PRODUCT_PROPERTY_OVERRIDES += \

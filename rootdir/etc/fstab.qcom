@@ -10,7 +10,7 @@
 /dev/block/bootdevice/by-name/vendor                    /vendor                  ext4    ro,barrier=1                                                                                      wait,recoveryonly
 /dev/block/zram0                             			 none                    swap    defaults                                                                                          zramsize=50%,notrim
 /dev/block/bootdevice/by-name/userdata                  /data                    ext4    noatime,nosuid,nodev,barrier=1,noauto_da_alloc,lazytime       latemount,wait,check,formattable,fileencryption=::v1,reservedsize=128M,quota
-/dev/block/bootdevice/by-name/userdata                  /data                    f2fs    noatime,nosuid,nodev,discard,background_gc=sync,fsync_mode=nobarrier                             latemount,wait,check,fileencryption=::v1,quota,formattable,reservedsize=128M
+/dev/block/bootdevice/by-name/userdata                  /data                    f2fs    noatime,nosuid,nodev,discard,background_gc=sync,fsync_mode=nobarrier                             latemount,wait,check,fileencryption=aes-256-xts:aes-256-cts:v1,quota,formattable,reservedsize=128M
 /dev/block/bootdevice/by-name/cache                     /cache                   ext4    nosuid,noatime,nodev,barrier=1                         wait,check
 /dev/block/bootdevice/by-name/cache                     /cache                   f2fs    nosuid,nodev,noatime,inline_xattr                                                                wait,check,formattable
 /dev/block/by-name/logdump                              /metadata                ext4    noatime,nosuid,nodev,discard                         wait,check,formattable,first_stage_mount
