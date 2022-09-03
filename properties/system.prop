@@ -5,6 +5,31 @@ audio.offload.video=true
 audio.sys.noisy.broadcast.delay=600
 audio.sys.offload.pstimeout.secs=3
 
+# Patch dirac
+persist.dirac.acs.controller=gef
+persist.dirac.config=64
+persist.dirac.gef.exs.did=50,50
+persist.dirac.gef.ext.did=1250,1250,1250,1250
+persist.dirac.gef.ins.did=50,50,50
+persist.dirac.gef.int.did=1250,1250,1250,1250
+persist.dirac.gef.ext.appt=0x00011130,0x00011134,0x00011136
+persist.dirac.gef.exs.appt=0x00011130,0x00011131
+persist.dirac.gef.int.appt=0x00011130,0x00011134,0x00011136
+persist.dirac.gef.ins.appt=0x00011130,0x00011131
+persist.dirac.gef.exs.mid=268512739
+persist.dirac.gef.ext.mid=268512737
+persist.dirac.gef.ins.mid=268512738
+persist.dirac.gef.int.mid=268512736
+persist.dirac.path=/vendor/etc/dirac
+ro.dirac.acs.storeSettings=1
+persist.dirac.acs.ignore_error=1
+ro.audio.soundfx.dirac=true
+ro.vendor.audio.soundfx.type=dirac
+persist.audio.dirac.speaker=true
+persist.audio.dirac.eq=9.0,6.0,5.0,3.0,1.0,2.0,3.0
+persist.audio.dirac.headset=1
+persist.audio.dirac.music.state=1
+
 # Bluetooth
 #ro.bluetooth.wipower=true
 #ro.bluetooth.emb_wp_mode=true
