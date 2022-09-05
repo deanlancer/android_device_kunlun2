@@ -34,9 +34,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 # MicroG
 # ADD_MICROG := true
 
-# ZuiCam
-# ADD_ZUICAM := true
-
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := aicp_kunlun2
 PRODUCT_BRAND := Lenovo
