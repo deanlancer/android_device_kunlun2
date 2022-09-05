@@ -30,9 +30,6 @@ $(call inherit-product, vendor/spark/config/common_full_phone.mk)
 # MicroG
 # ADD_MICROG := true
 
-# ZuiCam
-# ADD_ZUICAM := true
-
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := spark_kunlun2
 PRODUCT_BRAND := Lenovo
