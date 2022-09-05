@@ -30,9 +30,6 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # MicroG
 # ADD_MICROG := true
 
-# ZuiCam
-# ADD_ZUICAM := true
-
 # maintainer flag
 RICE_MAINTAINER := Deanlancer
 

@@ -1,12 +1,11 @@
 # Get non-open-source specific aspects
 $(call inherit-product-if-exists, vendor/lenovo/kunlun2/kunlun2-vendor.mk)
 
-# ZuiCam/GCam
-ifeq ($(ADD_ZUICAM), true)
-$(call inherit-product-if-exists, vendor/lenovo/ZuiCamera/config.mk)
-else
+# ZuiCam
+# $(call inherit-product-if-exists, vendor/lenovo/ZuiCamera/config.mk)
+
+# GCam
 $(call inherit-product-if-exists, vendor/lenovo/GoogleCamera/config.mk)
-endif
 
 # ZuiAudio
 $(call inherit-product-if-exists, vendor/lenovo/ZuiAudio/config.mk)
