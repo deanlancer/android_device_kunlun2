@@ -32,7 +32,7 @@
 dir0=/data
 trigger_file=$dir0/ims_disabled
 ims_disabled=`getprop persist.vendor.ims.disabled`
-target=`getprop ro.build.product`
+target=`getprop ro.board.platform`
 
 #if [ ! -e $trigger_file ]; then
 #   for future use in doing conditional debugging
