@@ -254,21 +254,6 @@
                     <profile name="" format="AUDIO_FORMAT_PCM_16_BIT"
                              samplingRates="48000" channelMasks="AUDIO_CHANNEL_OUT_MONO,AUDIO_CHANNEL_OUT_STEREO"/>
                 </devicePort>
-                <devicePort tagName="BT A2DP Out" type="AUDIO_DEVICE_OUT_BLUETOOTH_A2DP" role="sink"
-                            encodedFormats="AUDIO_FORMAT_SBC AUDIO_FORMAT_AAC AUDIO_FORMAT_APTX AUDIO_FORMAT_APTX_HD AUDIO_FORMAT_LDAC AUDIO_FORMAT_CELT AUDIO_FORMAT_APTX_ADAPTIVE">
-                    <profile name="" format="AUDIO_FORMAT_PCM_16_BIT"
-                             samplingRates="48000" channelMasks="AUDIO_CHANNEL_OUT_STEREO"/>
-                </devicePort>
-                <devicePort tagName="BT A2DP Headphones" type="AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_HEADPHONES" role="sink"
-                            encodedFormats="AUDIO_FORMAT_SBC AUDIO_FORMAT_AAC AUDIO_FORMAT_APTX AUDIO_FORMAT_APTX_HD AUDIO_FORMAT_LDAC AUDIO_FORMAT_CELT AUDIO_FORMAT_APTX_ADAPTIVE">
-                    <profile name="" format="AUDIO_FORMAT_PCM_16_BIT"
-                             samplingRates="48000" channelMasks="AUDIO_CHANNEL_OUT_STEREO"/>
-                </devicePort>
-                <devicePort tagName="BT A2DP Speaker" type="AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_SPEAKER" role="sink"
-                            encodedFormats="AUDIO_FORMAT_SBC AUDIO_FORMAT_AAC AUDIO_FORMAT_APTX AUDIO_FORMAT_APTX_HD AUDIO_FORMAT_LDAC AUDIO_FORMAT_CELT AUDIO_FORMAT_APTX_ADAPTIVE">
-                    <profile name="" format="AUDIO_FORMAT_PCM_16_BIT"
-                             samplingRates="48000" channelMasks="AUDIO_CHANNEL_OUT_STEREO"/>
-                </devicePort>
                 <devicePort tagName="USB Device Out" type="AUDIO_DEVICE_OUT_USB_DEVICE" role="sink">
                     <profile name="" format="AUDIO_FORMAT_PCM_16_BIT"
                              samplingRates="44100,48000,64000,88200,96000,128000,176400,192000" channelMasks="dynamic"/>
@@ -376,7 +361,7 @@
         </module>
 
         <!-- Bluetooth Audio HAL -->
-        <xi:include href="/vendor/etc/bluetooth_qti_audio_policy_configuration.xml"/>
+        <xi:include href="/vendor/etc/bluetooth_audio_policy_configuration"/>
 
         <!-- A2DP Input Audio HAL -->
         <xi:include href="/vendor/etc/a2dp_in_audio_policy_configuration.xml"/>
@@ -386,6 +371,9 @@
 
         <!-- Usb Audio HAL -->
         <xi:include href="/vendor/etc/usb_audio_policy_configuration.xml"/>
+
+        <!-- Bluetooth Audio HAL for Hearing aid -->
+        <xi:include href="/vendor/etc/bluetooth_hearing_aid_audio_policy_configuration.xml"/>
 
     </modules>
     <!-- End of Modules section -->
