@@ -81,9 +81,6 @@ BOARD_USES_ALSA_AUDIO := true
 AUDIO_FEATURE_ENABLED_FM_POWER_OPT := true
 
 # Bluetooth
-#####################################################################################
-TARGET_USE_QTI_BT_STACK := true
-#####################################################################################
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth
 
 # Camera
@@ -108,7 +105,6 @@ BOARD_HAS_QCA_FM_SOC := "cherokee"
 
 # QCOM###############################################################################
 BOARD_USES_QCOM_HARDWARE := true
-TARGET_FWK_SUPPORTS_FULL_VALUEADDS := true
 
 # Display############################################################################
 TARGET_RECOVERY_PIXEL_FORMAT := RGBX_8888
