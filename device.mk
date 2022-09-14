@@ -158,7 +158,6 @@ PRODUCT_PACKAGES += \
     android.hardware.audio@6.0-impl:32 \
     android.hardware.audio.effect@6.0-impl:32 \
     android.hardware.soundtrigger@2.2-impl:32 \
-    audio.hearing_aid.default \
     audio.primary.sdm710 \
     audio.r_submix.default \
     audio.usb.default \
