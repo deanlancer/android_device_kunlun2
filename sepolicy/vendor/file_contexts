@@ -7,7 +7,7 @@
 /(vendor|system/vendor)/bin/hw/android\.hardware\.lights-service\.lenovo                                         u:object_r:hal_light_default_exec:s0
 /(vendor|system/vendor)/bin/hw/android\.hardware\.power-service\.lenovo-libperfmgr                               u:object_r:hal_power_default_exec:s0
 /(vendor|system/vendor)/bin/hw/android\.hardware\.power\.stats@1\.0-service\.lenovo                              u:object_r:hal_power_stats_default_exec:s0
-/(vendor|system/vendor)/bin/hw/android\.hardware\.thermal@2\.0-service\.pixel                                   u:object_r:hal_thermal_default_exec:s0
+/(vendor|system/vendor)/bin/hw/android\.hardware\.thermal@2\.0-service\.lenovo                                   u:object_r:hal_thermal_default_exec:s0
 /(vendor|system/vendor)/bin/hw/vendor\.zui\.hardware\.ifaa@1\.0-service											 u:object_r:hal_ifaa_default_exec:s0
 /(vendor|system/vendor)/bin/hw/vendor\.qti\.hardware\.cvp@1\.0-service             						    	 u:object_r:vendor_cvp_exec:s0
 /vendor/bin/hw/android\.hardware\.atrace@1.0-service\.pixel                                               		 u:object_r:hal_atrace_default_exec:s0
@@ -18,6 +18,10 @@
 # This is labeled as public_adsprpcd_file as it needs to be read by apps
 # (e.g. Google Camera App)
 /mnt/vendor/dsp/fastrpc_shell_3                 u:object_r:public_adsprpcd_file:s0
+
+# Thermal
+/dev/thermal(/.*)?                                              u:object_r:thermal_link_device:s0
+/vendor/bin/thermal_symlinks                                    u:object_r:init-thermal-symlinks-sh_exec:s0
 
 # Persist files
 /mnt/vendor/persist/audio(/.*)?               u:object_r:persist_audio_file:s0

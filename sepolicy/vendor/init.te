@@ -18,5 +18,7 @@ allow init hal_drm_hwservice:hwservice_manager { find add };
 allow init hal_power_service:service_manager find;
 
 allow init hal_thermal_hwservice:hwservice_manager find;
+allow vendor_init thermal_link_device:dir r_dir_perms;
+allow vendor_init thermal_link_device:lnk_file r_file_perms;
 
 allow init default_android_hwservice:hwservice_manager { find add };
