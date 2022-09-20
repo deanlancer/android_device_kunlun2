@@ -31,8 +31,7 @@ persist.audio.dirac.headset=1
 persist.audio.dirac.music.state=1
 
 # Bluetooth
-#ro.bluetooth.wipower=true
-#ro.bluetooth.emb_wp_mode=true
+bluetooth.device.default_name=Lenovo Z6SE
 persist.bt.enableAptXHD=true
 persist.service.btui.use_aptx=1
 persist.bluetooth.a2dp_offload.cap=sbc-aptx-aptxtws-aptxhd-aac-ldac
