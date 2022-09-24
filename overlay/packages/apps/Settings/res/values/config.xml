@@ -1,10 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?> <resources>
-   
-    <!-- Whether to add AGPS parameter settings -->
-    <bool name="config_agps_enabled">true</bool>
-
-    <!-- Whether to display touch sensitivity switch -->
-    <bool name="config_show_touch_sensitivity">true</bool>
 
     <!-- Whether or not the device is capable of multiple levels of vibration intensity.
          Note that this is different from whether it can control the vibration amplitude as some
