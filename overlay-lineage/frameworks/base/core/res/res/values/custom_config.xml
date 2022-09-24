@@ -72,26 +72,10 @@
     <bool name="config_pocketUseLightSensor">false</bool>
 
     <!-- Does the battery LED support multiple colors? Used to decide if the user can change the colors -->
-    <bool name="config_multiColorBatteryLed">true</bool>
+    <!-- <bool name="config_multiColorBatteryLed">true</bool> -->
 
-        <!-- Does the device support battery LED? -->
-    <bool name="config_intrusiveBatteryLed">true</bool>
-
-    <!-- Whether notify fingerprint client of successful cancelled authentication -->
-    <bool name="config_notifyClientOnFingerprintCancelSuccess">true</bool>
-
-    <!-- Whether to post reset runnable for all clients -->
-    <bool name="config_fingerprintPostResetRunnableForAllClients">true</bool>
-
-    <!-- Whether device ignores the RSSNR signal implementation -->
-    <bool name="config_ignoreRssnrSignalLevel">true</bool>
-
-    <!-- Whether device needs to wait for Qualcomm MPCTL service to start
-         before setting power profiles on boot. -->
-    <bool name="config_waitForMpctlOnBoot">true</bool>
-
-    <!-- Whether device has a physical display cutout -->
-    <bool name="config_physicalDisplayCutout">true</bool>
+    <!-- Does the device support battery LED? -->
+    <!-- <bool name="config_intrusiveBatteryLed">true</bool> -->
 
     <!-- Controls the navigation bar interaction mode:
          0: 3 button mode (back, home, overview buttons)
