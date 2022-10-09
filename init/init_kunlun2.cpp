@@ -87,7 +87,7 @@ static const char *snet_prop_value[] = {
 	NULL
 };
 
-void property_override(char const prop[], char const value[], bool add = true)
+void property_override(char const prop[], char const value[])
 {
 	prop_info *pi;
 
