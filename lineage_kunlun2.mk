@@ -39,6 +39,9 @@ RICE_CHIPSET := Snapdragon®710
 # riceDroid Bootanimation
 SUSHI_BOOTANIMATION  := 1080
 
+# GBOARD
+TARGET_ENABLE_OOS_GBOARD_PADDINGS := true
+
 # gapps build flag, if not defined build type is vanilla
 # GAPPS package is similar to core gapps
 # WITH_CORE_GAPPS := true
