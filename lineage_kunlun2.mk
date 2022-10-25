@@ -39,6 +39,9 @@ RICE_CHIPSET := Snapdragon®710
 # riceDroid Bootanimation
 SUSHI_BOOTANIMATION  := 1080
 
+# Type
+RICE_PACKAGE_TYPE := "AOSP_FBEv1"
+
 # GBOARD
 TARGET_ENABLE_OOS_GBOARD_PADDINGS := true
 
