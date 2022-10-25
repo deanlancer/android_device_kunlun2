@@ -45,6 +45,9 @@ RICE_PACKAGE_TYPE := "AOSP_FBEv1"
 # GBOARD
 TARGET_ENABLE_OOS_GBOARD_PADDINGS := true
 
+# Aperture Cam
+TARGET_BUILD_APERTURE_CAMERA := false
+
 # gapps build flag, if not defined build type is vanilla
 # GAPPS package is similar to core gapps
 # WITH_CORE_GAPPS := true
