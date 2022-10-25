@@ -50,6 +50,7 @@ TARGET_KERNEL_CLANG_VERSION := elastics
 KERNEL_TOOLCHAIN_PREFIX := aarch64-linux-gnu-
 KERNEL_TOOLCHAIN := $(shell pwd)/prebuilts/clang/host/linux-x86/clang-elastics/bin
 TARGET_KERNEL_ADDITIONAL_FLAGS := HOSTCFLAGS="-fuse-ld=lld -Wno-unused-command-line-argument"
+TARGET_KERNEL_OPTIONAL_LD := true
 
 # Compile libhwui in performance mode##############################################
 HWUI_COMPILE_FOR_PERF := true
