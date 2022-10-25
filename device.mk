@@ -462,7 +462,8 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Packages
 PRODUCT_PACKAGES += \
-    Etar
+    Etar \
+    Gallery2
 
 PRODUCT_PACKAGES += \
     remove_packages
