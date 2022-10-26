@@ -23,13 +23,6 @@ $(call inherit-product, device/lenovo/kunlun2/device.mk)
 # Inherit some common Lineage OS stuff
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-#TARGET_GAPPS_ARCH := arm64
-# Recorder
-#TARGET_SUPPORTS_GOOGLE_RECORDER := true
-
-# MicroG
-# ADD_MICROG := true
-
 # maintainer flag
 RICE_MAINTAINER := Deanlancer
 
@@ -47,10 +40,6 @@ TARGET_ENABLE_OOS_GBOARD_PADDINGS := true
 
 # Aperture Cam
 TARGET_BUILD_APERTURE_CAMERA := false
-
-# gapps build flag, if not defined build type is vanilla
-# GAPPS package is similar to core gapps
-# WITH_CORE_GAPPS := true
 
 # disable/enable blur support, default is false
 TARGET_ENABLE_BLUR := false
