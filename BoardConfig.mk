@@ -54,15 +54,6 @@ TARGET_KERNEL_ADDITIONAL_FLAGS := HOSTCFLAGS="-fuse-ld=lld -Wno-unused-command-l
 # Compile libhwui in performance mode##############################################
 HWUI_COMPILE_FOR_PERF := true
 
-#GAPPS#############################################################################
-#BUILD_GAPPS := true
-#ifeq (($(BUILD_GAPPS), true)
-#IS_PHONE := true
-#TARGET_GAPPS_ARCH := arm64
-#TARGET_INCLUDE_STOCK_ARCORE := true
-#TARGET_INCLUDE_WIFI_EXT := true
-#endif
-
 # Audio#############################################################################
 AUDIO_FEATURE_ENABLED_PCM_OFFLOAD := true
 AUDIO_FEATURE_ENABLED_PCM_OFFLOAD_24 := true
@@ -189,8 +180,6 @@ SELINUX_IGNORE_NEVERALLOWS := true
 
 # Treble
 BOARD_VNDK_VERSION := current
-#BOARD_VNDK_RUNTIME_DISABLE := true
-#PRODUCT_FULL_TREBLE_OVERRIDE := true
 
 # NDK platform
 NEED_AIDL_NDK_PLATFORM_BACKEND := true

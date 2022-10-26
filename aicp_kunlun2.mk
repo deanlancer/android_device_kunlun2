@@ -27,13 +27,6 @@ $(call inherit-product, vendor/aicp/config/common_full_phone.mk)
 PRODUCT_BUILD_PROP_OVERRIDES += \
     DEVICE_MAINTAINERS="Deanlancer"
 
-#TARGET_GAPPS_ARCH := arm64
-# Recorder
-#TARGET_SUPPORTS_GOOGLE_RECORDER := true
-
-# MicroG
-# ADD_MICROG := true
-
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := aicp_kunlun2
 PRODUCT_BRAND := Lenovo
