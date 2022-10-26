@@ -23,13 +23,6 @@ $(call inherit-product, device/lenovo/kunlun2/device.mk)
 # Inherit some common Spark OS stuff
 $(call inherit-product, vendor/spark/config/common_full_phone.mk)
 
-#TARGET_GAPPS_ARCH := arm64
-# Recorder
-#TARGET_SUPPORTS_GOOGLE_RECORDER := true
-
-# MicroG
-# ADD_MICROG := true
-
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := spark_kunlun2
 PRODUCT_BRAND := Lenovo

@@ -1,19 +1,11 @@
 # Get non-open-source specific aspects
 $(call inherit-product-if-exists, vendor/lenovo/kunlun2/kunlun2-vendor.mk)
 
-# ZuiCam
-# $(call inherit-product-if-exists, vendor/lenovo/ZuiCamera/config.mk)
-
 # GCam
 $(call inherit-product-if-exists, vendor/lenovo/GoogleCamera/config.mk)
 
 # ZuiAudio
 $(call inherit-product-if-exists, vendor/lenovo/ZuiAudio/config.mk)
-
-# MicroG
-ifeq ($(ADD_MICROG), true)
-$(call inherit-product-if-exists, vendor/lenovo/MicroG/config.mk)
-endif
 
 # Hardware
 PRODUCT_BOARD_PLATFORM := sdm845
@@ -35,10 +27,6 @@ PRODUCT_MINIMIZE_JAVA_DEBUG_INFO := true
 PRODUCT_PACKAGES_DEBUG := false
 PRODUCT_PACKAGES_DEBUG_ASAN := false
 USE_DEX2OAT_DEBUG := false
-
-# Always preopt extracted APKs to prevent extracting out of the APK
-# for gms modules.
-#PRODUCT_ALWAYS_PREOPT_EXTRACTED_APK := true
 
 # AID/fs configs
 PRODUCT_PACKAGES += \
