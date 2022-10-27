@@ -619,7 +619,7 @@ vendor/lib/libllvm-qcom.so|80b415741f1ac890cff1a4756b1c1fe84edc5747
 vendor/lib/libpvr.so
 vendor/lib/librs_adreno.so|9e0ae04631a58b849ea7bd0edd7eb02f087c610c
 vendor/lib/librs_adreno_sha1.so|ec33e1d62eba5c928384cce1c18f7b8d2f611019
-vendor/lib/libtinyxml.so|292eb55b3a99abe1828072fa0ad366b29277faca
+vendor/lib/libtinyxml.so|2cfba196e89026eb5c1e730d5b6107dea84b8fc6
 vendor/lib64/egl/eglSubDriverAndroid.so|d6dc70f08a0e68e897c2c8a956a8c2f3e036c540
 vendor/lib64/egl/libEGL_adreno.so|5d517d4b294073bf2773b8223a59c3b4827fd26c
 vendor/lib64/egl/libGLESv1_CM_adreno.so|0a2a648ca2dcd887ea62860bbfa2ef397f01d42d
@@ -645,7 +645,7 @@ vendor/lib64/librs_adreno_sha1.so|727a62917ec8006850d2634c4d6e77e7f8ddae52
 vendor/lib64/libsdm-color.so|3026565065b37bcfd1342c82d77bae579ea6ec08
 vendor/lib64/libsdm-diag.so|e964539c6d07a8abbdfcc98f9b27878d3a09185b
 vendor/lib64/libsdm-disp-vndapis.so|68f9171c08a2ba9654aaa3a1d9b0c050ae07bd97
-vendor/lib64/libtinyxml.so|f7e87a932da4ed0be1f369c8918d31c7f424b9ca
+vendor/lib64/libtinyxml.so|f41f3d984da1e1ed4fb5b812ba3b6051174c0e7d
 vendor/lib64/libtinyxml2_1.so|ff32deb110acb02cb5def5f3404f9064c1276483
 
 # IFAA
