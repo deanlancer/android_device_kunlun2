@@ -451,7 +451,8 @@ PRODUCT_SOONG_NAMESPACES += \
 # Packages
 PRODUCT_PACKAGES += \
     Etar \
-    Gallery2
+    Gallery2 \
+    LatinIMEGooglePrebuilt
 
 PRODUCT_PACKAGES += \
     remove_packages
