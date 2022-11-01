@@ -81,6 +81,10 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.launcher.blur.appLaunch=false
 
+# IMS
+PRODUCT_PRODUCT_PROPERTIES += \
+ro.telephony.block_binder_thread_on_incoming_calls=false
+
 # Eng
 ifeq ($(TARGET_BUILD_VARIANT),eng)
 PRODUCT_PRODUCT_PROPERTIES += \
