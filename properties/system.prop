@@ -94,9 +94,6 @@ sys.camera.packagename.zui=1
 ###################################
 persist.vendor.camera.privapp.list=org.codeaurora.snapcam,com.android.MGC
 persist.camera.privapp.list=org.codeaurora.snapcam,com.android.MGC
-vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,com.android.MGC
-vendor.camera.aux.packagelist2=com.motorola.motocit
-vendor.camera.aux.packageexcludelist=org.telegram.messenger,com.exteragram.messenger,com.microsoft.teams,com.discord
 
 # CNE 
 persist.cne.feature=1
