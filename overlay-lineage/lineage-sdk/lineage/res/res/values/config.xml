@@ -75,8 +75,9 @@
         <item>com.exteragram.messenger</item>
         <item>com.microsoft.teams</item>
         <item>com.discord</item>
+        <item>us.zoom.videomeetings</item>
     </string-array>
-    
+
     <!-- The list of components which should be automatically disabled for a specific device. -->
     <string-array name="config_deviceDisabledComponents" translatable="false">
         <item>com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver</item>
