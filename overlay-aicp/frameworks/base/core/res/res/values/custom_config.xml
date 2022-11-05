@@ -100,6 +100,7 @@
         <item>com.exteragram.messenger</item>
         <item>com.microsoft.teams</item>
         <item>com.discord</item>
+        <item>us.zoom.videomeetings</item>
     </string-array>
 
     <!-- Temp nodes -->
