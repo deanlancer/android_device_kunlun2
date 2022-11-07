@@ -1684,7 +1684,7 @@ vendor/radio/qcril_database/upgrade/6_version_update_ecc_table.sql|0fdf4b6ccb489
 vendor/radio/qcril_database/upgrade/7_version_update_ecc_table.sql|9a76d5747da2876b87b214579c9d74ae92d218d7
 
 # DPM
-tcmclient.jar|0402c82a800b58a2e93fd7cb8e81a24e674ebc35
+-framework/tcmclient.jar|0402c82a800b58a2e93fd7cb8e81a24e674ebc35
 system_ext/bin/dpmd|606bf68351189bb5cdbdf86630c018a209862e03
 system_ext/etc/dpm/dpm.conf|95e27da8c989e96c6faea6f0697bce11955b62a5
 system_ext/etc/init/dpmd.rc|a07af37e4ec307762b687d07fb8ed1c9c26a6712
