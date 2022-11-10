@@ -4,6 +4,7 @@ persist.camera.             			u:object_r:camera_prop:s0
 persist.vendor.camera.      			u:object_r:camera_prop:s0
 sys.camera.                 			u:object_r:camera_prop:s0
 persist.vendor.camera.logInfoMask		u:object_r:vendor_camera_prop:s0
+persist.camera.gyro.disable             u:object_r:vendor_camera_prop:s0
 
 # Fingerprint
 gf.debug.dump_bigdata_data  u:object_r:vendor_fp_prop:s0
@@ -15,3 +16,6 @@ vendor.powerhal.           u:object_r:vendor_power_prop:s0
 
 # Thermal
 vendor.thermal.             u:object_r:vendor_thermal_prop:s0
+
+# Thermal Engine
+sys.thermal.                   u:object_r:vendor_thermal_engine_prop:s0
