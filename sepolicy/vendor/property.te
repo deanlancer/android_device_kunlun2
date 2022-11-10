@@ -8,3 +8,4 @@ vendor_internal_prop(vendor_power_prop)
 
 #Thermal
 vendor_internal_prop(vendor_thermal_prop)
+vendor_internal_prop(vendor_thermal_engine_prop)
