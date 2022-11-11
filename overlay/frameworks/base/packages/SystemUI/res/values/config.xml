@@ -30,7 +30,7 @@
     <bool name="doze_display_state_supported">true</bool>
 
     <string name="config_cpuTempSensor">/sys/class/thermal/thermal_zone7/temp</string>
-    <integer name="config_cpuTempDivider" translatable="false">1</integer>
+    <integer name="config_cpuTempDivider" translatable="false">1000</integer>
 
     <!-- Max visible notification icons -->
     <integer name="config_maxVisibleNotificationIcons">6</integer>
