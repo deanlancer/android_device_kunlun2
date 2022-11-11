@@ -29,9 +29,6 @@
     <!-- Doze: does this device support STATE_DOZE?  -->
     <bool name="doze_display_state_supported">true</bool>
 
-    <!-- <string name="config_cpuTempSensor">/sys/class/thermal/thermal_zone7/temp</string> -->
-    <!-- <integer name="config_cpuTempDivider" translatable="false">1</integer> -->
-
     <!-- Max visible notification icons -->
     <integer name="config_maxVisibleNotificationIcons">6</integer>
     <integer name="config_maxVisibleNotificationIconsOnLock">6</integer>
@@ -47,6 +44,9 @@
 
     <!-- The CPUs to display in CPUInfoService view -->
     <string name="config_displayCpus" translatable="false">0,7</string>
+
+    <!-- The CPU temperature divider, if needed -->
+    <integer name="config_cpuTempDivider" translatable="false">1000</integer>
 
     <!-- The padding on the top of the statusbar -->
     <dimen name="status_bar_padding_top">4dp</dimen>
