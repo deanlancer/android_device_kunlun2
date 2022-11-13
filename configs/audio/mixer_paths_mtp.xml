@@ -585,9 +585,9 @@
 
     <path name="low-latency-playback bt-sco">
         <ctl name="SLIMBUS_7_RX Audio Mixer MultiMedia5" value="1" />
-        <ctl name="RX1 Digital Volume" value="88" />
-        <ctl name="RX2 Digital Volume" value="88" />
-        <ctl name="RX3 Digital Volume" value="88" />
+        <ctl name="RX1 Digital Volume" value="90" />
+        <ctl name="RX2 Digital Volume" value="90" />
+        <ctl name="RX3 Digital Volume" value="90" />
     </path>
 
     <path name="low-latency-playback bt-sco-wb">
@@ -2134,8 +2134,8 @@
         <ctl name="RX HPH Mode" value="HD2" />
         <ctl name="INT0_MI2S_RX Format" value="S24_3LE" />
         <ctl name="EAR PA Gain" value="POS_1P5_DB" />
-        <ctl name="RX1 Digital Volume" value="88" />
-        <ctl name="RX2 Digital Volume" value="88" />
+        <ctl name="RX1 Digital Volume" value="90" />
+        <ctl name="RX2 Digital Volume" value="90" />
         <ctl name="HPHL Volume" value="6" />
     	<ctl name="HPHR Volume" value="6" />
         <ctl name="HPHL" value="Switch" />
@@ -2564,9 +2564,9 @@
 
     <path name="low-latency-playback bt-a2dp">
         <ctl name="SLIMBUS_7_RX Audio Mixer MultiMedia5" value="1" />
-        <ctl name="RX1 Digital Volume" value="88" />
-        <ctl name="RX2 Digital Volume" value="88" />
-        <ctl name="RX3 Digital Volume" value="88" />
+        <ctl name="RX1 Digital Volume" value="90" />
+        <ctl name="RX2 Digital Volume" value="90" />
+        <ctl name="RX3 Digital Volume" value="90" />
     </path>
 
     <path name="compress-offload-playback bt-a2dp">
