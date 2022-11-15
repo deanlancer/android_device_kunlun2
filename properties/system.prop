@@ -120,6 +120,9 @@ persist.debug.wfd.enable=1
 video.accelerate.hw=1
 media.wfd.max_resolution=8
 
+# Disable Skia tracing by default
+debug.hwui.skia_atrace_enabled=false
+
 #property to choose between virtual/external wfd display
 persist.sys.wfd.virtual=0
 
