@@ -557,11 +557,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.broadcastradio@1.0-impl
 
-# Atrace
- PRODUCT_PACKAGES += \
-    android.hardware.atrace@1.0-service.pixel \
-    android.hardware.atrace@1.0.vendor
-
 # NeuralNetworks
 PRODUCT_PACKAGES += \
     android.hardware.neuralnetworks@1.3 \
