@@ -10,7 +10,6 @@
 /(vendor|system/vendor)/bin/hw/android\.hardware\.thermal@2\.0-service\.lenovo                                   u:object_r:hal_thermal_default_exec:s0
 /(vendor|system/vendor)/bin/hw/vendor\.zui\.hardware\.ifaa@1\.0-service											 u:object_r:hal_ifaa_default_exec:s0
 /(vendor|system/vendor)/bin/hw/vendor\.qti\.hardware\.cvp@1\.0-service             						    	 u:object_r:vendor_cvp_exec:s0
-/vendor/bin/hw/android\.hardware\.atrace@1.0-service\.pixel                                               		 u:object_r:hal_atrace_default_exec:s0
 /(vendor|system/vendor)/bin/qdmastatsd               															 u:object_r:qdmastatsd_exec:s0
 /(vendor|system/vendor)/bin/remosaic_daemon																		 u:object_r:remosaic_daemon_exec:s0
 
