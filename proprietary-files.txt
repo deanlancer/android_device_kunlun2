@@ -1648,6 +1648,7 @@ system_ext/lib64/vendor.qti.ims.rcsconfig@2.1.so|2375e0a0e35d35bd32de549a8fdf057
 system_ext/lib64/vendor.qti.ims.rcssip@1.0.so|7815eb62283225478f7b6d405e5b4465eef27d54
 system_ext/lib64/vendor.qti.ims.rcsuce@1.0.so|ccc82a98febbd43a10a2308045b16f1cbb39ed81
 system_ext/lib64/vendor.qti.imsrtpservice@3.0.so|ace5e02b6cd79b43a07d84e2d18d6818821a3c48
+system_ext/lib64/vendor.qti.imsrtpservice@3.1.so|e64aa8a21a8db69d2e2ea14929bb20ced99c119d
 system_ext/framework/vendor.qti.ims.connection-V1.0-java.jar|e01800d96b0db524836856410d3dd0b9352ec46c
 system_ext/framework/vendor.qti.ims.factory-V2.1-java.jar|137f296405fd5f8c036c511f1d186e7178c5d57f
 system_ext/framework/vendor.qti.ims.factory-V2.2-java.jar|70dbc40c581103970402959342ea250b6a1fb84b
@@ -1720,3 +1721,4 @@ vendor/etc/diracvdd.bin|f8f87acea7ce30fac57f82badb266ffef04ecb96
 vendor/lib/rfsa/adsp/dirac.so|7af1ae55f335ef0d5e4c65f8707902110f8f720e
 vendor/lib/rfsa/adsp/dirac_resource.dar|e747de1b902a8d6ae6b3c6af12e4ad86dfe78f47
 vendor/lib/soundfx/libdiraceffect.so|8816c5229f82b44f43140562d59c0e56b3edc157
+
