@@ -154,7 +154,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	persist.vendor.qcom.bluetooth.a2dp_offload_cap=sbc-aptx-aptxtws-aptxhd-aac-ldac \
 	ro.bluetooth.a2dp_offload.supported=true \
 	persist.bluetooth.a2dp_offload.disabled=false \
-	persist.bluetooth.a2dp_offload.cap=sbc-aptx-aptxtws-aptxhd-aac-ldac \
 	ro.vendor.bluetooth.wipower=false \
 	persist.vendor.qcom.bluetooth.aac_frm_ctl.enabled=true \
 	persist.vendor.qcom.bluetooth.twsp_state.enabled=false \

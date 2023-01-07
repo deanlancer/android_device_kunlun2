@@ -34,7 +34,6 @@ persist.audio.dirac.music.state=1
 bluetooth.device.default_name=Lenovo Z6SE
 persist.bt.enableAptXHD=true
 persist.service.btui.use_aptx=1
-persist.bluetooth.a2dp_offload.cap=sbc-aptx-aptxtws-aptxhd-aac-ldac
 persist.bluetooth.a2dp_offload.disabled=false
 persist.vendor.bt.a2dp.hal.implementation=true
 persist.vendor.bt.a2dp.aac_whitelist=false
