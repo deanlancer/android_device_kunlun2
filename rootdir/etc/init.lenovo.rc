@@ -37,57 +37,6 @@ on init
     chown system /sys/devices/virtual/touch/tp_dev/gesture_on
     chown system /sys/devices/virtual/touch/tp_dev/tp_screen_switch
 
-# Huaqin hwdiag test start
-on property:vendor.hq.temp=1
-	setprop vendor.hq.boot_end ${sys.boot_completed}
-	setprop vendor.sw.internal.version ${ro.product.sw.internal.version}
-	start hqread
-
-# service hqread /system/bin/hqread
-#	class main
-#	user root
-#	oneshot
-#	group root sdcard_rw
-
-# service do_reset /system/bin/hqread do_reset
-#	class main
-#	user root
-#	oneshot
-#	group root cache
-#	seclabel u:r:hqread:s0
-
-# service read_reset /system/bin/hqread read_reset
-#	class main
-#	user root
-#	oneshot
-#	group root cache
-#	seclabel u:r:hqread:s0
-
-on property:vendor.hq.do_factory_reset=1
-	start do_reset
-
-on property:vendor.hq.read_reset_flag=1
-	start read_reset
-
-service diaginsystem /system/bin/wprod action_insystem
-	disabled
-	user root
-	oneshot
-	seclabel u:r:system_server:s0
-
-on property:vendor.hq.diaginsystem=1
-	start diaginsystem
-
-service hwdiag /vendor/bin/hwdiag
-	class main
-	user root
-	group root system vendor_qti_diag sdcard_rw cache drmrpc
-
-on boot
-	setprop vendor.diag.inp 1
-	 start hwdiag
-# Huaqin hwdiag test end
-
 # ODM Ontim Factory test
 on fs
     chown root system /dev/block/mmcblk0p53
