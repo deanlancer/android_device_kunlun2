@@ -440,7 +440,8 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     hardware/google/interfaces \
     hardware/google/pixel \
-    hardware/qcom-caf/sdm845
+    hardware/qcom-caf/sdm845 \
+    vendor/gms/common
 
 # Packages
 PRODUCT_PACKAGES += \
