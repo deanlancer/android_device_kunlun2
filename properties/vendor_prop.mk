@@ -5,7 +5,7 @@
 #
 # Graphics
 PRODUCT_PROPERTY_OVERRIDES += \
-	debug.renderengine.backend=skiaglthreaded \
+	debug.hwui.renderer=skiavk \
 	ro.opengles.version=196610 \
 	ro.hardware.keystore_desede=true \
 	debug.sf.hw=0 \
