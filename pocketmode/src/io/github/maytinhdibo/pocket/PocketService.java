@@ -146,8 +146,8 @@ public class PocketService extends Service {
             if (event.sensor.getType() == Sensor.TYPE_PROXIMITY) {
                 if (event.values[0] == 0) {
                     long timestamp = System.currentTimeMillis();
-                    if (PhoneStateReceiver.CUR_STATE == PhoneStateReceiver.IDLE
-                            && (nextAlarm == -1 || timestamp - nextAlarm > 60000)) {
+                    if (PhoneStateReceiver.CUR_STATE == PhoneStateReceiver.IDLE) 
+                    {
                         //stop block turn on after 15 seconds
                         if (!(isFirstChange && (System.currentTimeMillis() - lastBlock < 15000 && lastBlock != -1))) {
                             if (DEBUG) Log.d(TAG, "NEAR, disable sensor and turn screen off");
