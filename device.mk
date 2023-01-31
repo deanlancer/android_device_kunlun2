@@ -613,9 +613,6 @@ PRODUCT_PACKAGES += \
     android.hardware.sensors@2.0.vendor \
     android.hardware.sensors@2.1.vendor
 
-# Charge Control
-PRODUCT_PACKAGES += \
-    vendor.lineage.chgctrl@1.0-service.lenovo
 # Seccomp policy
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/seccomp/mediacodec-seccomp.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediacodec.policy
