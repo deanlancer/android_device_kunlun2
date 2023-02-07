@@ -1139,4 +1139,7 @@
          the blur effect where it isn't worth the performance hit.
          As of Honeycomb, blurring is not supported anymore. -->
     <bool name="config_sf_slowBlur">false</bool>
+
+    <!-- Allow automatic adjusting of the screen brightness while dozing in low power state. -->
+    <bool name="config_allowAutoBrightnessWhileDozing">true</bool>
 </resources>
