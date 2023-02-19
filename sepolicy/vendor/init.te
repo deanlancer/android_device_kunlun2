@@ -22,6 +22,3 @@ allow vendor_init thermal_link_device:dir r_dir_perms;
 allow vendor_init thermal_link_device:lnk_file r_file_perms;
 
 allow init default_android_hwservice:hwservice_manager { find add };
-
-# Allow init to set attribute to sysfs_kprofiles
-allow init sysfs_kprofiles:file { setattr };

@@ -386,10 +386,6 @@ PRODUCT_PACKAGES += \
     ethertypes \
     libebtc
 
-# KProfiles
-PRODUCT_PACKAGES += \
-    KProfiles
-
 # Lights
 PRODUCT_PACKAGES += \
     android.hardware.lights-service.lenovo \

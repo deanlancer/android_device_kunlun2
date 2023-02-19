@@ -17,6 +17,3 @@ type sysfs_power_stats, sysfs_type, fs_type;
 
 # AICP SysUI QS Info
 type sysfs_info, fs_type, sysfs_type;
-
-# KProfiles
-type sysfs_kprofiles, sysfs_type, fs_type;
