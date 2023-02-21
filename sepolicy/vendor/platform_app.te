@@ -13,3 +13,7 @@ allow platform_app sysfs_battery_supply:file { getattr open read };
 allow platform_app sysfs_kgsl:file { getattr open read };
 
 allow platform_app default_android_service:service_manager { find add };
+
+# Google Battery HAL
+dontaudit platform_app default_android_hwservice:hwservice_manager { find };
+dontaudit platform_app hal_power_service:service_manager { find };
