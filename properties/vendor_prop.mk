@@ -30,6 +30,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	ro.vendor.display.cabl=2 \
 	vendor.display.enable_default_color_mode=3 \
 	persist.sys.sf.native_mode=0 \
+	vendor.display.disable_scaler=1 \
 	debug.sf.disable_client_composition_cache=1
 
 # Perf Dummy
