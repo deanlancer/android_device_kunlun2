@@ -46,9 +46,9 @@ BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 TARGET_KERNEL_VERSION := 4.9
 TARGET_KERNEL_SOURCE := kernel/lenovo/msm-4.9
 TARGET_KERNEL_CONFIG := kunlun2_defconfig
-TARGET_KERNEL_CLANG_VERSION := elastics
+TARGET_KERNEL_CLANG_VERSION := llvm
 KERNEL_TOOLCHAIN_PREFIX := aarch64-linux-gnu-
-KERNEL_TOOLCHAIN := $(shell pwd)/prebuilts/clang/host/linux-x86/clang-elastics/bin
+KERNEL_TOOLCHAIN := $(shell pwd)/prebuilts/clang/host/linux-x86/clang-llvm/bin
 TARGET_KERNEL_ADDITIONAL_FLAGS := HOSTCFLAGS="-fuse-ld=lld -Wno-unused-command-line-argument"
 
 # Compile libhwui in performance mode##############################################
