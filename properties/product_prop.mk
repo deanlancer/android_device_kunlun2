@@ -36,7 +36,19 @@ PRODUCT_PRODUCT_PROPERTIES += \
     
 # LMKD
 PRODUCT_PRODUCT_PROPERTIES += \
-    ro.config.low_ram=false
+    ro.config.low_ram=false \
+    ro.lmk.kill_heaviest_task=true \
+    ro.lmk.use_new_strategy=true \
+    ro.lmk.enable_watermark_check=true \
+    ro.lmk.enable_userspace_lmk=true \
+    ro.lmk.enhance_batch_kill=false \
+    ro.lmk.super_critical=701 \
+    ro.lmk.filecache_min_kb=153600 \
+    ro.lmk.kill_timeout_ms=50 \
+    ro.lmk.stall_limit_critical=40 \
+    ro.lmk.psi_scrit_complete_stall_ms=150 \
+    ro.lmk.direct_reclaim_pressure=45 \
+    ro.lmk.reclaim_scan_threshold=0 \
 
 # Charger
 PRODUCT_PRODUCT_PROPERTIES += \
