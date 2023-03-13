@@ -6,8 +6,8 @@
 # Currently we dont have e2fsck compiled. So fs check would failed.
 
 #<src>                                                  <mnt_point>              <type>  <mnt_flags and options>                                                                          <fs_mgr_flags>
-/dev/block/bootdevice/by-name/system                    /                        ext4    ro,barrier=1,discard                                 wait,avb
-/dev/block/bootdevice/by-name/vendor                    /vendor                  ext4    ro,barrier=1                                                                                      wait,recoveryonly
+/dev/block/bootdevice/by-name/system                    /                        ext4    ro,barrier=1,discard                                 wait,first_stage_mount
+/dev/block/bootdevice/by-name/vendor                    /vendor                  ext4    ro,barrier=1                                                                                      wait,first_stage_mount
 /dev/block/zram0                             			 none                    swap    defaults                                                                                          zramsize=50%,notrim
 /dev/block/bootdevice/by-name/userdata                  /data                    ext4    noatime,nosuid,nodev,barrier=1,noauto_da_alloc,lazytime       latemount,wait,check,formattable,fileencryption=::v1,reservedsize=128M,quota
 /dev/block/bootdevice/by-name/userdata                  /data                    f2fs    noatime,nosuid,nodev,discard,background_gc=sync,fsync_mode=nobarrier                             latemount,wait,check,fileencryption=aes-256-xts:aes-256-cts:v1,quota,formattable,reservedsize=128M
