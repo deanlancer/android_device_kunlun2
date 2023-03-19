@@ -106,10 +106,6 @@ TARGET_USES_DISPLAY_RENDER_INTENTS := true
 # Display
 TARGET_SCREEN_DENSITY := 440
 
-# APEX###############################################################################
-DEXPREOPT_GENERATE_APEX_IMAGE := true
-OVERRIDE_TARGET_FLATTEN_APEX := true
-
 # Broken rules#######################################################################
 BUILD_BROKEN_DUP_RULES := true
 BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true

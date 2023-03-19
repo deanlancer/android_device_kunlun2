@@ -209,10 +209,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	ro.crypto.volume.metadata.method=dm-default-key \
 	ro.crypto.volume.options=aes-256-xts:aes-256-cts:v1
 
-# Apex
-PRODUCT_PROPERTY_OVERRIDES += \
-	ro.apex.updatable=false
-
 # Zygote
 PRODUCT_PROPERTY_OVERRIDES += \
     zygote.critical_window.minute=10
