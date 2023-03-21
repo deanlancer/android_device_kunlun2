@@ -139,7 +139,7 @@ BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
 
 # RenderScript####################################################################
 OVERRIDE_RS_DRIVER := libRSDriver_adreno.so
-TARGET_USES_VULKAN := true
+
 ##################################################################################
 BOARD_PROPERTY_OVERRIDES_SPLIT_ENABLED := true
 # Properties
