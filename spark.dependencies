@@ -22,11 +22,5 @@
   	"branch": "android-s",
     "repository": "deanlancer/msm-4.9-kunlun2",
     "target_path": "kernel/lenovo/msm-4.9"
-  },
-  {
-    "remote": "gitlab",
-    "branch": "master",
-    "repository": "deanlancer/elastics-clang",
-    "target_path": "prebuilts/clang/host/linux-x86/clang-elastics"
   }
 ]

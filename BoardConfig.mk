@@ -46,11 +46,11 @@ BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 TARGET_KERNEL_VERSION := 4.9
 TARGET_KERNEL_SOURCE := kernel/lenovo/msm-4.9
 TARGET_KERNEL_CONFIG := kunlun2_defconfig
-TARGET_KERNEL_CLANG_VERSION := llvm
-KERNEL_TOOLCHAIN_PREFIX := aarch64-linux-gnu-
+TARGET_KERNEL_CLANG_VERSION := trb
 TARGET_KERNEL_CLANG_PATH := $(shell pwd)/prebuilts/clang/host/linux-x86/clang-$(TARGET_KERNEL_CLANG_VERSION)
-KERNEL_TOOLCHAIN := $(shell pwd)/prebuilts/clang/host/linux-x86/clang-$(TARGET_KERNEL_CLANG_VERSION)/bin
-TARGET_KERNEL_ADDITIONAL_FLAGS := HOSTCFLAGS="-fuse-ld=lld -Wno-unused-command-line-argument"
+TARGET_KERNEL_CROSS_COMPILE_PREFIX := $(TARGET_KERNEL_CLANG_PATH)/bin/aarch64-linux-gnu-
+TARGET_KERNEL_CROSS_COMPILE_ARM32_PREFIX := $(TARGET_KERNEL_CLANG_PATH)/bin/arm-linux-gnueabi-
+TARGET_KERNEL_ADDITIONAL_FLAGS := HOSTCFLAGS="-fuse-ld=lld -Wno-unused-command-line-argument" CC=clang
 
 # Compile libhwui in performance mode##############################################
 HWUI_COMPILE_FOR_PERF := true
