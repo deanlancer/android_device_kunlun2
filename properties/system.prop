@@ -121,6 +121,7 @@ debug.sf.latch_unsignaled=0
 persist.debug.wfd.enable=1
 video.accelerate.hw=1
 media.wfd.max_resolution=8
+ro.hwui.render_ahead=3
 
 # Disable Skia tracing by default
 debug.hwui.skia_atrace_enabled=false
